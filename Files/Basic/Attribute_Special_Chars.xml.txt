@@ -1,0 +1,80 @@
+== tree
+init 0
+next 0 "a" @2
+attr 0 "x" "1>2" @10
+attr 0 "y" "say \"hi\"" @23
+attr 0 "z" "a/b" @31
+attr 0 "w" "&lt;tag&gt;" -> "<tag>" @47
+attr 0 "v" "it&apos;s" -> "it's" @61
+attr -1 @63
+enter -1 @63
+next 1 @63
+end 0
+== value
+init 0
+next 0 "a" @2
+attr 0 "x" "1>2" @10
+attr 0 "y" "say \"hi\"" @23
+attr 0 "z" "a/b" @31
+attr 0 "w" "&lt;tag&gt;" -> "<tag>" @47
+attr 0 "v" "it&apos;s" -> "it's" @61
+attr -1 @63
+value -1 @63
+next 1 @63
+end 0
+== skip
+init 0
+next 0 "a" @2
+next 1 @63
+end 0
+== enter
+init 0
+next 0 "a" @2
+enter -1 @63
+next 1 @63
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "a" @2
+attr 0 "x" "1>2" @10
+attr 0 "y" "say \"hi\"" @23
+attr 0 "z" "a/b" @31
+attr 0 "w" "&lt;tag&gt;" -> "<tag>" @47
+attr 0 "v" "it&apos;s" -> "it's" @61
+attr -1 @63
+enter -1 @63
+text 1 @63
+end 0
+== random 1
+init 0
+next 0 "a" @2
+attr 0 "x" "1>2" @10
+attr 0 "y" "say \"hi\"" @23
+attr 0 "z" "a/b" @31
+attr 0 "w" "&lt;tag&gt;" -> "<tag>" @47
+attr 0 "v" "it&apos;s" -> "it's" @61
+attr -1 @63
+value -1 @63
+enter -1 @63
+next 1 @63
+end 0
+== random 2
+init 0
+next 0 "a" @2
+attr 0 "x" "1>2" @10
+enter -1 @63
+next 1 @63
+end 0
+== random 3
+init 0
+next 0 "a" @2
+attr 0 "x" "1>2" @10
+attr 0 "y" "say \"hi\"" @23
+attr 0 "z" "a/b" @31
+attr 0 "w" "&lt;tag&gt;" -> "<tag>" @47
+attr 0 "v" "it&apos;s" -> "it's" @61
+attr -1 @63
+attr -1 @63
+next 1 @63
+end 0

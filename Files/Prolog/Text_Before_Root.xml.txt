@@ -1,0 +1,70 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "root" @35
+attr -1 @37
+enter -1 @37
+next 1 @37
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "root" @35
+attr -1 @37
+value -1 @37
+next 1 @37
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "root" @35
+next 1 @37
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "root" @35
+enter -1 @37
+next 1 @37
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\"?" @21
+text 0 "junk text" @30
+next 0 "root" @35
+attr -1 @37
+enter -1 @37
+text 1 @37
+end 0
+== random 1
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+value -1 @21
+enter -1 @21
+next 0 "root" @35
+attr -1 @37
+next 1 @37
+end 0
+== random 2
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+enter -1 @21
+next 0 "root" @35
+attr -1 @37
+enter -1 @37
+next 1 @37
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+attr -1 @21
+attr -1 @21
+next 0 "root" @35
+attr -1 @37
+enter -1 @37
+next 1 @37
+end 0

@@ -1,0 +1,104 @@
+== tree
+init 0
+next 0 "ns:root-x.y_z1" @15
+attr -1 @16
+enter 0 @16
+  next 0 "a.b" @20
+  attr -1 @22
+  enter -1 @22
+  next 0 "_c" @25
+  attr -1 @27
+  enter -1 @27
+  next 0 "d1" @30
+  attr 0 "e-f" "1" @38
+  attr 0 "g.h" "2" @46
+  attr 0 "i:j" "3" @54
+  attr -1 @56
+  enter -1 @56
+  next -1 "ns:root-x.y_z1" @73
+next 1 @73
+end 0
+== value
+init 0
+next 0 "ns:root-x.y_z1" @15
+attr -1 @16
+value 0 "" @73
+next 1 @73
+end 0
+== skip
+init 0
+next 0 "ns:root-x.y_z1" @15
+next 1 @73
+end 0
+== enter
+init 0
+next 0 "ns:root-x.y_z1" @15
+enter 0 @16
+  next 0 "a.b" @20
+  enter -1 @22
+  next 0 "_c" @25
+  enter -1 @27
+  next 0 "d1" @30
+  enter -1 @56
+  next -1 "ns:root-x.y_z1" @73
+next 1 @73
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "ns:root-x.y_z1" @15
+attr -1 @16
+enter 0 @16
+  text -1 @16
+  next 0 "a.b" @20
+  attr -1 @22
+  enter -1 @22
+  text -1 @22
+  next 0 "_c" @25
+  attr -1 @27
+  enter -1 @27
+  text -1 @27
+  next 0 "d1" @30
+  attr 0 "e-f" "1" @38
+  attr 0 "g.h" "2" @46
+  attr 0 "i:j" "3" @54
+  attr -1 @56
+  enter -1 @56
+  text -1 @56
+  next -1 "ns:root-x.y_z1" @73
+text 1 @73
+end 0
+== random 1
+init 0
+next 0 "ns:root-x.y_z1" @15
+attr -1 @16
+value 0 "" @73
+enter -1 @73
+next 1 @73
+end 0
+== random 2
+init 0
+next 0 "ns:root-x.y_z1" @15
+attr -1 @16
+enter 0 @16
+  next 0 "a.b" @20
+  attr -1 @22
+  enter -1 @22
+  next 0 "_c" @25
+  attr -1 @27
+  enter -1 @27
+  next 0 "d1" @30
+  attr 0 "e-f" "1" @38
+  value -1 @56
+  enter -1 @56
+  next -1 "ns:root-x.y_z1" @73
+text 1 @73
+end 0
+== random 3
+init 0
+next 0 "ns:root-x.y_z1" @15
+attr -1 @16
+attr -1 @16
+attr -1 @16
+next 1 @73
+end 0

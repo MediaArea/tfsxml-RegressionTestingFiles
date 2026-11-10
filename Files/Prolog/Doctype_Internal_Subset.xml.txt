@@ -1,0 +1,91 @@
+== tree
+init 0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+next 0 "!ENTITY e \"x\"" @56
+next 0 "doc" @64
+attr -1 @65
+enter 0 @65
+  next -1 "doc" @74
+next 1 @75
+end 0
+== value
+init 0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+next 0 "!ENTITY e \"x\"" @56
+next 0 "doc" @64
+attr -1 @65
+value 0 "&e;" @74
+next 1 @75
+end 0
+== skip
+init 0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+next 0 "!ENTITY e \"x\"" @56
+next 0 "doc" @64
+next 1 @75
+end 0
+== enter
+init 0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+next 0 "!ENTITY e \"x\"" @56
+next 0 "doc" @64
+enter 0 @65
+  next -1 "doc" @74
+next 1 @75
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+text 0 "\n" @41
+next 0 "!ENTITY e \"x\"" @56
+text 0 "\n]>\n" @60
+next 0 "doc" @64
+attr -1 @65
+enter 0 @65
+  text 0 "&e;" @68
+  next -1 "doc" @74
+text 1 @74
+end 1
+== random 1
+init 0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+attr -1 @40
+value -1 @40
+enter -1 @40
+next 0 "!ENTITY e \"x\"" @56
+attr -1 @56
+next 0 "doc" @64
+attr -1 @65
+value 0 "&e;" @74
+enter -1 @74
+text 1 @74
+end 1
+== random 2
+init 0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+attr -1 @40
+enter -1 @40
+next 0 "!ENTITY e \"x\"" @56
+attr -1 @56
+enter -1 @56
+next 0 "doc" @64
+attr -1 @65
+enter 0 @65
+  next -1 "doc" @74
+next 1 @75
+end 0
+== random 3
+init 0
+next 0 "!DOCTYPE doc [\n<!ELEMENT doc (#PCDATA)" @40
+attr -1 @40
+attr -1 @40
+attr -1 @40
+next 0 "!ENTITY e \"x\"" @56
+attr -1 @56
+enter -1 @56
+next 0 "doc" @64
+attr -1 @65
+attr -1 @65
+next 1 @75
+end 0

@@ -1,0 +1,152 @@
+== tree
+init 0
+next 0 "rdf:SphericalVideo" @19
+attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @75
+attr 0 "xmlns:GSpherical" "http://ns.google.com/videos/1.0/spherical/" @137
+attr -1 @138
+enter 0 @138
+  next 0 "GSpherical:Spherical" @160
+  attr -1 @161
+  enter 0 @161
+    next -1 "GSpherical:Spherical" @188
+  next 0 "GSpherical:Stitched" @209
+  attr -1 @210
+  enter 0 @210
+    next -1 "GSpherical:Stitched" @236
+  next 0 "GSpherical:StitchingSoftware" @266
+  attr -1 @267
+  enter 0 @267
+    next -1 "GSpherical:StitchingSoftware" @311
+  next 0 "GSpherical:ProjectionType" @338
+  attr -1 @339
+  enter 0 @339
+    next -1 "GSpherical:ProjectionType" @382
+  next 0 "GSpherical:StereoMode" @405
+  attr -1 @406
+  enter 0 @406
+    next -1 "GSpherical:StereoMode" @440
+  next -1 "rdf:SphericalVideo" @462
+next 1 @462
+end 0
+== value
+init 0
+next 0 "rdf:SphericalVideo" @19
+attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @75
+attr 0 "xmlns:GSpherical" "http://ns.google.com/videos/1.0/spherical/" @137
+attr -1 @138
+value 0 "\n" @462
+next 1 @462
+end 0
+== skip
+init 0
+next 0 "rdf:SphericalVideo" @19
+next 1 @462
+end 0
+== enter
+init 0
+next 0 "rdf:SphericalVideo" @19
+enter 0 @138
+  next 0 "GSpherical:Spherical" @160
+  enter 0 @161
+    next -1 "GSpherical:Spherical" @188
+  next 0 "GSpherical:Stitched" @209
+  enter 0 @210
+    next -1 "GSpherical:Stitched" @236
+  next 0 "GSpherical:StitchingSoftware" @266
+  enter 0 @267
+    next -1 "GSpherical:StitchingSoftware" @311
+  next 0 "GSpherical:ProjectionType" @338
+  enter 0 @339
+    next -1 "GSpherical:ProjectionType" @382
+  next 0 "GSpherical:StereoMode" @405
+  enter 0 @406
+    next -1 "GSpherical:StereoMode" @440
+  next -1 "rdf:SphericalVideo" @462
+next 1 @462
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "rdf:SphericalVideo" @19
+attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @75
+attr 0 "xmlns:GSpherical" "http://ns.google.com/videos/1.0/spherical/" @137
+attr -1 @138
+enter 0 @138
+  text 0 "\n" @139
+  next 0 "GSpherical:Spherical" @160
+  attr -1 @161
+  enter 0 @161
+    text 0 "true" @165
+    next -1 "GSpherical:Spherical" @188
+  text 0 "\n" @189
+  next 0 "GSpherical:Stitched" @209
+  attr -1 @210
+  enter 0 @210
+    text 0 "true" @214
+    next -1 "GSpherical:Stitched" @236
+  text 0 "\n" @237
+  next 0 "GSpherical:StitchingSoftware" @266
+  attr -1 @267
+  enter 0 @267
+    text 0 "Test stitcher" @280
+    next -1 "GSpherical:StitchingSoftware" @311
+  text 0 "\n" @312
+  next 0 "GSpherical:ProjectionType" @338
+  attr -1 @339
+  enter 0 @339
+    text 0 "equirectangular" @354
+    next -1 "GSpherical:ProjectionType" @382
+  text 0 "\n" @383
+  next 0 "GSpherical:StereoMode" @405
+  attr -1 @406
+  enter 0 @406
+    text 0 "top-bottom" @416
+    next -1 "GSpherical:StereoMode" @440
+  text 0 "\n" @441
+  next -1 "rdf:SphericalVideo" @462
+text 1 @462
+end 0
+== random 1
+init 0
+next 0 "rdf:SphericalVideo" @19
+attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @75
+attr 0 "xmlns:GSpherical" "http://ns.google.com/videos/1.0/spherical/" @137
+attr -1 @138
+value 0 "\n" @462
+enter -1 @462
+next 1 @462
+end 0
+== random 2
+init 0
+next 0 "rdf:SphericalVideo" @19
+attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @75
+enter 0 @138
+  next 0 "GSpherical:Spherical" @160
+  attr -1 @161
+  enter 0 @161
+    next -1 "GSpherical:Spherical" @188
+  next 0 "GSpherical:Stitched" @209
+  attr -1 @210
+  enter 0 @210
+    next -1 "GSpherical:Stitched" @236
+  next 0 "GSpherical:StitchingSoftware" @266
+  enter 0 @267
+  value -1 @267
+    next -1 "GSpherical:StitchingSoftware" @311
+  next 0 "GSpherical:ProjectionType" @338
+  attr -1 @339
+  value 0 "equirectangular" @382
+  enter -1 @382
+  next 0 "GSpherical:StereoMode" @405
+  next -1 "rdf:SphericalVideo" @462
+next 1 @462
+end 0
+== random 3
+init 0
+next 0 "rdf:SphericalVideo" @19
+attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @75
+attr 0 "xmlns:GSpherical" "http://ns.google.com/videos/1.0/spherical/" @137
+attr -1 @138
+attr -1 @138
+next 1 @462
+end 0

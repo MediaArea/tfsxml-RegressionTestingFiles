@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HDRVividMeta>
+  <Version>1</Version>
+  <HdrVividProfile>1</HdrVividProfile>
+  <OutputStructure>
+    <ColorInformation>
+      <ColorPrimaries>BT.2020</ColorPrimaries>
+      <TransferCharacteristics>PQ</TransferCharacteristics>
+      <SignalRange>narrow</SignalRange>
+    </ColorInformation>
+  </OutputStructure>
+</HDRVividMeta>

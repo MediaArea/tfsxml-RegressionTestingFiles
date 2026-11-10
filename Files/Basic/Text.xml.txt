@@ -1,0 +1,61 @@
+== tree
+init 0
+next 0 "a" @2
+attr -1 @3
+enter 0 @3
+  next -1 "a" @20
+next 1 @20
+end 0
+== value
+init 0
+next 0 "a" @2
+attr -1 @3
+value 0 "Hello, World!" @20
+next 1 @20
+end 0
+== skip
+init 0
+next 0 "a" @2
+next 1 @20
+end 0
+== enter
+init 0
+next 0 "a" @2
+enter 0 @3
+  next -1 "a" @20
+next 1 @20
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "a" @2
+attr -1 @3
+enter 0 @3
+  text 0 "Hello, World!" @16
+  next -1 "a" @20
+text 1 @20
+end 0
+== random 1
+init 0
+next 0 "a" @2
+attr -1 @3
+value 0 "Hello, World!" @20
+enter -1 @20
+next 1 @20
+end 0
+== random 2
+init 0
+next 0 "a" @2
+attr -1 @3
+enter 0 @3
+  next -1 "a" @20
+next 1 @20
+end 0
+== random 3
+init 0
+next 0 "a" @2
+attr -1 @3
+attr -1 @3
+attr -1 @3
+next 1 @20
+end 0

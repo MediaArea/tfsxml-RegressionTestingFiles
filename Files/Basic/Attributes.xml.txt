@@ -1,0 +1,94 @@
+== tree
+init 0
+next 0 "item" @5
+attr 0 "id" "42" @13
+attr 0 "name" "single quoted" @34
+attr 0 "empty" "" @43
+attr 0 "multi" "a\nb" @55
+attr -1 @56
+enter 0 @56
+  next 0 "sub" @63
+  attr 0 "flag" "yes" @74
+  attr -1 @76
+  enter -1 @76
+  next -1 "item" @84
+next 1 @85
+end 0
+== value
+init 0
+next 0 "item" @5
+attr 0 "id" "42" @13
+attr 0 "name" "single quoted" @34
+attr 0 "empty" "" @43
+attr 0 "multi" "a\nb" @55
+attr -1 @56
+value 0 "\n  " @84
+next 1 @85
+end 0
+== skip
+init 0
+next 0 "item" @5
+next 1 @85
+end 0
+== enter
+init 0
+next 0 "item" @5
+enter 0 @56
+  next 0 "sub" @63
+  enter -1 @76
+  next -1 "item" @84
+next 1 @85
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "item" @5
+attr 0 "id" "42" @13
+attr 0 "name" "single quoted" @34
+attr 0 "empty" "" @43
+attr 0 "multi" "a\nb" @55
+attr -1 @56
+enter 0 @56
+  text 0 "\n  " @59
+  next 0 "sub" @63
+  attr 0 "flag" "yes" @74
+  attr -1 @76
+  enter -1 @76
+  text 0 "\n" @77
+  next -1 "item" @84
+text 1 @84
+end 1
+== random 1
+init 0
+next 0 "item" @5
+attr 0 "id" "42" @13
+attr 0 "name" "single quoted" @34
+attr 0 "empty" "" @43
+attr 0 "multi" "a\nb" @55
+attr -1 @56
+value 0 "\n  " @84
+enter -1 @84
+next 1 @85
+end 0
+== random 2
+init 0
+next 0 "item" @5
+attr 0 "id" "42" @13
+enter 0 @56
+  next 0 "sub" @63
+  attr 0 "flag" "yes" @74
+  enter -1 @76
+  next -1 "item" @84
+next 1 @85
+end 0
+== random 3
+init 0
+next 0 "item" @5
+attr 0 "id" "42" @13
+attr 0 "name" "single quoted" @34
+attr 0 "empty" "" @43
+attr 0 "multi" "a\nb" @55
+attr -1 @56
+attr -1 @56
+next 1 @85
+end 0

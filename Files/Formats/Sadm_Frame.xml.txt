@@ -1,0 +1,264 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "frame" @45
+attr 0 "version" "ITU-R_BS.2125-1" @71
+attr -1 @72
+enter 0 @72
+  next 0 "frameHeader" @87
+  attr -1 @88
+  enter 0 @88
+    next 0 "frameFormat" @105
+    attr 0 "frameFormatID" "FF_00000001" @133
+    attr 0 "type" "full" @145
+    attr 0 "start" "00:00:00.00000S48000" @174
+    attr 0 "duration" "00:00:00.01920S48000" @206
+    attr 0 "timeReference" "local" @228
+    attr 0 "flowID" "00000000-0000-0000-0000-000000000001" @274
+    attr -1 @276
+    enter -1 @276
+    next 0 "transportTrackFormat" @302
+    attr 0 "transportID" "TP_0001" @324
+    attr 0 "numIDs" "1" @335
+    attr 0 "numTracks" "1" @349
+    attr -1 @350
+    enter 0 @350
+      next 0 "audioTrack" @368
+      attr 0 "trackID" "1" @380
+      attr -1 @381
+      enter 0 @381
+        next 0 "audioTrackUIDRef" @407
+        attr -1 @408
+        enter 0 @408
+          next -1 "audioTrackUIDRef" @439
+        next -1 "audioTrack" @459
+      next -1 "transportTrackFormat" @487
+    next -1 "frameHeader" @504
+  next 0 "audioFormatExtended" @527
+  attr 0 "version" "ITU-R_BS.2076-2" @553
+  attr -1 @554
+  enter 0 @554
+    next 0 "audioChannelFormat" @578
+    attr 0 "audioChannelFormatID" "AC_00031001" @613
+    attr 0 "audioChannelFormatName" "Object 1" @647
+    attr 0 "typeLabel" "0003" @664
+    attr 0 "typeDefinition" "Objects" @689
+    attr -1 @690
+    enter 0 @690
+      next 0 "audioBlockFormat" @714
+      attr 0 "audioBlockFormatID" "AB_00031001_00000001" @756
+      attr 0 "rtime" "00:00:00.00000S48000" @785
+      attr 0 "duration" "00:00:00.01920S48000" @817
+      attr -1 @818
+      enter 0 @818
+        next 0 "position" @836
+        attr 0 "coordinate" "azimuth" @857
+        attr -1 @858
+        enter 0 @858
+          next -1 "position" @874
+        next 0 "position" @892
+        attr 0 "coordinate" "elevation" @915
+        attr -1 @916
+        enter 0 @916
+          next -1 "position" @930
+        next -1 "audioBlockFormat" @956
+      next -1 "audioChannelFormat" @982
+    next -1 "audioFormatExtended" @1007
+  next -1 "frame" @1016
+next 1 @1017
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "frame" @45
+attr 0 "version" "ITU-R_BS.2125-1" @71
+attr -1 @72
+value 0 "\n  " @1016
+next 1 @1017
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "frame" @45
+next 1 @1017
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "frame" @45
+enter 0 @72
+  next 0 "frameHeader" @87
+  enter 0 @88
+    next 0 "frameFormat" @105
+    enter -1 @276
+    next 0 "transportTrackFormat" @302
+    enter 0 @350
+      next 0 "audioTrack" @368
+      enter 0 @381
+        next 0 "audioTrackUIDRef" @407
+        enter 0 @408
+          next -1 "audioTrackUIDRef" @439
+        next -1 "audioTrack" @459
+      next -1 "transportTrackFormat" @487
+    next -1 "frameHeader" @504
+  next 0 "audioFormatExtended" @527
+  enter 0 @554
+    next 0 "audioChannelFormat" @578
+    enter 0 @690
+      next 0 "audioBlockFormat" @714
+      enter 0 @818
+        next 0 "position" @836
+        enter 0 @858
+          next -1 "position" @874
+        next 0 "position" @892
+        enter 0 @916
+          next -1 "position" @930
+        next -1 "audioBlockFormat" @956
+      next -1 "audioChannelFormat" @982
+    next -1 "audioFormatExtended" @1007
+  next -1 "frame" @1016
+next 1 @1017
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+text 0 "\n" @39
+next 0 "frame" @45
+attr 0 "version" "ITU-R_BS.2125-1" @71
+attr -1 @72
+enter 0 @72
+  text 0 "\n  " @75
+  next 0 "frameHeader" @87
+  attr -1 @88
+  enter 0 @88
+    text 0 "\n    " @93
+    next 0 "frameFormat" @105
+    attr 0 "frameFormatID" "FF_00000001" @133
+    attr 0 "type" "full" @145
+    attr 0 "start" "00:00:00.00000S48000" @174
+    attr 0 "duration" "00:00:00.01920S48000" @206
+    attr 0 "timeReference" "local" @228
+    attr 0 "flowID" "00000000-0000-0000-0000-000000000001" @274
+    attr -1 @276
+    enter -1 @276
+    text 0 "\n    " @281
+    next 0 "transportTrackFormat" @302
+    attr 0 "transportID" "TP_0001" @324
+    attr 0 "numIDs" "1" @335
+    attr 0 "numTracks" "1" @349
+    attr -1 @350
+    enter 0 @350
+      text 0 "\n      " @357
+      next 0 "audioTrack" @368
+      attr 0 "trackID" "1" @380
+      attr -1 @381
+      enter 0 @381
+        text 0 "\n        " @390
+        next 0 "audioTrackUIDRef" @407
+        attr -1 @408
+        enter 0 @408
+          text 0 "ATU_00000001" @420
+          next -1 "audioTrackUIDRef" @439
+        text 0 "\n      " @446
+        next -1 "audioTrack" @459
+      text 0 "\n    " @464
+      next -1 "transportTrackFormat" @487
+    text 0 "\n  " @490
+    next -1 "frameHeader" @504
+  text 0 "\n  " @507
+  next 0 "audioFormatExtended" @527
+  attr 0 "version" "ITU-R_BS.2076-2" @553
+  attr -1 @554
+  enter 0 @554
+    text 0 "\n    " @559
+    next 0 "audioChannelFormat" @578
+    attr 0 "audioChannelFormatID" "AC_00031001" @613
+    attr 0 "audioChannelFormatName" "Object 1" @647
+    attr 0 "typeLabel" "0003" @664
+    attr 0 "typeDefinition" "Objects" @689
+    attr -1 @690
+    enter 0 @690
+      text 0 "\n      " @697
+      next 0 "audioBlockFormat" @714
+      attr 0 "audioBlockFormatID" "AB_00031001_00000001" @756
+      attr 0 "rtime" "00:00:00.00000S48000" @785
+      attr 0 "duration" "00:00:00.01920S48000" @817
+      attr -1 @818
+      enter 0 @818
+        text 0 "\n        " @827
+        next 0 "position" @836
+        attr 0 "coordinate" "azimuth" @857
+        attr -1 @858
+        enter 0 @858
+          text 0 "-30.0" @863
+          next -1 "position" @874
+        text 0 "\n        " @883
+        next 0 "position" @892
+        attr 0 "coordinate" "elevation" @915
+        attr -1 @916
+        enter 0 @916
+          text 0 "0.0" @919
+          next -1 "position" @930
+        text 0 "\n      " @937
+        next -1 "audioBlockFormat" @956
+      text 0 "\n    " @961
+      next -1 "audioChannelFormat" @982
+    text 0 "\n  " @985
+    next -1 "audioFormatExtended" @1007
+  text 0 "\n" @1008
+  next -1 "frame" @1016
+text 1 @1016
+end 1
+== random 1
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+value -1 @38
+enter -1 @38
+next 0 "frame" @45
+attr 0 "version" "ITU-R_BS.2125-1" @71
+attr -1 @72
+next 1 @1017
+end 0
+== random 2
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+enter -1 @38
+next 0 "frame" @45
+attr 0 "version" "ITU-R_BS.2125-1" @71
+enter 0 @72
+  next 0 "frameHeader" @87
+  attr -1 @88
+  enter 0 @88
+    next 0 "frameFormat" @105
+    attr 0 "frameFormatID" "FF_00000001" @133
+    attr 0 "type" "full" @145
+    attr 0 "start" "00:00:00.00000S48000" @174
+    attr 0 "duration" "00:00:00.01920S48000" @206
+    attr 0 "timeReference" "local" @228
+    attr 0 "flowID" "00000000-0000-0000-0000-000000000001" @274
+    attr -1 @276
+    leave 0 @504
+leave 0 @1016
+next 1 @1017
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+attr -1 @38
+attr -1 @38
+next 0 "frame" @45
+attr 0 "version" "ITU-R_BS.2125-1" @71
+attr -1 @72
+enter 0 @72
+  text 0 "\n  " @75
+  next 0 "frameHeader" @87
+  attr -1 @88
+  attr -1 @88
+  attr -1 @88
+leave 0 @1016
+next 1 @1017
+end 0

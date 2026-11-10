@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en">
+  <head>
+    <styling><style xml:id="s1" tts:color="white" tts:fontSize="100%"/></styling>
+  </head>
+  <body>
+    <div>
+      <p begin="00:00:01.000" end="00:00:02.500" style="s1">First line<br/>second line</p>
+      <p begin="00:00:03.000" end="00:00:04.000"><span tts:color="yellow">Colored</span> &amp; plain</p>
+    </div>
+  </body>
+</tt>

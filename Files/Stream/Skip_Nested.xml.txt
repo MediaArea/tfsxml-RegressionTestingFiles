@@ -1,0 +1,142 @@
+== tree
+init 0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    next 0 "a" @14
+    attr -1 @15
+    enter 0 @15
+      next 0 "b" @17
+      attr -1 @18
+      enter 0 @18
+        next 0 "c" @20
+        attr -1 @21
+        enter 0 @21
+          next -1 "c" @29
+        next -1 "b" @33
+      next -1 "a" @37
+    next -1 "skip" @44
+  next 0 "next" @49
+  attr 0 "attr" "1" @58
+  attr -1 @59
+  enter 0 @59
+    next -1 "next" @71
+  next -1 "root" @78
+next 1 @78
+end 0
+== value
+init 0
+next 0 "root" @5
+attr -1 @6
+value 0 "" @78
+next 1 @78
+end 0
+== skip
+init 0
+next 0 "root" @5
+next 1 @78
+end 0
+== enter
+init 0
+next 0 "root" @5
+enter 0 @6
+  next 0 "skip" @11
+  enter 0 @12
+    next 0 "a" @14
+    enter 0 @15
+      next 0 "b" @17
+      enter 0 @18
+        next 0 "c" @20
+        enter 0 @21
+          next -1 "c" @29
+        next -1 "b" @33
+      next -1 "a" @37
+    next -1 "skip" @44
+  next 0 "next" @49
+  enter 0 @59
+    next -1 "next" @71
+  next -1 "root" @78
+next 1 @78
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  text -1 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    text -1 @12
+    next 0 "a" @14
+    attr -1 @15
+    enter 0 @15
+      text -1 @15
+      next 0 "b" @17
+      attr -1 @18
+      enter 0 @18
+        text -1 @18
+        next 0 "c" @20
+        attr -1 @21
+        enter 0 @21
+          text 0 "text" @25
+          next -1 "c" @29
+        text -1 @29
+        next -1 "b" @33
+      text -1 @33
+      next -1 "a" @37
+    text -1 @37
+    next -1 "skip" @44
+  text -1 @44
+  next 0 "next" @49
+  attr 0 "attr" "1" @58
+  attr -1 @59
+  enter 0 @59
+    text 0 "value" @64
+    next -1 "next" @71
+  text -1 @71
+  next -1 "root" @78
+text 1 @78
+end 0
+== random 1
+init 0
+next 0 "root" @5
+attr -1 @6
+value 0 "" @78
+enter -1 @78
+next 1 @78
+end 0
+== random 2
+init 0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    next 0 "a" @14
+    attr -1 @15
+    enter 0 @15
+      next 0 "b" @17
+      attr -1 @18
+      leave 0 @37
+  leave 0 @44
+  next 0 "next" @49
+  attr 0 "attr" "1" @58
+  attr -1 @59
+  attr -1 @59
+  next -1 "root" @78
+next 1 @78
+end 0
+== random 3
+init 0
+next 0 "root" @5
+attr -1 @6
+attr -1 @6
+attr -1 @6
+next 1 @78
+end 0

@@ -1,0 +1,82 @@
+== tree
+init 0
+next 0 "r" @2
+attr 0 "\xC3\xA9" "\xC3\xA0" @10
+attr 0 "\xC3\x9F" "\xE2\x82\xAC" @19
+attr -1 @20
+enter 0 @20
+  next 0 "\xC3\xA7" @23
+  attr -1 @25
+  enter -1 @25
+  next -1 "r" @29
+next 1 @29
+end 0
+== value
+init 0
+next 0 "r" @2
+attr 0 "\xC3\xA9" "\xC3\xA0" @10
+attr 0 "\xC3\x9F" "\xE2\x82\xAC" @19
+attr -1 @20
+value 0 "" @29
+next 1 @29
+end 0
+== skip
+init 0
+next 0 "r" @2
+next 1 @29
+end 0
+== enter
+init 0
+next 0 "r" @2
+enter 0 @20
+  next 0 "\xC3\xA7" @23
+  enter -1 @25
+  next -1 "r" @29
+next 1 @29
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "r" @2
+attr 0 "\xC3\xA9" "\xC3\xA0" @10
+attr 0 "\xC3\x9F" "\xE2\x82\xAC" @19
+attr -1 @20
+enter 0 @20
+  text -1 @20
+  next 0 "\xC3\xA7" @23
+  attr -1 @25
+  enter -1 @25
+  text -1 @25
+  next -1 "r" @29
+text 1 @29
+end 0
+== random 1
+init 0
+next 0 "r" @2
+attr 0 "\xC3\xA9" "\xC3\xA0" @10
+attr 0 "\xC3\x9F" "\xE2\x82\xAC" @19
+attr -1 @20
+value 0 "" @29
+enter -1 @29
+next 1 @29
+end 0
+== random 2
+init 0
+next 0 "r" @2
+attr 0 "\xC3\xA9" "\xC3\xA0" @10
+enter 0 @20
+  next 0 "\xC3\xA7" @23
+  attr -1 @25
+  enter -1 @25
+  next -1 "r" @29
+next 1 @29
+end 0
+== random 3
+init 0
+next 0 "r" @2
+attr 0 "\xC3\xA9" "\xC3\xA0" @10
+attr 0 "\xC3\x9F" "\xE2\x82\xAC" @19
+attr -1 @20
+attr -1 @20
+next 1 @29
+end 0

@@ -1,0 +1,125 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+next 0 "note" @61
+attr -1 @62
+enter 0 @62
+  next 0 "to" @65
+  attr -1 @66
+  enter 0 @66
+    next -1 "to" @75
+  next 0 "body" @80
+  attr -1 @81
+  enter 0 @81
+    next -1 "body" @103
+  next -1 "note" @110
+next 1 @111
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+next 0 "note" @61
+attr -1 @62
+value 0 "" @110
+next 1 @111
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+next 0 "note" @61
+next 1 @111
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+next 0 "note" @61
+enter 0 @62
+  next 0 "to" @65
+  enter 0 @66
+    next -1 "to" @75
+  next 0 "body" @80
+  enter 0 @81
+    next -1 "body" @103
+  next -1 "note" @110
+next 1 @111
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\"?" @21
+text 0 "\n" @22
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+text 0 "\n" @56
+next 0 "note" @61
+attr -1 @62
+enter 0 @62
+  text -1 @62
+  next 0 "to" @65
+  attr -1 @66
+  enter 0 @66
+    text 0 "Alex" @70
+    next -1 "to" @75
+  text -1 @75
+  next 0 "body" @80
+  attr -1 @81
+  enter 0 @81
+    text 0 "See you at noon" @96
+    next -1 "body" @103
+  text -1 @103
+  next -1 "note" @110
+text 1 @110
+end 1
+== random 1
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+value -1 @21
+enter -1 @21
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+attr -1 @55
+next 0 "note" @61
+attr -1 @62
+value 0 "" @110
+enter -1 @110
+text 1 @110
+end 1
+== random 2
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+enter -1 @21
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+attr -1 @55
+enter -1 @55
+next 0 "note" @61
+attr -1 @62
+enter 0 @62
+  next 0 "to" @65
+  attr -1 @66
+  value 0 "Alex" @75
+  enter -1 @75
+  next 0 "body" @80
+  enter 0 @81
+  value -1 @81
+    next -1 "body" @103
+  next -1 "note" @110
+next 1 @111
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+attr -1 @21
+attr -1 @21
+next 0 "!DOCTYPE note SYSTEM \"note.dtd\"" @55
+attr -1 @55
+enter -1 @55
+next 0 "note" @61
+attr -1 @62
+attr -1 @62
+next 1 @111
+end 0

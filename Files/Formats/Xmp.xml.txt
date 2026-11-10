@@ -1,0 +1,250 @@
+== tree
+init 0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+next 0 "x:xmpmeta" @64
+attr 0 "xmlns:x" "adobe:ns:meta/" @89
+attr 0 "x:xmptk" "Hand made" @109
+attr -1 @110
+enter 0 @110
+  next 0 "rdf:RDF" @120
+  attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @176
+  attr -1 @177
+  enter 0 @177
+    next 0 "rdf:Description" @196
+    attr 0 "rdf:about" "" @209
+    attr 0 "xmlns:dc" "http://purl.org/dc/elements/1.1/" @257
+    attr 0 "xmlns:xmp" "http://ns.adobe.com/xap/1.0/" @302
+    attr 0 "xmp:CreateDate" "2026-01-02T03:04:05Z" @344
+    attr 0 "xmp:CreatorTool" "Text editor" @378
+    attr -1 @379
+    enter 0 @379
+      next 0 "dc:title" @392
+      attr -1 @393
+      enter 0 @393
+        next 0 "rdf:Alt" @406
+        attr -1 @407
+        enter 0 @407
+          next 0 "rdf:li" @420
+          attr 0 "xml:lang" "x-default" @441
+          attr -1 @442
+          enter 0 @442
+            next -1 "rdf:li" @469
+          next -1 "rdf:Alt" @484
+        next -1 "dc:title" @499
+      next 0 "dc:creator" @514
+      attr -1 @515
+      enter 0 @515
+        next 0 "rdf:Seq" @528
+        attr -1 @529
+        enter 0 @529
+          next 0 "rdf:li" @542
+          attr -1 @543
+          enter 0 @543
+            next -1 "rdf:li" @564
+          next 0 "rdf:li" @577
+          attr -1 @578
+          enter 0 @578
+            next -1 "rdf:li" @600
+          next -1 "rdf:Seq" @615
+        next -1 "dc:creator" @632
+      next -1 "rdf:Description" @653
+    next -1 "rdf:RDF" @665
+  next -1 "x:xmpmeta" @678
+next 0 "?xpacket end=\"w\"?" @698
+next 1 @698
+end 0
+== value
+init 0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+next 0 "x:xmpmeta" @64
+attr 0 "xmlns:x" "adobe:ns:meta/" @89
+attr 0 "x:xmptk" "Hand made" @109
+attr -1 @110
+value 0 "\n " @678
+next 0 "?xpacket end=\"w\"?" @698
+next 1 @698
+end 0
+== skip
+init 0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+next 0 "x:xmpmeta" @64
+next 0 "?xpacket end=\"w\"?" @698
+next 1 @698
+end 0
+== enter
+init 0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+next 0 "x:xmpmeta" @64
+enter 0 @110
+  next 0 "rdf:RDF" @120
+  enter 0 @177
+    next 0 "rdf:Description" @196
+    enter 0 @379
+      next 0 "dc:title" @392
+      enter 0 @393
+        next 0 "rdf:Alt" @406
+        enter 0 @407
+          next 0 "rdf:li" @420
+          enter 0 @442
+            next -1 "rdf:li" @469
+          next -1 "rdf:Alt" @484
+        next -1 "dc:title" @499
+      next 0 "dc:creator" @514
+      enter 0 @515
+        next 0 "rdf:Seq" @528
+        enter 0 @529
+          next 0 "rdf:li" @542
+          enter 0 @543
+            next -1 "rdf:li" @564
+          next 0 "rdf:li" @577
+          enter 0 @578
+            next -1 "rdf:li" @600
+          next -1 "rdf:Seq" @615
+        next -1 "dc:creator" @632
+      next -1 "rdf:Description" @653
+    next -1 "rdf:RDF" @665
+  next -1 "x:xmpmeta" @678
+next 0 "?xpacket end=\"w\"?" @698
+next 1 @698
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+text 0 "\n" @54
+next 0 "x:xmpmeta" @64
+attr 0 "xmlns:x" "adobe:ns:meta/" @89
+attr 0 "x:xmptk" "Hand made" @109
+attr -1 @110
+enter 0 @110
+  text 0 "\n " @112
+  next 0 "rdf:RDF" @120
+  attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @176
+  attr -1 @177
+  enter 0 @177
+    text 0 "\n  " @180
+    next 0 "rdf:Description" @196
+    attr 0 "rdf:about" "" @209
+    attr 0 "xmlns:dc" "http://purl.org/dc/elements/1.1/" @257
+    attr 0 "xmlns:xmp" "http://ns.adobe.com/xap/1.0/" @302
+    attr 0 "xmp:CreateDate" "2026-01-02T03:04:05Z" @344
+    attr 0 "xmp:CreatorTool" "Text editor" @378
+    attr -1 @379
+    enter 0 @379
+      text 0 "\n   " @383
+      next 0 "dc:title" @392
+      attr -1 @393
+      enter 0 @393
+        text 0 "\n    " @398
+        next 0 "rdf:Alt" @406
+        attr -1 @407
+        enter 0 @407
+          text 0 "\n     " @413
+          next 0 "rdf:li" @420
+          attr 0 "xml:lang" "x-default" @441
+          attr -1 @442
+          enter 0 @442
+            text 0 "Sample &amp; title" -> "Sample & title" @460
+            next -1 "rdf:li" @469
+          text 0 "\n    " @474
+          next -1 "rdf:Alt" @484
+        text 0 "\n   " @488
+        next -1 "dc:title" @499
+      text 0 "\n   " @503
+      next 0 "dc:creator" @514
+      attr -1 @515
+      enter 0 @515
+        text 0 "\n    " @520
+        next 0 "rdf:Seq" @528
+        attr -1 @529
+        enter 0 @529
+          text 0 "\n     " @535
+          next 0 "rdf:li" @542
+          attr -1 @543
+          enter 0 @543
+            text 0 "First Author" @555
+            next -1 "rdf:li" @564
+          text 0 "\n     " @570
+          next 0 "rdf:li" @577
+          attr -1 @578
+          enter 0 @578
+            text 0 "Second Author" @591
+            next -1 "rdf:li" @600
+          text 0 "\n    " @605
+          next -1 "rdf:Seq" @615
+        text 0 "\n   " @619
+        next -1 "dc:creator" @632
+      text 0 "\n  " @635
+      next -1 "rdf:Description" @653
+    text 0 "\n " @655
+    next -1 "rdf:RDF" @665
+  text 0 "\n" @666
+  next -1 "x:xmpmeta" @678
+text 0 "\n" @679
+next 0 "?xpacket end=\"w\"?" @698
+text 1 @698
+end 0
+== random 1
+init 0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+attr -1 @53
+value -1 @53
+enter -1 @53
+next 0 "x:xmpmeta" @64
+attr 0 "xmlns:x" "adobe:ns:meta/" @89
+attr 0 "x:xmptk" "Hand made" @109
+attr -1 @110
+next 0 "?xpacket end=\"w\"?" @698
+attr -1 @698
+value -1 @698
+enter -1 @698
+text 1 @698
+end 0
+== random 2
+init 0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+attr -1 @53
+enter -1 @53
+next 0 "x:xmpmeta" @64
+attr 0 "xmlns:x" "adobe:ns:meta/" @89
+enter 0 @110
+  next 0 "rdf:RDF" @120
+  attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @176
+  enter 0 @177
+    next 0 "rdf:Description" @196
+    attr 0 "rdf:about" "" @209
+    attr 0 "xmlns:dc" "http://purl.org/dc/elements/1.1/" @257
+    attr 0 "xmlns:xmp" "http://ns.adobe.com/xap/1.0/" @302
+    attr 0 "xmp:CreateDate" "2026-01-02T03:04:05Z" @344
+    attr 0 "xmp:CreatorTool" "Text editor" @378
+    attr -1 @379
+    leave 0 @665
+leave 0 @678
+next 0 "?xpacket end=\"w\"?" @698
+attr -1 @698
+attr -1 @698
+attr -1 @698
+next 1 @698
+end 0
+== random 3
+init 0
+next 0 "?xpacket begin=\"\xEF\xBB\xBF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?" @53
+attr -1 @53
+attr -1 @53
+attr -1 @53
+next 0 "x:xmpmeta" @64
+attr 0 "xmlns:x" "adobe:ns:meta/" @89
+attr 0 "x:xmptk" "Hand made" @109
+enter 0 @110
+  text 0 "\n " @112
+  next 0 "rdf:RDF" @120
+  attr 0 "xmlns:rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#" @176
+  attr -1 @177
+  attr -1 @177
+  attr -1 @177
+leave 0 @678
+next 0 "?xpacket end=\"w\"?" @698
+attr -1 @698
+enter -1 @698
+next 1 @698
+end 0

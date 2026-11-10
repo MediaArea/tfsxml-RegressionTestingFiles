@@ -1,0 +1,70 @@
+== tree
+init 0
+next 0 "a" @2
+attr 0 "x" "&amp;<![CDATA[ab" -> "&<![CDATA[ab" @23
+attr 0 "y" "&<![CDATA[" @38
+attr 0 "z" "&lt;<![CDATA[]" -> "<<![CDATA[]" @57
+attr -1 @59
+enter -1 @59
+next 1 @59
+end 0
+== value
+init 0
+next 0 "a" @2
+attr 0 "x" "&amp;<![CDATA[ab" -> "&<![CDATA[ab" @23
+attr 0 "y" "&<![CDATA[" @38
+attr 0 "z" "&lt;<![CDATA[]" -> "<<![CDATA[]" @57
+attr -1 @59
+value -1 @59
+next 1 @59
+end 0
+== skip
+init 0
+next 0 "a" @2
+next 1 @59
+end 0
+== enter
+init 0
+next 0 "a" @2
+enter -1 @59
+next 1 @59
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "a" @2
+attr 0 "x" "&amp;<![CDATA[ab" -> "&<![CDATA[ab" @23
+attr 0 "y" "&<![CDATA[" @38
+attr 0 "z" "&lt;<![CDATA[]" -> "<<![CDATA[]" @57
+attr -1 @59
+enter -1 @59
+text 1 @59
+end 0
+== random 1
+init 0
+next 0 "a" @2
+attr 0 "x" "&amp;<![CDATA[ab" -> "&<![CDATA[ab" @23
+attr 0 "y" "&<![CDATA[" @38
+attr 0 "z" "&lt;<![CDATA[]" -> "<<![CDATA[]" @57
+attr -1 @59
+value -1 @59
+enter -1 @59
+next 1 @59
+end 0
+== random 2
+init 0
+next 0 "a" @2
+attr 0 "x" "&amp;<![CDATA[ab" -> "&<![CDATA[ab" @23
+enter -1 @59
+next 1 @59
+end 0
+== random 3
+init 0
+next 0 "a" @2
+attr 0 "x" "&amp;<![CDATA[ab" -> "&<![CDATA[ab" @23
+attr 0 "y" "&<![CDATA[" @38
+attr 0 "z" "&lt;<![CDATA[]" -> "<<![CDATA[]" @57
+attr -1 @59
+attr -1 @59
+next 1 @59
+end 0

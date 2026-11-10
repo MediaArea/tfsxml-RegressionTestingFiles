@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebuCoreMain xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="urn:ebu:metadata-schema:ebucore" schema="EBU_CORE_20171220.xsd" version="1.8">
+  <coreMetadata>
+    <format>
+      <audioFormatExtended version="ITU-R_BS.2076-2">
+        <audioProgramme audioProgrammeID="APR_1001" audioProgrammeName="Test programme" start="00:00:00.00000">
+          <audioContentIDRef>ACO_1001</audioContentIDRef>
+        </audioProgramme>
+        <audioContent audioContentID="ACO_1001" audioContentName="Main">
+          <audioObjectIDRef>AO_1001</audioObjectIDRef>
+          <dialogue nonDialogueContentKind="1">0</dialogue>
+        </audioContent>
+        <audioObject audioObjectID="AO_1001" audioObjectName="Object" start="00:00:00.00000">
+          <audioPackFormatIDRef>AP_00031001</audioPackFormatIDRef>
+          <audioTrackUIDRef>ATU_00000001</audioTrackUIDRef>
+        </audioObject>
+        <audioPackFormat audioPackFormatID="AP_00031001" audioPackFormatName="Object" typeLabel="0003" typeDefinition="Objects">
+          <audioChannelFormatIDRef>AC_00031001</audioChannelFormatIDRef>
+        </audioPackFormat>
+        <audioChannelFormat audioChannelFormatID="AC_00031001" audioChannelFormatName="Object 1" typeLabel="0003" typeDefinition="Objects">
+          <audioBlockFormat audioBlockFormatID="AB_00031001_00000001" rtime="00:00:00.00000" duration="00:00:01.00000">
+            <cartesian>1</cartesian>
+            <position coordinate="X">-0.500000</position>
+            <position coordinate="Y">1.000000</position>
+            <position coordinate="Z">0.000000</position>
+            <gain>0.800000</gain>
+          </audioBlockFormat>
+          <audioBlockFormat audioBlockFormatID="AB_00031001_00000002" rtime="00:00:01.00000" duration="00:00:01.00000">
+            <cartesian>1</cartesian>
+            <position coordinate="X">0.500000</position>
+            <position coordinate="Y">1.000000</position>
+            <position coordinate="Z">0.000000</position>
+            <jumpPosition interpolationLength="0.005000">1</jumpPosition>
+          </audioBlockFormat>
+        </audioChannelFormat>
+        <audioStreamFormat audioStreamFormatID="AS_00031001" audioStreamFormatName="PCM_Object 1" formatLabel="0001" formatDefinition="PCM">
+          <audioChannelFormatIDRef>AC_00031001</audioChannelFormatIDRef>
+          <audioTrackFormatIDRef>AT_00031001_01</audioTrackFormatIDRef>
+        </audioStreamFormat>
+        <audioTrackFormat audioTrackFormatID="AT_00031001_01" audioTrackFormatName="PCM_Object 1" formatLabel="0001" formatDefinition="PCM">
+          <audioStreamFormatIDRef>AS_00031001</audioStreamFormatIDRef>
+        </audioTrackFormat>
+        <audioTrackUID UID="ATU_00000001" sampleRate="48000" bitDepth="24">
+          <audioTrackFormatIDRef>AT_00031001_01</audioTrackFormatIDRef>
+          <audioPackFormatIDRef>AP_00031001</audioPackFormatIDRef>
+        </audioTrackUID>
+      </audioFormatExtended>
+    </format>
+  </coreMetadata>
+</ebuCoreMain>

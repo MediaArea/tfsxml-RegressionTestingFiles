@@ -1,0 +1,155 @@
+== tree
+init 0
+next 0 "e" @2
+attr 0 "a0" "0" @9
+attr 0 "a1" "1" @16
+attr 0 "a2" "4" @23
+attr 0 "a3" "9" @30
+attr 0 "a4" "16" @38
+attr 0 "a5" "25" @46
+attr 0 "a6" "36" @54
+attr 0 "a7" "49" @62
+attr 0 "a8" "64" @70
+attr 0 "a9" "81" @78
+attr 0 "a10" "100" @88
+attr 0 "a11" "121" @98
+attr 0 "a12" "144" @108
+attr 0 "a13" "169" @118
+attr 0 "a14" "196" @128
+attr 0 "a15" "225" @138
+attr 0 "a16" "256" @148
+attr 0 "a17" "289" @158
+attr 0 "a18" "324" @168
+attr 0 "a19" "361" @178
+attr -1 @180
+enter -1 @180
+next 1 @180
+end 0
+== value
+init 0
+next 0 "e" @2
+attr 0 "a0" "0" @9
+attr 0 "a1" "1" @16
+attr 0 "a2" "4" @23
+attr 0 "a3" "9" @30
+attr 0 "a4" "16" @38
+attr 0 "a5" "25" @46
+attr 0 "a6" "36" @54
+attr 0 "a7" "49" @62
+attr 0 "a8" "64" @70
+attr 0 "a9" "81" @78
+attr 0 "a10" "100" @88
+attr 0 "a11" "121" @98
+attr 0 "a12" "144" @108
+attr 0 "a13" "169" @118
+attr 0 "a14" "196" @128
+attr 0 "a15" "225" @138
+attr 0 "a16" "256" @148
+attr 0 "a17" "289" @158
+attr 0 "a18" "324" @168
+attr 0 "a19" "361" @178
+attr -1 @180
+value -1 @180
+next 1 @180
+end 0
+== skip
+init 0
+next 0 "e" @2
+next 1 @180
+end 0
+== enter
+init 0
+next 0 "e" @2
+enter -1 @180
+next 1 @180
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "e" @2
+attr 0 "a0" "0" @9
+attr 0 "a1" "1" @16
+attr 0 "a2" "4" @23
+attr 0 "a3" "9" @30
+attr 0 "a4" "16" @38
+attr 0 "a5" "25" @46
+attr 0 "a6" "36" @54
+attr 0 "a7" "49" @62
+attr 0 "a8" "64" @70
+attr 0 "a9" "81" @78
+attr 0 "a10" "100" @88
+attr 0 "a11" "121" @98
+attr 0 "a12" "144" @108
+attr 0 "a13" "169" @118
+attr 0 "a14" "196" @128
+attr 0 "a15" "225" @138
+attr 0 "a16" "256" @148
+attr 0 "a17" "289" @158
+attr 0 "a18" "324" @168
+attr 0 "a19" "361" @178
+attr -1 @180
+enter -1 @180
+text 1 @180
+end 0
+== random 1
+init 0
+next 0 "e" @2
+attr 0 "a0" "0" @9
+attr 0 "a1" "1" @16
+attr 0 "a2" "4" @23
+attr 0 "a3" "9" @30
+attr 0 "a4" "16" @38
+attr 0 "a5" "25" @46
+attr 0 "a6" "36" @54
+attr 0 "a7" "49" @62
+attr 0 "a8" "64" @70
+attr 0 "a9" "81" @78
+attr 0 "a10" "100" @88
+attr 0 "a11" "121" @98
+attr 0 "a12" "144" @108
+attr 0 "a13" "169" @118
+attr 0 "a14" "196" @128
+attr 0 "a15" "225" @138
+attr 0 "a16" "256" @148
+attr 0 "a17" "289" @158
+attr 0 "a18" "324" @168
+attr 0 "a19" "361" @178
+attr -1 @180
+value -1 @180
+enter -1 @180
+next 1 @180
+end 0
+== random 2
+init 0
+next 0 "e" @2
+attr 0 "a0" "0" @9
+enter -1 @180
+next 1 @180
+end 0
+== random 3
+init 0
+next 0 "e" @2
+attr 0 "a0" "0" @9
+attr 0 "a1" "1" @16
+attr 0 "a2" "4" @23
+attr 0 "a3" "9" @30
+attr 0 "a4" "16" @38
+attr 0 "a5" "25" @46
+attr 0 "a6" "36" @54
+attr 0 "a7" "49" @62
+attr 0 "a8" "64" @70
+attr 0 "a9" "81" @78
+attr 0 "a10" "100" @88
+attr 0 "a11" "121" @98
+attr 0 "a12" "144" @108
+attr 0 "a13" "169" @118
+attr 0 "a14" "196" @128
+attr 0 "a15" "225" @138
+attr 0 "a16" "256" @148
+attr 0 "a17" "289" @158
+attr 0 "a18" "324" @168
+attr 0 "a19" "361" @178
+attr -1 @180
+attr -1 @180
+next 1 @180
+end 0

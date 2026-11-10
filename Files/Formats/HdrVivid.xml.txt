@@ -1,0 +1,176 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "HDRVividMeta" @52
+attr -1 @53
+enter 0 @53
+  next 0 "Version" @64
+  attr -1 @65
+  enter 0 @65
+    next -1 "Version" @76
+  next 0 "HdrVividProfile" @95
+  attr -1 @96
+  enter 0 @96
+    next -1 "HdrVividProfile" @115
+  next 0 "OutputStructure" @134
+  attr -1 @135
+  enter 0 @135
+    next 0 "ColorInformation" @157
+    attr -1 @158
+    enter 0 @158
+      next 0 "ColorPrimaries" @180
+      attr -1 @181
+      enter 0 @181
+        next -1 "ColorPrimaries" @205
+      next 0 "TransferCharacteristics" @236
+      attr -1 @237
+      enter 0 @237
+        next -1 "TransferCharacteristics" @265
+      next 0 "SignalRange" @284
+      attr -1 @285
+      enter 0 @285
+        next -1 "SignalRange" @305
+      next -1 "ColorInformation" @329
+    next -1 "OutputStructure" @350
+  next -1 "HDRVividMeta" @366
+next 1 @367
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "HDRVividMeta" @52
+attr -1 @53
+value 0 "\n  " @366
+next 1 @367
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "HDRVividMeta" @52
+next 1 @367
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "HDRVividMeta" @52
+enter 0 @53
+  next 0 "Version" @64
+  enter 0 @65
+    next -1 "Version" @76
+  next 0 "HdrVividProfile" @95
+  enter 0 @96
+    next -1 "HdrVividProfile" @115
+  next 0 "OutputStructure" @134
+  enter 0 @135
+    next 0 "ColorInformation" @157
+    enter 0 @158
+      next 0 "ColorPrimaries" @180
+      enter 0 @181
+        next -1 "ColorPrimaries" @205
+      next 0 "TransferCharacteristics" @236
+      enter 0 @237
+        next -1 "TransferCharacteristics" @265
+      next 0 "SignalRange" @284
+      enter 0 @285
+        next -1 "SignalRange" @305
+      next -1 "ColorInformation" @329
+    next -1 "OutputStructure" @350
+  next -1 "HDRVividMeta" @366
+next 1 @367
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+text 0 "\n" @39
+next 0 "HDRVividMeta" @52
+attr -1 @53
+enter 0 @53
+  text 0 "\n  " @56
+  next 0 "Version" @64
+  attr -1 @65
+  enter 0 @65
+    text 0 "1" @66
+    next -1 "Version" @76
+  text 0 "\n  " @79
+  next 0 "HdrVividProfile" @95
+  attr -1 @96
+  enter 0 @96
+    text 0 "1" @97
+    next -1 "HdrVividProfile" @115
+  text 0 "\n  " @118
+  next 0 "OutputStructure" @134
+  attr -1 @135
+  enter 0 @135
+    text 0 "\n    " @140
+    next 0 "ColorInformation" @157
+    attr -1 @158
+    enter 0 @158
+      text 0 "\n      " @165
+      next 0 "ColorPrimaries" @180
+      attr -1 @181
+      enter 0 @181
+        text 0 "BT.2020" @188
+        next -1 "ColorPrimaries" @205
+      text 0 "\n      " @212
+      next 0 "TransferCharacteristics" @236
+      attr -1 @237
+      enter 0 @237
+        text 0 "PQ" @239
+        next -1 "TransferCharacteristics" @265
+      text 0 "\n      " @272
+      next 0 "SignalRange" @284
+      attr -1 @285
+      enter 0 @285
+        text 0 "narrow" @291
+        next -1 "SignalRange" @305
+      text 0 "\n    " @310
+      next -1 "ColorInformation" @329
+    text 0 "\n  " @332
+    next -1 "OutputStructure" @350
+  text 0 "\n" @351
+  next -1 "HDRVividMeta" @366
+text 1 @366
+end 1
+== random 1
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+value -1 @38
+enter -1 @38
+next 0 "HDRVividMeta" @52
+attr -1 @53
+next 1 @367
+end 0
+== random 2
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+enter -1 @38
+next 0 "HDRVividMeta" @52
+attr -1 @53
+enter 0 @53
+  next 0 "Version" @64
+  attr -1 @65
+  enter 0 @65
+    next -1 "Version" @76
+leave 0 @366
+next 1 @367
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+attr -1 @38
+attr -1 @38
+next 0 "HDRVividMeta" @52
+attr -1 @53
+enter 0 @53
+  text 0 "\n  " @56
+  next 0 "Version" @64
+  attr -1 @65
+  attr -1 @65
+  attr -1 @65
+leave 0 @366
+next 1 @367
+end 0

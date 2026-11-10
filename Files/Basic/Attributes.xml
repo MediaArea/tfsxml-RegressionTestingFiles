@@ -1,0 +1,4 @@
+<item id="42" name='single quoted' empty="" multi="a
+b">
+  <sub flag="yes"/>
+</item>

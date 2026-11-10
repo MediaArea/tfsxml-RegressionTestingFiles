@@ -1,0 +1,32 @@
+== tree
+init 0
+next 1 @0
+end 1
+== value
+init 0
+next 1 @0
+end 1
+== skip
+init 0
+next 1 @0
+end 1
+== enter
+init 0
+next 1 @0
+end 1
+== mixed
+init 0
+text 1 @0
+end 1
+== random 1
+init 0
+next 1 @0
+end 1
+== random 2
+init 0
+next 1 @0
+end 1
+== random 3
+init 0
+next 1 @0
+end 1

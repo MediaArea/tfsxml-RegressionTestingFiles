@@ -1,0 +1,318 @@
+== tree
+init 0
+next 0 "l0" @3
+attr -1 @4
+enter 0 @4
+  next 0 "l1" @7
+  attr -1 @8
+  enter 0 @8
+    next 0 "l2" @11
+    attr -1 @12
+    enter 0 @12
+      next 0 "l3" @15
+      attr -1 @16
+      enter 0 @16
+        next 0 "l4" @19
+        attr -1 @20
+        enter 0 @20
+          next 0 "l5" @23
+          attr -1 @24
+          enter 0 @24
+            next 0 "l6" @27
+            attr -1 @28
+            enter 0 @28
+              next 0 "l7" @31
+              attr -1 @32
+              enter 0 @32
+                next 0 "l8" @35
+                attr -1 @36
+                enter 0 @36
+                  next 0 "l9" @39
+                  attr -1 @40
+                  enter 0 @40
+                    next 0 "l10" @44
+                    attr -1 @45
+                    enter 0 @45
+                      next 0 "l11" @49
+                      attr -1 @50
+                      enter 0 @50
+                        next 0 "l12" @54
+                        attr -1 @55
+                        enter 0 @55
+                          next 0 "l13" @59
+                          attr -1 @60
+                          enter 0 @60
+                            next 0 "l14" @64
+                            attr -1 @65
+                            enter 0 @65
+                              next 0 "l15" @69
+                              attr -1 @70
+                              enter 0 @70
+                                next 0 "l16" @74
+                                attr -1 @75
+                                enter 0 @75
+                                  next 0 "l17" @79
+                                  attr -1 @80
+                                  enter 0 @80
+                                    next 0 "l18" @84
+                                    attr -1 @85
+                                    enter 0 @85
+                                      next 0 "l19" @89
+                                      attr -1 @90
+                                      enter 0 @90
+                                        next -1 "l19" @102
+                                      next -1 "l18" @108
+                                    next -1 "l17" @114
+                                  next -1 "l16" @120
+                                next -1 "l15" @126
+                              next -1 "l14" @132
+                            next -1 "l13" @138
+                          next -1 "l12" @144
+                        next -1 "l11" @150
+                      next -1 "l10" @156
+                    next -1 "l9" @161
+                  next -1 "l8" @166
+                next -1 "l7" @171
+              next -1 "l6" @176
+            next -1 "l5" @181
+          next -1 "l4" @186
+        next -1 "l3" @191
+      next -1 "l2" @196
+    next -1 "l1" @201
+  next -1 "l0" @206
+next 1 @206
+end 0
+== value
+init 0
+next 0 "l0" @3
+attr -1 @4
+value 0 "" @206
+next 1 @206
+end 0
+== skip
+init 0
+next 0 "l0" @3
+next 1 @206
+end 0
+== enter
+init 0
+next 0 "l0" @3
+enter 0 @4
+  next 0 "l1" @7
+  enter 0 @8
+    next 0 "l2" @11
+    enter 0 @12
+      next 0 "l3" @15
+      enter 0 @16
+        next 0 "l4" @19
+        enter 0 @20
+          next 0 "l5" @23
+          enter 0 @24
+            next 0 "l6" @27
+            enter 0 @28
+              next 0 "l7" @31
+              enter 0 @32
+                next 0 "l8" @35
+                enter 0 @36
+                  next 0 "l9" @39
+                  enter 0 @40
+                    next 0 "l10" @44
+                    enter 0 @45
+                      next 0 "l11" @49
+                      enter 0 @50
+                        next 0 "l12" @54
+                        enter 0 @55
+                          next 0 "l13" @59
+                          enter 0 @60
+                            next 0 "l14" @64
+                            enter 0 @65
+                              next 0 "l15" @69
+                              enter 0 @70
+                                next 0 "l16" @74
+                                enter 0 @75
+                                  next 0 "l17" @79
+                                  enter 0 @80
+                                    next 0 "l18" @84
+                                    enter 0 @85
+                                      next 0 "l19" @89
+                                      enter 0 @90
+                                        next -1 "l19" @102
+                                      next -1 "l18" @108
+                                    next -1 "l17" @114
+                                  next -1 "l16" @120
+                                next -1 "l15" @126
+                              next -1 "l14" @132
+                            next -1 "l13" @138
+                          next -1 "l12" @144
+                        next -1 "l11" @150
+                      next -1 "l10" @156
+                    next -1 "l9" @161
+                  next -1 "l8" @166
+                next -1 "l7" @171
+              next -1 "l6" @176
+            next -1 "l5" @181
+          next -1 "l4" @186
+        next -1 "l3" @191
+      next -1 "l2" @196
+    next -1 "l1" @201
+  next -1 "l0" @206
+next 1 @206
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "l0" @3
+attr -1 @4
+enter 0 @4
+  text -1 @4
+  next 0 "l1" @7
+  attr -1 @8
+  enter 0 @8
+    text -1 @8
+    next 0 "l2" @11
+    attr -1 @12
+    enter 0 @12
+      text -1 @12
+      next 0 "l3" @15
+      attr -1 @16
+      enter 0 @16
+        text -1 @16
+        next 0 "l4" @19
+        attr -1 @20
+        enter 0 @20
+          text -1 @20
+          next 0 "l5" @23
+          attr -1 @24
+          enter 0 @24
+            text -1 @24
+            next 0 "l6" @27
+            attr -1 @28
+            enter 0 @28
+              text -1 @28
+              next 0 "l7" @31
+              attr -1 @32
+              enter 0 @32
+                text -1 @32
+                next 0 "l8" @35
+                attr -1 @36
+                enter 0 @36
+                  text -1 @36
+                  next 0 "l9" @39
+                  attr -1 @40
+                  enter 0 @40
+                    text -1 @40
+                    next 0 "l10" @44
+                    attr -1 @45
+                    enter 0 @45
+                      text -1 @45
+                      next 0 "l11" @49
+                      attr -1 @50
+                      enter 0 @50
+                        text -1 @50
+                        next 0 "l12" @54
+                        attr -1 @55
+                        enter 0 @55
+                          text -1 @55
+                          next 0 "l13" @59
+                          attr -1 @60
+                          enter 0 @60
+                            text -1 @60
+                            next 0 "l14" @64
+                            attr -1 @65
+                            enter 0 @65
+                              text -1 @65
+                              next 0 "l15" @69
+                              attr -1 @70
+                              enter 0 @70
+                                text -1 @70
+                                next 0 "l16" @74
+                                attr -1 @75
+                                enter 0 @75
+                                  text -1 @75
+                                  next 0 "l17" @79
+                                  attr -1 @80
+                                  enter 0 @80
+                                    text -1 @80
+                                    next 0 "l18" @84
+                                    attr -1 @85
+                                    enter 0 @85
+                                      text -1 @85
+                                      next 0 "l19" @89
+                                      attr -1 @90
+                                      enter 0 @90
+                                        text 0 "bottom" @96
+                                        next -1 "l19" @102
+                                      text -1 @102
+                                      next -1 "l18" @108
+                                    text -1 @108
+                                    next -1 "l17" @114
+                                  text -1 @114
+                                  next -1 "l16" @120
+                                text -1 @120
+                                next -1 "l15" @126
+                              text -1 @126
+                              next -1 "l14" @132
+                            text -1 @132
+                            next -1 "l13" @138
+                          text -1 @138
+                          next -1 "l12" @144
+                        text -1 @144
+                        next -1 "l11" @150
+                      text -1 @150
+                      next -1 "l10" @156
+                    text -1 @156
+                    next -1 "l9" @161
+                  text -1 @161
+                  next -1 "l8" @166
+                text -1 @166
+                next -1 "l7" @171
+              text -1 @171
+              next -1 "l6" @176
+            text -1 @176
+            next -1 "l5" @181
+          text -1 @181
+          next -1 "l4" @186
+        text -1 @186
+        next -1 "l3" @191
+      text -1 @191
+      next -1 "l2" @196
+    text -1 @196
+    next -1 "l1" @201
+  text -1 @201
+  next -1 "l0" @206
+text 1 @206
+end 0
+== random 1
+init 0
+next 0 "l0" @3
+attr -1 @4
+value 0 "" @206
+enter -1 @206
+next 1 @206
+end 0
+== random 2
+init 0
+next 0 "l0" @3
+attr -1 @4
+enter 0 @4
+  next 0 "l1" @7
+  attr -1 @8
+  enter 0 @8
+    next 0 "l2" @11
+    attr -1 @12
+    enter 0 @12
+      next 0 "l3" @15
+      attr -1 @16
+      leave 0 @196
+  leave 0 @201
+  next -1 "l0" @206
+next 1 @206
+end 0
+== random 3
+init 0
+next 0 "l0" @3
+attr -1 @4
+attr -1 @4
+attr -1 @4
+next 1 @206
+end 0

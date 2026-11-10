@@ -1,0 +1,65 @@
+== tree
+init 0
+next 0 "a" @2
+attr 0 "title" "Fish &amp; Chips" -> "Fish & Chips" @27
+attr 0 "price" "&#x20AC;5" -> "\xE2\x82\xAC5" @45
+attr -1 @47
+enter -1 @47
+next 1 @47
+end 0
+== value
+init 0
+next 0 "a" @2
+attr 0 "title" "Fish &amp; Chips" -> "Fish & Chips" @27
+attr 0 "price" "&#x20AC;5" -> "\xE2\x82\xAC5" @45
+attr -1 @47
+value -1 @47
+next 1 @47
+end 0
+== skip
+init 0
+next 0 "a" @2
+next 1 @47
+end 0
+== enter
+init 0
+next 0 "a" @2
+enter -1 @47
+next 1 @47
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "a" @2
+attr 0 "title" "Fish &amp; Chips" -> "Fish & Chips" @27
+attr 0 "price" "&#x20AC;5" -> "\xE2\x82\xAC5" @45
+attr -1 @47
+enter -1 @47
+text 1 @47
+end 0
+== random 1
+init 0
+next 0 "a" @2
+attr 0 "title" "Fish &amp; Chips" -> "Fish & Chips" @27
+attr 0 "price" "&#x20AC;5" -> "\xE2\x82\xAC5" @45
+attr -1 @47
+value -1 @47
+enter -1 @47
+next 1 @47
+end 0
+== random 2
+init 0
+next 0 "a" @2
+attr 0 "title" "Fish &amp; Chips" -> "Fish & Chips" @27
+enter -1 @47
+next 1 @47
+end 0
+== random 3
+init 0
+next 0 "a" @2
+attr 0 "title" "Fish &amp; Chips" -> "Fish & Chips" @27
+attr 0 "price" "&#x20AC;5" -> "\xE2\x82\xAC5" @45
+attr -1 @47
+attr -1 @47
+next 1 @47
+end 0

@@ -1,0 +1,227 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+next 0 "tt" @42
+attr 0 "xmlns" "http://www.w3.org/ns/ttml" @76
+attr 0 "xmlns:tts" "http://www.w3.org/ns/ttml#styling" @122
+attr 0 "xml:lang" "en" @136
+attr -1 @137
+enter 0 @137
+  next 0 "head" @145
+  attr -1 @146
+  enter 0 @146
+    next 0 "styling" @159
+    attr -1 @160
+    enter 0 @160
+      next 0 "style" @166
+      attr 0 "xml:id" "s1" @178
+      attr 0 "tts:color" "white" @196
+      attr 0 "tts:fontSize" "100%" @216
+      attr -1 @218
+      enter -1 @218
+      next -1 "styling" @228
+    next -1 "head" @238
+  next 0 "body" @246
+  attr -1 @247
+  enter 0 @247
+    next 0 "div" @256
+    attr -1 @257
+    enter 0 @257
+      next 0 "p" @266
+      attr 0 "begin" "00:00:01.000" @287
+      attr 0 "end" "00:00:02.500" @306
+      attr 0 "style" "s1" @317
+      attr -1 @318
+      enter 0 @318
+        next 0 "br" @331
+        attr -1 @333
+        enter -1 @333
+        next -1 "p" @348
+      next 0 "p" @357
+      attr 0 "begin" "00:00:03.000" @378
+      attr 0 "end" "00:00:04.000" @397
+      attr -1 @398
+      enter 0 @398
+        next 0 "span" @403
+        attr 0 "tts:color" "yellow" @422
+        attr -1 @423
+        enter 0 @423
+          next -1 "span" @437
+        next -1 "p" @453
+      next -1 "div" @464
+    next -1 "body" @474
+  next -1 "tt" @480
+next 1 @481
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+next 0 "tt" @42
+attr 0 "xmlns" "http://www.w3.org/ns/ttml" @76
+attr 0 "xmlns:tts" "http://www.w3.org/ns/ttml#styling" @122
+attr 0 "xml:lang" "en" @136
+attr -1 @137
+value 0 "\n  " @480
+next 1 @481
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+next 0 "tt" @42
+next 1 @481
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+next 0 "tt" @42
+enter 0 @137
+  next 0 "head" @145
+  enter 0 @146
+    next 0 "styling" @159
+    enter 0 @160
+      next 0 "style" @166
+      enter -1 @218
+      next -1 "styling" @228
+    next -1 "head" @238
+  next 0 "body" @246
+  enter 0 @247
+    next 0 "div" @256
+    enter 0 @257
+      next 0 "p" @266
+      enter 0 @318
+        next 0 "br" @331
+        enter -1 @333
+        next -1 "p" @348
+      next 0 "p" @357
+      enter 0 @398
+        next 0 "span" @403
+        enter 0 @423
+          next -1 "span" @437
+        next -1 "p" @453
+      next -1 "div" @464
+    next -1 "body" @474
+  next -1 "tt" @480
+next 1 @481
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+text 0 "\n" @39
+next 0 "tt" @42
+attr 0 "xmlns" "http://www.w3.org/ns/ttml" @76
+attr 0 "xmlns:tts" "http://www.w3.org/ns/ttml#styling" @122
+attr 0 "xml:lang" "en" @136
+attr -1 @137
+enter 0 @137
+  text 0 "\n  " @140
+  next 0 "head" @145
+  attr -1 @146
+  enter 0 @146
+    text 0 "\n    " @151
+    next 0 "styling" @159
+    attr -1 @160
+    enter 0 @160
+      text -1 @160
+      next 0 "style" @166
+      attr 0 "xml:id" "s1" @178
+      attr 0 "tts:color" "white" @196
+      attr 0 "tts:fontSize" "100%" @216
+      attr -1 @218
+      enter -1 @218
+      text -1 @218
+      next -1 "styling" @228
+    text 0 "\n  " @231
+    next -1 "head" @238
+  text 0 "\n  " @241
+  next 0 "body" @246
+  attr -1 @247
+  enter 0 @247
+    text 0 "\n    " @252
+    next 0 "div" @256
+    attr -1 @257
+    enter 0 @257
+      text 0 "\n      " @264
+      next 0 "p" @266
+      attr 0 "begin" "00:00:01.000" @287
+      attr 0 "end" "00:00:02.500" @306
+      attr 0 "style" "s1" @317
+      attr -1 @318
+      enter 0 @318
+        text 0 "First line" @328
+        next 0 "br" @331
+        attr -1 @333
+        enter -1 @333
+        text 0 "second line" @344
+        next -1 "p" @348
+      text 0 "\n      " @355
+      next 0 "p" @357
+      attr 0 "begin" "00:00:03.000" @378
+      attr 0 "end" "00:00:04.000" @397
+      attr -1 @398
+      enter 0 @398
+        text -1 @398
+        next 0 "span" @403
+        attr 0 "tts:color" "yellow" @422
+        attr -1 @423
+        enter 0 @423
+          text 0 "Colored" @430
+          next -1 "span" @437
+        text 0 " &amp; plain" -> " & plain" @449
+        next -1 "p" @453
+      text 0 "\n    " @458
+      next -1 "div" @464
+    text 0 "\n  " @467
+    next -1 "body" @474
+  text 0 "\n" @475
+  next -1 "tt" @480
+text 1 @480
+end 1
+== random 1
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+attr -1 @38
+value -1 @38
+enter -1 @38
+next 0 "tt" @42
+attr 0 "xmlns" "http://www.w3.org/ns/ttml" @76
+attr 0 "xmlns:tts" "http://www.w3.org/ns/ttml#styling" @122
+attr 0 "xml:lang" "en" @136
+attr -1 @137
+next 1 @481
+end 0
+== random 2
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+attr -1 @38
+enter -1 @38
+next 0 "tt" @42
+attr 0 "xmlns" "http://www.w3.org/ns/ttml" @76
+enter 0 @137
+  next 0 "head" @145
+  attr -1 @146
+  enter 0 @146
+    next 0 "styling" @159
+    attr -1 @160
+    leave 0 @238
+leave 0 @480
+next 1 @481
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"utf-8\"?" @38
+attr -1 @38
+attr -1 @38
+attr -1 @38
+next 0 "tt" @42
+attr 0 "xmlns" "http://www.w3.org/ns/ttml" @76
+attr 0 "xmlns:tts" "http://www.w3.org/ns/ttml#styling" @122
+enter 0 @137
+  text 0 "\n  " @140
+  next 0 "head" @145
+  attr -1 @146
+  attr -1 @146
+  attr -1 @146
+leave 0 @480
+next 1 @481
+end 0

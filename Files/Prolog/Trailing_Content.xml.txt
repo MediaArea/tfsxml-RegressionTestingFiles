@@ -1,0 +1,86 @@
+== tree
+init 0
+next 0 "root" @5
+attr -1 @7
+enter -1 @7
+next 0 "!-- after --" @22
+next 0 "?pi after?" @35
+next 1 @50
+end 0
+== value
+init 0
+next 0 "root" @5
+attr -1 @7
+value -1 @7
+next 0 "!-- after --" @22
+next 0 "?pi after?" @35
+next 1 @50
+end 0
+== skip
+init 0
+next 0 "root" @5
+next 0 "!-- after --" @22
+next 0 "?pi after?" @35
+next 1 @50
+end 0
+== enter
+init 0
+next 0 "root" @5
+enter -1 @7
+next 0 "!-- after --" @22
+next 0 "?pi after?" @35
+next 1 @50
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "root" @5
+attr -1 @7
+enter -1 @7
+text 0 "\n" @8
+next 0 "!-- after --" @22
+text 0 "\n" @23
+next 0 "?pi after?" @35
+text 1 @35
+end 15
+== random 1
+init 0
+next 0 "root" @5
+attr -1 @7
+value -1 @7
+enter -1 @7
+next 0 "!-- after --" @22
+attr -1 @22
+next 0 "?pi after?" @35
+attr -1 @35
+value -1 @35
+enter -1 @35
+text 1 @35
+end 15
+== random 2
+init 0
+next 0 "root" @5
+attr -1 @7
+enter -1 @7
+next 0 "!-- after --" @22
+attr -1 @22
+enter -1 @22
+next 0 "?pi after?" @35
+attr -1 @35
+enter -1 @35
+next 1 @50
+end 0
+== random 3
+init 0
+next 0 "root" @5
+attr -1 @7
+attr -1 @7
+attr -1 @7
+next 0 "!-- after --" @22
+attr -1 @22
+enter -1 @22
+next 0 "?pi after?" @35
+attr -1 @35
+attr -1 @35
+next 1 @50
+end 0

@@ -1,0 +1,77 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+next 0 "root" @60
+attr -1 @61
+enter 0 @61
+  next -1 "root" @72
+next 1 @72
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+next 0 "root" @60
+attr -1 @61
+value 0 "text" @72
+next 1 @72
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+next 0 "root" @60
+next 1 @72
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+next 0 "root" @60
+enter 0 @61
+  next -1 "root" @72
+next 1 @72
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+text -1 @55
+next 0 "root" @60
+attr -1 @61
+enter 0 @61
+  text 0 "text" @65
+  next -1 "root" @72
+text 1 @72
+end 0
+== random 1
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+attr -1 @55
+value -1 @55
+enter -1 @55
+next 0 "root" @60
+attr -1 @61
+next 1 @72
+end 0
+== random 2
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+attr -1 @55
+enter -1 @55
+next 0 "root" @60
+attr -1 @61
+enter 0 @61
+  next -1 "root" @72
+next 1 @72
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?" @55
+attr -1 @55
+attr -1 @55
+attr -1 @55
+next 0 "root" @60
+attr -1 @61
+enter 0 @61
+  text 0 "text" @65
+  next -1 "root" @72
+next 1 @72
+end 0

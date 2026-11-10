@@ -1,0 +1,107 @@
+== tree
+init 0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    next 0 "!-- </skip> --" @28
+    next 0 "x" @30
+    attr -1 @32
+    enter -1 @32
+    next -1 "skip" @39
+  next 0 "next" @44
+  attr -1 @46
+  enter -1 @46
+  next -1 "root" @53
+next 1 @53
+end 0
+== value
+init 0
+next 0 "root" @5
+attr -1 @6
+value 0 "" @53
+next 1 @53
+end 0
+== skip
+init 0
+next 0 "root" @5
+next 1 @53
+end 0
+== enter
+init 0
+next 0 "root" @5
+enter 0 @6
+  next 0 "skip" @11
+  enter 0 @12
+    next 0 "!-- </skip> --" @28
+    next 0 "x" @30
+    enter -1 @32
+    next -1 "skip" @39
+  next 0 "next" @44
+  enter -1 @46
+  next -1 "root" @53
+next 1 @53
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  text -1 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    text -1 @12
+    next 0 "!-- </skip> --" @28
+    text -1 @28
+    next 0 "x" @30
+    attr -1 @32
+    enter -1 @32
+    text -1 @32
+    next -1 "skip" @39
+  text -1 @39
+  next 0 "next" @44
+  attr -1 @46
+  enter -1 @46
+  text -1 @46
+  next -1 "root" @53
+text 1 @53
+end 0
+== random 1
+init 0
+next 0 "root" @5
+attr -1 @6
+value 0 "" @53
+enter -1 @53
+next 1 @53
+end 0
+== random 2
+init 0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    next 0 "!-- </skip> --" @28
+    attr -1 @28
+    enter -1 @28
+  leave 0 @39
+  next 0 "next" @44
+  attr -1 @46
+  value -1 @46
+  text -1 @46
+  next -1 "root" @53
+next 1 @53
+end 0
+== random 3
+init 0
+next 0 "root" @5
+attr -1 @6
+attr -1 @6
+attr -1 @6
+next 1 @53
+end 0

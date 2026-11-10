@@ -1,0 +1,118 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+next 0 "root" @79
+attr -1 @80
+enter 0 @80
+  next 0 "?app some data?" @97
+  next 0 "a" @99
+  attr -1 @101
+  enter -1 @101
+  next 0 "?app2?" @109
+  next -1 "root" @116
+next 1 @117
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+next 0 "root" @79
+attr -1 @80
+value 0 "" @116
+next 1 @117
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+next 0 "root" @79
+next 1 @117
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+next 0 "root" @79
+enter 0 @80
+  next 0 "?app some data?" @97
+  next 0 "a" @99
+  enter -1 @101
+  next 0 "?app2?" @109
+  next -1 "root" @116
+next 1 @117
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\"?" @21
+text 0 "\n" @22
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+text 0 "\n" @74
+next 0 "root" @79
+attr -1 @80
+enter 0 @80
+  text -1 @80
+  next 0 "?app some data?" @97
+  text -1 @97
+  next 0 "a" @99
+  attr -1 @101
+  enter -1 @101
+  text -1 @101
+  next 0 "?app2?" @109
+  text -1 @109
+  next -1 "root" @116
+text 1 @116
+end 1
+== random 1
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+value -1 @21
+enter -1 @21
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+attr -1 @73
+next 0 "root" @79
+attr -1 @80
+value 0 "" @116
+enter -1 @116
+text 1 @116
+end 1
+== random 2
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+enter -1 @21
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+attr -1 @73
+enter -1 @73
+next 0 "root" @79
+attr -1 @80
+enter 0 @80
+  next 0 "?app some data?" @97
+  attr -1 @97
+  value -1 @97
+  enter -1 @97
+  next 0 "a" @99
+  enter -1 @101
+  next 0 "?app2?" @109
+  attr -1 @109
+  attr -1 @109
+  attr -1 @109
+  next -1 "root" @116
+next 1 @117
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\"?" @21
+attr -1 @21
+attr -1 @21
+attr -1 @21
+next 0 "?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?" @73
+attr -1 @73
+enter -1 @73
+next 0 "root" @79
+attr -1 @80
+attr -1 @80
+next 1 @117
+end 0

@@ -1,0 +1,90 @@
+== tree
+init 0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    next -1 "skip" @44
+  next 0 "next" @49
+  attr -1 @51
+  enter -1 @51
+  next -1 "root" @58
+next 1 @58
+end 0
+== value
+init 0
+next 0 "root" @5
+attr -1 @6
+value 0 "" @58
+next 1 @58
+end 0
+== skip
+init 0
+next 0 "root" @5
+next 1 @58
+end 0
+== enter
+init 0
+next 0 "root" @5
+enter 0 @6
+  next 0 "skip" @11
+  enter 0 @12
+    next -1 "skip" @44
+  next 0 "next" @49
+  enter -1 @51
+  next -1 "root" @58
+next 1 @58
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  text -1 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    text 0 "<![CDATA[</skip><fake>]]>" -> "</skip><fake>" @37
+    next -1 "skip" @44
+  text -1 @44
+  next 0 "next" @49
+  attr -1 @51
+  enter -1 @51
+  text -1 @51
+  next -1 "root" @58
+text 1 @58
+end 0
+== random 1
+init 0
+next 0 "root" @5
+attr -1 @6
+value 0 "" @58
+enter -1 @58
+next 1 @58
+end 0
+== random 2
+init 0
+next 0 "root" @5
+attr -1 @6
+enter 0 @6
+  next 0 "skip" @11
+  attr -1 @12
+  enter 0 @12
+    next -1 "skip" @44
+  next 0 "next" @49
+  attr -1 @51
+  enter -1 @51
+  next -1 "root" @58
+next 1 @58
+end 0
+== random 3
+init 0
+next 0 "root" @5
+attr -1 @6
+attr -1 @6
+attr -1 @6
+next 1 @58
+end 0

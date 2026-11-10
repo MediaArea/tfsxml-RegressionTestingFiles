@@ -1,0 +1,86 @@
+== tree
+init 0
+next 0 "a" @2
+attr 0 "checked" "" @11
+attr 0 "name" "x" @19
+attr -1 @21
+enter -1 @21
+next 0 "b" @23
+attr -1 @25
+enter -1 @25
+next 1 @25
+end 0
+== value
+init 0
+next 0 "a" @2
+attr 0 "checked" "" @11
+attr 0 "name" "x" @19
+attr -1 @21
+value -1 @21
+next 0 "b" @23
+attr -1 @25
+value -1 @25
+next 1 @25
+end 0
+== skip
+init 0
+next 0 "a" @2
+next 0 "b" @23
+next 1 @25
+end 0
+== enter
+init 0
+next 0 "a" @2
+enter -1 @21
+next 0 "b" @23
+enter -1 @25
+next 1 @25
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "a" @2
+attr 0 "checked" "" @11
+attr 0 "name" "x" @19
+attr -1 @21
+enter -1 @21
+text -1 @21
+next 0 "b" @23
+attr -1 @25
+enter -1 @25
+text 1 @25
+end 0
+== random 1
+init 0
+next 0 "a" @2
+attr 0 "checked" "" @11
+attr 0 "name" "x" @19
+attr -1 @21
+value -1 @21
+enter -1 @21
+next 0 "b" @23
+attr -1 @25
+next 1 @25
+end 0
+== random 2
+init 0
+next 0 "a" @2
+attr 0 "checked" "" @11
+enter -1 @21
+next 0 "b" @23
+attr -1 @25
+enter -1 @25
+next 1 @25
+end 0
+== random 3
+init 0
+next 0 "a" @2
+attr 0 "checked" "" @11
+attr 0 "name" "x" @19
+attr -1 @21
+attr -1 @21
+next 0 "b" @23
+attr -1 @25
+enter -1 @25
+next 1 @25
+end 0

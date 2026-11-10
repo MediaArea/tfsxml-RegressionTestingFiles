@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frame version="ITU-R_BS.2125-1">
+  <frameHeader>
+    <frameFormat frameFormatID="FF_00000001" type="full" start="00:00:00.00000S48000" duration="00:00:00.01920S48000" timeReference="local" flowID="00000000-0000-0000-0000-000000000001"/>
+    <transportTrackFormat transportID="TP_0001" numIDs="1" numTracks="1">
+      <audioTrack trackID="1">
+        <audioTrackUIDRef>ATU_00000001</audioTrackUIDRef>
+      </audioTrack>
+    </transportTrackFormat>
+  </frameHeader>
+  <audioFormatExtended version="ITU-R_BS.2076-2">
+    <audioChannelFormat audioChannelFormatID="AC_00031001" audioChannelFormatName="Object 1" typeLabel="0003" typeDefinition="Objects">
+      <audioBlockFormat audioBlockFormatID="AB_00031001_00000001" rtime="00:00:00.00000S48000" duration="00:00:00.01920S48000">
+        <position coordinate="azimuth">-30.0</position>
+        <position coordinate="elevation">0.0</position>
+      </audioBlockFormat>
+    </audioChannelFormat>
+  </audioFormatExtended>
+</frame>

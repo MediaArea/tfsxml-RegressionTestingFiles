@@ -1,0 +1,271 @@
+== tree
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "MPD" @43
+attr 0 "xmlns" "urn:mpeg:dash:schema:mpd:2011" @81
+attr 0 "type" "static" @95
+attr 0 "mediaPresentationDuration" "PT10S" @129
+attr 0 "minBufferTime" "PT2S" @150
+attr 0 "profiles" "urn:mpeg:dash:profile:isoff-on-demand:2011" @204
+attr -1 @205
+enter 0 @205
+  next 0 "Period" @215
+  attr 0 "id" "0" @222
+  attr 0 "start" "PT0S" @235
+  attr -1 @236
+  enter 0 @236
+    next 0 "AdaptationSet" @255
+    attr 0 "mimeType" "video/mp4" @276
+    attr 0 "segmentAlignment" "true" @300
+    attr -1 @301
+    enter 0 @301
+      next 0 "Representation" @323
+      attr 0 "id" "v1" @331
+      attr 0 "codecs" "avc1.64001F" @352
+      attr 0 "width" "1280" @365
+      attr 0 "height" "720" @378
+      attr 0 "bandwidth" "2000000" @398
+      attr -1 @399
+      enter 0 @399
+        next 0 "BaseURL" @416
+        attr -1 @417
+        enter 0 @417
+          next -1 "BaseURL" @441
+        next 0 "SegmentBase" @462
+        attr 0 "indexRange" "800-1500" @484
+        attr -1 @485
+        enter 0 @485
+          next 0 "Initialization" @500
+          attr 0 "range" "0-799" @514
+          attr -1 @516
+          enter -1 @516
+          next -1 "SegmentBase" @530
+        next -1 "Representation" @554
+      next -1 "AdaptationSet" @575
+    next 0 "AdaptationSet" @594
+    attr 0 "mimeType" "audio/mp4" @615
+    attr 0 "lang" "en" @625
+    attr -1 @626
+    enter 0 @626
+      next 0 "Representation" @648
+      attr 0 "id" "a1" @656
+      attr 0 "codecs" "mp4a.40.2" @675
+      attr 0 "audioSamplingRate" "48000" @701
+      attr 0 "bandwidth" "128000" @720
+      attr -1 @721
+      enter 0 @721
+        next 0 "AudioChannelConfiguration" @756
+        attr 0 "schemeIdUri" "urn:mpeg:dash:23003:3:audio_channel_configuration:2011" @825
+        attr 0 "value" "2" @835
+        attr -1 @837
+        enter -1 @837
+        next 0 "BaseURL" @854
+        attr -1 @855
+        enter 0 @855
+          next -1 "BaseURL" @877
+        next -1 "Representation" @901
+      next -1 "AdaptationSet" @922
+    next -1 "Period" @934
+  next -1 "MPD" @941
+next 1 @942
+end 0
+== value
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "MPD" @43
+attr 0 "xmlns" "urn:mpeg:dash:schema:mpd:2011" @81
+attr 0 "type" "static" @95
+attr 0 "mediaPresentationDuration" "PT10S" @129
+attr 0 "minBufferTime" "PT2S" @150
+attr 0 "profiles" "urn:mpeg:dash:profile:isoff-on-demand:2011" @204
+attr -1 @205
+value 0 "\n  " @941
+next 1 @942
+end 0
+== skip
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "MPD" @43
+next 1 @942
+end 0
+== enter
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+next 0 "MPD" @43
+enter 0 @205
+  next 0 "Period" @215
+  enter 0 @236
+    next 0 "AdaptationSet" @255
+    enter 0 @301
+      next 0 "Representation" @323
+      enter 0 @399
+        next 0 "BaseURL" @416
+        enter 0 @417
+          next -1 "BaseURL" @441
+        next 0 "SegmentBase" @462
+        enter 0 @485
+          next 0 "Initialization" @500
+          enter -1 @516
+          next -1 "SegmentBase" @530
+        next -1 "Representation" @554
+      next -1 "AdaptationSet" @575
+    next 0 "AdaptationSet" @594
+    enter 0 @626
+      next 0 "Representation" @648
+      enter 0 @721
+        next 0 "AudioChannelConfiguration" @756
+        enter -1 @837
+        next 0 "BaseURL" @854
+        enter 0 @855
+          next -1 "BaseURL" @877
+        next -1 "Representation" @901
+      next -1 "AdaptationSet" @922
+    next -1 "Period" @934
+  next -1 "MPD" @941
+next 1 @942
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+text 0 "\n" @39
+next 0 "MPD" @43
+attr 0 "xmlns" "urn:mpeg:dash:schema:mpd:2011" @81
+attr 0 "type" "static" @95
+attr 0 "mediaPresentationDuration" "PT10S" @129
+attr 0 "minBufferTime" "PT2S" @150
+attr 0 "profiles" "urn:mpeg:dash:profile:isoff-on-demand:2011" @204
+attr -1 @205
+enter 0 @205
+  text 0 "\n  " @208
+  next 0 "Period" @215
+  attr 0 "id" "0" @222
+  attr 0 "start" "PT0S" @235
+  attr -1 @236
+  enter 0 @236
+    text 0 "\n    " @241
+    next 0 "AdaptationSet" @255
+    attr 0 "mimeType" "video/mp4" @276
+    attr 0 "segmentAlignment" "true" @300
+    attr -1 @301
+    enter 0 @301
+      text 0 "\n      " @308
+      next 0 "Representation" @323
+      attr 0 "id" "v1" @331
+      attr 0 "codecs" "avc1.64001F" @352
+      attr 0 "width" "1280" @365
+      attr 0 "height" "720" @378
+      attr 0 "bandwidth" "2000000" @398
+      attr -1 @399
+      enter 0 @399
+        text 0 "\n        " @408
+        next 0 "BaseURL" @416
+        attr -1 @417
+        enter 0 @417
+          text 0 "video_720p.mp4" @431
+          next -1 "BaseURL" @441
+        text 0 "\n        " @450
+        next 0 "SegmentBase" @462
+        attr 0 "indexRange" "800-1500" @484
+        attr -1 @485
+        enter 0 @485
+          text -1 @485
+          next 0 "Initialization" @500
+          attr 0 "range" "0-799" @514
+          attr -1 @516
+          enter -1 @516
+          text -1 @516
+          next -1 "SegmentBase" @530
+        text 0 "\n      " @537
+        next -1 "Representation" @554
+      text 0 "\n    " @559
+      next -1 "AdaptationSet" @575
+    text 0 "\n    " @580
+    next 0 "AdaptationSet" @594
+    attr 0 "mimeType" "audio/mp4" @615
+    attr 0 "lang" "en" @625
+    attr -1 @626
+    enter 0 @626
+      text 0 "\n      " @633
+      next 0 "Representation" @648
+      attr 0 "id" "a1" @656
+      attr 0 "codecs" "mp4a.40.2" @675
+      attr 0 "audioSamplingRate" "48000" @701
+      attr 0 "bandwidth" "128000" @720
+      attr -1 @721
+      enter 0 @721
+        text 0 "\n        " @730
+        next 0 "AudioChannelConfiguration" @756
+        attr 0 "schemeIdUri" "urn:mpeg:dash:23003:3:audio_channel_configuration:2011" @825
+        attr 0 "value" "2" @835
+        attr -1 @837
+        enter -1 @837
+        text 0 "\n        " @846
+        next 0 "BaseURL" @854
+        attr -1 @855
+        enter 0 @855
+          text 0 "audio_en.mp4" @867
+          next -1 "BaseURL" @877
+        text 0 "\n      " @884
+        next -1 "Representation" @901
+      text 0 "\n    " @906
+      next -1 "AdaptationSet" @922
+    text 0 "\n  " @925
+    next -1 "Period" @934
+  text 0 "\n" @935
+  next -1 "MPD" @941
+text 1 @941
+end 1
+== random 1
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+value -1 @38
+enter -1 @38
+next 0 "MPD" @43
+attr 0 "xmlns" "urn:mpeg:dash:schema:mpd:2011" @81
+attr 0 "type" "static" @95
+attr 0 "mediaPresentationDuration" "PT10S" @129
+attr 0 "minBufferTime" "PT2S" @150
+attr 0 "profiles" "urn:mpeg:dash:profile:isoff-on-demand:2011" @204
+attr -1 @205
+next 1 @942
+end 0
+== random 2
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+enter -1 @38
+next 0 "MPD" @43
+attr 0 "xmlns" "urn:mpeg:dash:schema:mpd:2011" @81
+enter 0 @205
+  next 0 "Period" @215
+  attr 0 "id" "0" @222
+  enter 0 @236
+    next 0 "AdaptationSet" @255
+    attr 0 "mimeType" "video/mp4" @276
+    attr 0 "segmentAlignment" "true" @300
+    attr -1 @301
+    leave 0 @934
+leave 0 @941
+next 1 @942
+end 0
+== random 3
+init 0
+next 0 "?xml version=\"1.0\" encoding=\"UTF-8\"?" @38
+attr -1 @38
+attr -1 @38
+attr -1 @38
+next 0 "MPD" @43
+attr 0 "xmlns" "urn:mpeg:dash:schema:mpd:2011" @81
+attr 0 "type" "static" @95
+enter 0 @205
+  text 0 "\n  " @208
+  next 0 "Period" @215
+  attr 0 "id" "0" @222
+  attr 0 "start" "PT0S" @235
+  attr -1 @236
+  attr -1 @236
+leave 0 @941
+next 1 @942
+end 0

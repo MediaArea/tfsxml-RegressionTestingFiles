@@ -1,0 +1,142 @@
+== tree
+init 0
+next 0 "library" @8
+attr -1 @9
+enter 0 @9
+  next 0 "book" @17
+  attr -1 @18
+  enter 0 @18
+    next 0 "title" @29
+    attr -1 @30
+    enter 0 @30
+      next -1 "title" @57
+    next 0 "author" @69
+    attr -1 @70
+    enter 0 @70
+      next -1 "author" @88
+    next -1 "book" @98
+  next 0 "book" @106
+  attr -1 @107
+  enter 0 @107
+    next 0 "title" @118
+    attr -1 @119
+    enter 0 @119
+      next -1 "title" @142
+    next -1 "book" @152
+  next -1 "library" @163
+next 1 @164
+end 0
+== value
+init 0
+next 0 "library" @8
+attr -1 @9
+value 0 "\n  " @163
+next 1 @164
+end 0
+== skip
+init 0
+next 0 "library" @8
+next 1 @164
+end 0
+== enter
+init 0
+next 0 "library" @8
+enter 0 @9
+  next 0 "book" @17
+  enter 0 @18
+    next 0 "title" @29
+    enter 0 @30
+      next -1 "title" @57
+    next 0 "author" @69
+    enter 0 @70
+      next -1 "author" @88
+    next -1 "book" @98
+  next 0 "book" @106
+  enter 0 @107
+    next 0 "title" @118
+    enter 0 @119
+      next -1 "title" @142
+    next -1 "book" @152
+  next -1 "library" @163
+next 1 @164
+end 0
+== mixed
+init 0
+text -1 @0
+next 0 "library" @8
+attr -1 @9
+enter 0 @9
+  text 0 "\n  " @12
+  next 0 "book" @17
+  attr -1 @18
+  enter 0 @18
+    text 0 "\n    " @23
+    next 0 "title" @29
+    attr -1 @30
+    enter 0 @30
+      text 0 "Rivers of the North" @49
+      next -1 "title" @57
+    text 0 "\n    " @62
+    next 0 "author" @69
+    attr -1 @70
+    enter 0 @70
+      text 0 "A. Writer" @79
+      next -1 "author" @88
+    text 0 "\n  " @91
+    next -1 "book" @98
+  text 0 "\n  " @101
+  next 0 "book" @106
+  attr -1 @107
+  enter 0 @107
+    text 0 "\n    " @112
+    next 0 "title" @118
+    attr -1 @119
+    enter 0 @119
+      text 0 "Notes on Clocks" @134
+      next -1 "title" @142
+    text 0 "\n  " @145
+    next -1 "book" @152
+  text 0 "\n" @153
+  next -1 "library" @163
+text 1 @163
+end 1
+== random 1
+init 0
+next 0 "library" @8
+attr -1 @9
+value 0 "\n  " @163
+enter -1 @163
+next 1 @164
+end 0
+== random 2
+init 0
+next 0 "library" @8
+attr -1 @9
+enter 0 @9
+  next 0 "book" @17
+  attr -1 @18
+  enter 0 @18
+    next 0 "title" @29
+    attr -1 @30
+    enter 0 @30
+      next -1 "title" @57
+  leave 0 @98
+  next 0 "book" @106
+  enter 0 @107
+  value -1 @107
+    next 0 "title" @118
+    attr -1 @119
+    attr -1 @119
+    attr -1 @119
+    next -1 "book" @152
+  next -1 "library" @163
+text 1 @163
+end 1
+== random 3
+init 0
+next 0 "library" @8
+attr -1 @9
+attr -1 @9
+attr -1 @9
+next 1 @164
+end 0

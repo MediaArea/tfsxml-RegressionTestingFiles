@@ -1,0 +1,2 @@
+# Test files and expected traces are compared byte per byte (line endings included)
+Files/** -text
