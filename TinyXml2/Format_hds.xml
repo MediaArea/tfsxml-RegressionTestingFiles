@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://ns.adobe.com/f4m/1.0">
+  <id>test</id>
+  <streamType>recorded</streamType>
+  <duration>10.5</duration>
+  <bootstrapInfo profile="named" id="bootstrap1">AAAA</bootstrapInfo>
+  <media url="video_1" bitrate="1000" width="640" height="360" bootstrapInfoId="bootstrap1"/>
+  <media url="video_2" bitrate="2000" width="1280" height="720" bootstrapInfoId="bootstrap1"/>
+</manifest>

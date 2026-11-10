@@ -1,0 +1,197 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "tt" line=2 ids=0,3,8,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,8,-1,-1,-1,-1,8,8,-1,-1
+  @"xmlns"="http://www.w3.org/ns/ttml" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:tts"="http://www.w3.org/ns/ttml#styling" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"xmlns:ttp"="http://www.w3.org/ns/ttml#parameter" line=2 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"xml:lang"="en" line=2 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  @"ttp:frameRate"="25" line=2 values=25,25,25,1,25,25 find=4 attr=110 query=0,25,01,25,1
+  @"ttp:timeBase"="media" line=2 values=0,0,0,0,0,0 find=5 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "head" line=3 ids=2,4,6,-1,8,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,6,8,-1,-1,-1,6,6,-1,-1
+  missing=1300
+      element "styling" line=4 ids=3,5,5,-1,6,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=5,5,6,-1,-1,-1,5,5,-1,-1
+  missing=1300
+        element "style" line=4 ids=4,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"xml:id"="s1" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"tts:color"="white" line=4 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"tts:fontSize"="80%" line=4 values=80,80,80,1,80,80 find=2 attr=110 query=0,80,01,80,1
+  missing=1300
+      element "layout" line=5 ids=3,7,7,4,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,7,-1,4,-1,-1,7,7,-1,-1
+  missing=1300
+        element "region" line=5 ids=6,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"xml:id"="bottom" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"tts:origin"="10% 80%" line=5 values=10,10,10,1,10,10 find=1 attr=110 query=0,10,01,10,1
+  @"tts:extent"="80% 20%" line=5 values=80,80,80,1,80,80 find=2 attr=110 query=0,80,01,80,1
+  missing=1300
+    element "body" line=7 ids=2,9,9,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=9,9,-1,3,-1,-1,9,9,-1,-1
+  missing=1300
+      element "div" line=8 ids=8,10,19,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,19,-1,-1,-1,-1,10,19,-1,-1
+  missing=1300
+        element "p" line=9 ids=9,11,15,-1,16,01 closing=0 text="Hello " int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=12,14,16,-1,16,-1,14,14,-1,-1
+  @"begin"="00:00:01.000" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:02.500" line=9 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  @"region"="bottom" line=9 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"style"="s1" line=9 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  missing=1300
+          text "Hello " line=9 ids=10,-1,-1,-1,12,11
+          element "span" line=9 ids=10,13,13,11,14,01 closing=0 text="world" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,14,-1,-1,-1,-1,-1
+  @"tts:color"="red" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+            text "world" line=9 ids=12,-1,-1,-1,-1,11
+          element "br" line=9 ids=10,-1,-1,12,15,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,12,-1,-1,-1,-1
+  missing=1300
+          text "second & line \xC3\xA9" line=9 ids=10,-1,-1,14,-1,11
+        element "p" line=10 ids=9,17,18,10,19,01 closing=0 text="CDATA <text>" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,10,19,10,-1,-1
+  @"begin"="00:00:03.000" line=10 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:04.000" line=10 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  missing=1300
+          cdata "CDATA <text>" line=10 ids=16,-1,-1,-1,18,11
+          text " after" line=10 ids=16,-1,-1,17,-1,11
+        element "p" line=11 ids=9,20,20,16,-1,01 closing=0 text="  spaces   kept  " int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,16,-1,16,-1,-1
+  @"begin"="00:00:05:10" line=11 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:06:00" line=11 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  missing=1300
+          text "  spaces   kept  " line=11 ids=19,-1,-1,-1,-1,11
+root=2
+print 880 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A    <head>\x0A        <styling>\x0A            <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A        </styling>\x0A        <layout>\x0A            <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A        </layout>\x0A    </head>\x0A    <body>\x0A        <div>\x0A            <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                 <span tts:color=\"red\">world</span>\x0A                <br/>second &amp; line \xC3\xA9</p>\x0A            <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]> after</p>\x0A            <p begin=\"00:00:05:10\" end=\"00:00:06:00\">  spaces   kept  </p>\x0A        </div>\x0A    </body>\x0A</tt>\x0A"
+compact 705 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\"><head><styling><style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/></styling><layout><region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/></layout></head><body><div><p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello <span tts:color=\"red\">world</span><br/>second &amp; line \xC3\xA9</p><p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]> after</p><p begin=\"00:00:05:10\" end=\"00:00:06:00\">  spaces   kept  </p></div></body></tt>"
+root 841 "<tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A    <head>\x0A        <styling>\x0A            <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A        </styling>\x0A        <layout>\x0A            <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A        </layout>\x0A    </head>\x0A    <body>\x0A        <div>\x0A            <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                 <span tts:color=\"red\">world</span>\x0A                <br/>second &amp; line \xC3\xA9</p>\x0A            <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]> after</p>\x0A            <p begin=\"00:00:05:10\" end=\"00:00:06:00\">  spaces   kept  </p>\x0A        </div>\x0A    </body>\x0A</tt>\x0A"
+root_depth 992 "        <tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A            <head>\x0A                <styling>\x0A                    <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A                </styling>\x0A                <layout>\x0A                    <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A                </layout>\x0A            </head>\x0A            <body>\x0A                <div>\x0A                    <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                         <span tts:color=\"red\">world</span>\x0A                        <br/>second &amp; line \xC3\xA9</p>\x0A                    <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]> after</p>\x0A                    <p begin=\"00:00:05:10\" end=\"00:00:06:00\">  spaces   kept  </p>\x0A                </div>\x0A            </body>\x0A        </tt>"
+child 174 "<head><styling><style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/></styling><layout><region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/></layout></head>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "tt" line=2 ids=0,3,8,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,8,-1,-1,-1,-1,8,8,-1,-1
+  @"xmlns"="http://www.w3.org/ns/ttml" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:tts"="http://www.w3.org/ns/ttml#styling" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"xmlns:ttp"="http://www.w3.org/ns/ttml#parameter" line=2 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"xml:lang"="en" line=2 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  @"ttp:frameRate"="25" line=2 values=25,25,25,1,25,25 find=4 attr=110 query=0,25,01,25,1
+  @"ttp:timeBase"="media" line=2 values=0,0,0,0,0,0 find=5 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "head" line=3 ids=2,4,6,-1,8,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,6,8,-1,-1,-1,6,6,-1,-1
+  missing=1300
+      element "styling" line=4 ids=3,5,5,-1,6,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=5,5,6,-1,-1,-1,5,5,-1,-1
+  missing=1300
+        element "style" line=4 ids=4,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"xml:id"="s1" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"tts:color"="white" line=4 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"tts:fontSize"="80%" line=4 values=80,80,80,1,80,80 find=2 attr=110 query=0,80,01,80,1
+  missing=1300
+      element "layout" line=5 ids=3,7,7,4,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,7,-1,4,-1,-1,7,7,-1,-1
+  missing=1300
+        element "region" line=5 ids=6,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"xml:id"="bottom" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"tts:origin"="10% 80%" line=5 values=10,10,10,1,10,10 find=1 attr=110 query=0,10,01,10,1
+  @"tts:extent"="80% 20%" line=5 values=80,80,80,1,80,80 find=2 attr=110 query=0,80,01,80,1
+  missing=1300
+    element "body" line=7 ids=2,9,9,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=9,9,-1,3,-1,-1,9,9,-1,-1
+  missing=1300
+      element "div" line=8 ids=8,10,19,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,19,-1,-1,-1,-1,10,19,-1,-1
+  missing=1300
+        element "p" line=9 ids=9,11,15,-1,16,01 closing=0 text="Hello " int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=12,14,16,-1,16,-1,14,14,-1,-1
+  @"begin"="00:00:01.000" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:02.500" line=9 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  @"region"="bottom" line=9 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"style"="s1" line=9 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  missing=1300
+          text "Hello " line=9 ids=10,-1,-1,-1,12,11
+          element "span" line=9 ids=10,13,13,11,14,01 closing=0 text="world" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,14,-1,-1,-1,-1,-1
+  @"tts:color"="red" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+            text "world" line=9 ids=12,-1,-1,-1,-1,11
+          element "br" line=9 ids=10,-1,-1,12,15,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,12,-1,-1,-1,-1
+  missing=1300
+          text "second &amp; line &#233;" line=9 ids=10,-1,-1,14,-1,11
+        element "p" line=10 ids=9,17,18,10,19,01 closing=0 text="CDATA <text>" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,10,19,10,-1,-1
+  @"begin"="00:00:03.000" line=10 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:04.000" line=10 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  missing=1300
+          cdata "CDATA <text>" line=10 ids=16,-1,-1,-1,18,11
+          text " after" line=10 ids=16,-1,-1,17,-1,11
+        element "p" line=11 ids=9,20,20,16,-1,01 closing=0 text="  spaces   kept  " int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,16,-1,16,-1,-1
+  @"begin"="00:00:05:10" line=11 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:06:00" line=11 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  missing=1300
+          text "  spaces   kept  " line=11 ids=19,-1,-1,-1,-1,11
+root=2
+print 613 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<tt xmlns=\"\" xmlns:tts=\"\" xmlns:ttp=\"\" xml:lang=\"\" ttp:frameRate=\"\" ttp:timeBase=\"\">\x0A    <head>\x0A        <styling>\x0A            <style xml:id=\"\" tts:color=\"\" tts:fontSize=\"\"/>\x0A        </styling>\x0A        <layout>\x0A            <region xml:id=\"\" tts:origin=\"\" tts:extent=\"\"/>\x0A        </layout>\x0A    </head>\x0A    <body>\x0A        <div>\x0A            <p begin=\"\" end=\"\" region=\"\" style=\"\">                <span tts:color=\"\"></span>\x0A                <br/></p>\x0A            <p begin=\"\" end=\"\"><![CDATA[CDATA <text>]]></p>\x0A            <p begin=\"\" end=\"\"></p>\x0A        </div>\x0A    </body>\x0A</tt>\x0A"
+compact 438 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><tt xmlns=\"\" xmlns:tts=\"\" xmlns:ttp=\"\" xml:lang=\"\" ttp:frameRate=\"\" ttp:timeBase=\"\"><head><styling><style xml:id=\"\" tts:color=\"\" tts:fontSize=\"\"/></styling><layout><region xml:id=\"\" tts:origin=\"\" tts:extent=\"\"/></layout></head><body><div><p begin=\"\" end=\"\" region=\"\" style=\"\"><span tts:color=\"\"></span><br/></p><p begin=\"\" end=\"\"><![CDATA[CDATA <text>]]></p><p begin=\"\" end=\"\"></p></div></body></tt>"
+root 853 "<tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A    <head>\x0A        <styling>\x0A            <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A        </styling>\x0A        <layout>\x0A            <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A        </layout>\x0A    </head>\x0A    <body>\x0A        <div>\x0A            <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                 <span tts:color=\"red\">world</span>\x0A                <br/>second &amp;amp; line &amp;#233;</p>\x0A            <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]> after</p>\x0A            <p begin=\"00:00:05:10\" end=\"00:00:06:00\">  spaces   kept  </p>\x0A        </div>\x0A    </body>\x0A</tt>\x0A"
+root_depth 1004 "        <tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A            <head>\x0A                <styling>\x0A                    <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A                </styling>\x0A                <layout>\x0A                    <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A                </layout>\x0A            </head>\x0A            <body>\x0A                <div>\x0A                    <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                         <span tts:color=\"red\">world</span>\x0A                        <br/>second &amp;amp; line &amp;#233;</p>\x0A                    <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]> after</p>\x0A                    <p begin=\"00:00:05:10\" end=\"00:00:06:00\">  spaces   kept  </p>\x0A                </div>\x0A            </body>\x0A        </tt>"
+child 174 "<head><styling><style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/></styling><layout><region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/></layout></head>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "tt" line=2 ids=0,3,8,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,8,-1,-1,-1,-1,8,8,-1,-1
+  @"xmlns"="http://www.w3.org/ns/ttml" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:tts"="http://www.w3.org/ns/ttml#styling" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"xmlns:ttp"="http://www.w3.org/ns/ttml#parameter" line=2 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"xml:lang"="en" line=2 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  @"ttp:frameRate"="25" line=2 values=25,25,25,1,25,25 find=4 attr=110 query=0,25,01,25,1
+  @"ttp:timeBase"="media" line=2 values=0,0,0,0,0,0 find=5 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "head" line=3 ids=2,4,6,-1,8,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,6,8,-1,-1,-1,6,6,-1,-1
+  missing=1300
+      element "styling" line=4 ids=3,5,5,-1,6,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=5,5,6,-1,-1,-1,5,5,-1,-1
+  missing=1300
+        element "style" line=4 ids=4,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"xml:id"="s1" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"tts:color"="white" line=4 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"tts:fontSize"="80%" line=4 values=80,80,80,1,80,80 find=2 attr=110 query=0,80,01,80,1
+  missing=1300
+      element "layout" line=5 ids=3,7,7,4,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,7,-1,4,-1,-1,7,7,-1,-1
+  missing=1300
+        element "region" line=5 ids=6,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"xml:id"="bottom" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"tts:origin"="10% 80%" line=5 values=10,10,10,1,10,10 find=1 attr=110 query=0,10,01,10,1
+  @"tts:extent"="80% 20%" line=5 values=80,80,80,1,80,80 find=2 attr=110 query=0,80,01,80,1
+  missing=1300
+    element "body" line=7 ids=2,9,9,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=9,9,-1,3,-1,-1,9,9,-1,-1
+  missing=1300
+      element "div" line=8 ids=8,10,19,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,19,-1,-1,-1,-1,10,19,-1,-1
+  missing=1300
+        element "p" line=9 ids=9,11,15,-1,16,01 closing=0 text="Hello" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=12,14,16,-1,16,-1,14,14,-1,-1
+  @"begin"="00:00:01.000" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:02.500" line=9 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  @"region"="bottom" line=9 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"style"="s1" line=9 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  missing=1300
+          text "Hello" line=9 ids=10,-1,-1,-1,12,11
+          element "span" line=9 ids=10,13,13,11,14,01 closing=0 text="world" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,14,-1,-1,-1,-1,-1
+  @"tts:color"="red" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+            text "world" line=9 ids=12,-1,-1,-1,-1,11
+          element "br" line=9 ids=10,-1,-1,12,15,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,12,-1,-1,-1,-1
+  missing=1300
+          text "second & line \xC3\xA9" line=9 ids=10,-1,-1,14,-1,11
+        element "p" line=10 ids=9,17,18,10,19,01 closing=0 text="CDATA <text>" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,10,19,10,-1,-1
+  @"begin"="00:00:03.000" line=10 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:04.000" line=10 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  missing=1300
+          cdata "CDATA <text>" line=10 ids=16,-1,-1,-1,18,11
+          text "after" line=10 ids=16,-1,-1,17,-1,11
+        element "p" line=11 ids=9,20,20,16,-1,01 closing=0 text="spaces kept" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,16,-1,16,-1,-1
+  @"begin"="00:00:05:10" line=11 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  @"end"="00:00:06:00" line=11 values=0,0,0,0,0,0 find=1 attr=110 query=0,0,01,0,0
+  missing=1300
+          text "spaces kept" line=11 ids=19,-1,-1,-1,-1,11
+root=2
+print 872 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A    <head>\x0A        <styling>\x0A            <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A        </styling>\x0A        <layout>\x0A            <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A        </layout>\x0A    </head>\x0A    <body>\x0A        <div>\x0A            <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                <span tts:color=\"red\">world</span>\x0A                <br/>second &amp; line \xC3\xA9</p>\x0A            <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]>after</p>\x0A            <p begin=\"00:00:05:10\" end=\"00:00:06:00\">spaces kept</p>\x0A        </div>\x0A    </body>\x0A</tt>\x0A"
+compact 697 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\"><head><styling><style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/></styling><layout><region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/></layout></head><body><div><p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello<span tts:color=\"red\">world</span><br/>second &amp; line \xC3\xA9</p><p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]>after</p><p begin=\"00:00:05:10\" end=\"00:00:06:00\">spaces kept</p></div></body></tt>"
+root 833 "<tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A    <head>\x0A        <styling>\x0A            <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A        </styling>\x0A        <layout>\x0A            <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A        </layout>\x0A    </head>\x0A    <body>\x0A        <div>\x0A            <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                <span tts:color=\"red\">world</span>\x0A                <br/>second &amp; line \xC3\xA9</p>\x0A            <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]>after</p>\x0A            <p begin=\"00:00:05:10\" end=\"00:00:06:00\">spaces kept</p>\x0A        </div>\x0A    </body>\x0A</tt>\x0A"
+root_depth 984 "        <tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:tts=\"http://www.w3.org/ns/ttml#styling\" xmlns:ttp=\"http://www.w3.org/ns/ttml#parameter\" xml:lang=\"en\" ttp:frameRate=\"25\" ttp:timeBase=\"media\">\x0A            <head>\x0A                <styling>\x0A                    <style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/>\x0A                </styling>\x0A                <layout>\x0A                    <region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/>\x0A                </layout>\x0A            </head>\x0A            <body>\x0A                <div>\x0A                    <p begin=\"00:00:01.000\" end=\"00:00:02.500\" region=\"bottom\" style=\"s1\">Hello                        <span tts:color=\"red\">world</span>\x0A                        <br/>second &amp; line \xC3\xA9</p>\x0A                    <p begin=\"00:00:03.000\" end=\"00:00:04.000\"><![CDATA[CDATA <text>]]>after</p>\x0A                    <p begin=\"00:00:05:10\" end=\"00:00:06:00\">spaces kept</p>\x0A                </div>\x0A            </body>\x0A        </tt>"
+child 174 "<head><styling><style xml:id=\"s1\" tts:color=\"white\" tts:fontSize=\"80%\"/></styling><layout><region xml:id=\"bottom\" tts:origin=\"10% 80%\" tts:extent=\"80% 20%\"/></layout></head>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:ebuttm="urn:ebu:tt:metadata" ttp:timeBase="media" xml:lang="de">
+  <tt:head><tt:metadata><ebuttm:documentMetadata><ebuttm:conformsToStandard>urn:ebu:tt:distribution:2014-01</ebuttm:conformsToStandard></ebuttm:documentMetadata></tt:metadata></tt:head>
+  <tt:body><tt:div><tt:p xml:id="sub1" begin="10:00:00.000" end="10:00:02.000"><tt:span>Eins</tt:span><tt:br/><tt:span>Zwei</tt:span></tt:p></tt:div></tt:body>
+</tt:tt>

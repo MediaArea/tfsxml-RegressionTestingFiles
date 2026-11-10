@@ -1,0 +1,127 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "AssetMap" line=2 ids=0,3,13,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,13,-1,-1,-1,-1,13,13,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/429-9/2007/AM" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:c1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:c1111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "Creator" line=4 ids=2,6,6,3,7,01 closing=0 text="Creator" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "Creator" line=4 ids=5,-1,-1,-1,-1,11
+    element "VolumeCount" line=4 ids=2,8,8,5,9,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "1" line=4 ids=7,-1,-1,-1,-1,11
+    element "IssueDate" line=4 ids=2,10,10,7,11,01 closing=0 text="2020-01-01T00:00:00+00:00" int=0,2020 unsigned=0,2020 int64=0,2020 bool=0,1 double=0,2020 float=0,2020 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+      text "2020-01-01T00:00:00+00:00" line=4 ids=9,-1,-1,-1,-1,11
+    element "Issuer" line=4 ids=2,12,12,9,13,01 closing=0 text="Issuer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+      text "Issuer" line=4 ids=11,-1,-1,-1,-1,11
+    element "AssetList" line=5 ids=2,14,25,11,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=14,25,-1,11,-1,-1,14,25,-1,-1
+  missing=1300
+      element "Asset" line=6 ids=13,15,19,-1,25,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,19,25,-1,25,-1,19,19,-1,-1
+  missing=1300
+        element "Id" line=6 ids=14,16,16,-1,17,01 closing=0 text="urn:uuid:b1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:b1111111-2222-3333-4444-555555555555" line=6 ids=15,-1,-1,-1,-1,11
+        element "PackingList" line=6 ids=14,18,18,15,19,01 closing=0 text="true" int=18,-7 unsigned=18,7 int64=18,-7 bool=0,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+          text "true" line=6 ids=17,-1,-1,-1,-1,11
+        element "ChunkList" line=6 ids=14,20,20,17,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=20,20,-1,17,-1,-1,20,20,-1,-1
+  missing=1300
+          element "Chunk" line=6 ids=19,21,23,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=21,23,-1,-1,-1,-1,23,23,-1,-1
+  missing=1300
+            element "Path" line=6 ids=20,22,22,-1,23,01 closing=0 text="PKL.xml" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,23,-1,-1,-1,-1,-1
+  missing=1300
+              text "PKL.xml" line=6 ids=21,-1,-1,-1,-1,11
+            element "VolumeIndex" line=6 ids=20,24,24,21,-1,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,-1,21,-1,-1,-1,-1
+  missing=1300
+              text "1" line=6 ids=23,-1,-1,-1,-1,11
+      element "Asset" line=7 ids=13,26,28,14,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=26,28,-1,14,-1,14,28,28,-1,-1
+  missing=1300
+        element "Id" line=7 ids=25,27,27,-1,28,01 closing=0 text="urn:uuid:11111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,28,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:11111111-2222-3333-4444-555555555555" line=7 ids=26,-1,-1,-1,-1,11
+        element "ChunkList" line=7 ids=25,29,29,26,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=29,29,-1,26,-1,-1,29,29,-1,-1
+  missing=1300
+          element "Chunk" line=7 ids=28,30,30,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=30,30,-1,-1,-1,-1,30,30,-1,-1
+  missing=1300
+            element "Path" line=7 ids=29,31,31,-1,-1,01 closing=0 text="CPL_smpte.xml" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+              text "CPL_smpte.xml" line=7 ids=30,-1,-1,-1,-1,11
+root=2
+print 931 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<AssetMap xmlns=\"http://www.smpte-ra.org/schemas/429-9/2007/AM\">\x0A    <Id>urn:uuid:c1111111-2222-3333-4444-555555555555</Id>\x0A    <Creator>Creator</Creator>\x0A    <VolumeCount>1</VolumeCount>\x0A    <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A    <Issuer>Issuer</Issuer>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A            <PackingList>true</PackingList>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path>PKL.xml</Path>\x0A                    <VolumeIndex>1</VolumeIndex>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A        <Asset>\x0A            <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path>CPL_smpte.xml</Path>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A    </AssetList>\x0A</AssetMap>\x0A"
+compact 635 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AssetMap xmlns=\"http://www.smpte-ra.org/schemas/429-9/2007/AM\"><Id>urn:uuid:c1111111-2222-3333-4444-555555555555</Id><Creator>Creator</Creator><VolumeCount>1</VolumeCount><IssueDate>2020-01-01T00:00:00+00:00</IssueDate><Issuer>Issuer</Issuer><AssetList><Asset><Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id><PackingList>true</PackingList><ChunkList><Chunk><Path>PKL.xml</Path><VolumeIndex>1</VolumeIndex></Chunk></ChunkList></Asset><Asset><Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id><ChunkList><Chunk><Path>CPL_smpte.xml</Path></Chunk></ChunkList></Asset></AssetList></AssetMap>"
+root 892 "<AssetMap xmlns=\"http://www.smpte-ra.org/schemas/429-9/2007/AM\">\x0A    <Id>urn:uuid:c1111111-2222-3333-4444-555555555555</Id>\x0A    <Creator>Creator</Creator>\x0A    <VolumeCount>1</VolumeCount>\x0A    <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A    <Issuer>Issuer</Issuer>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A            <PackingList>true</PackingList>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path>PKL.xml</Path>\x0A                    <VolumeIndex>1</VolumeIndex>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A        <Asset>\x0A            <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path>CPL_smpte.xml</Path>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A    </AssetList>\x0A</AssetMap>\x0A"
+root_depth 1107 fnv1a:227dd517d66ba1d4
+child 55 "<Id>urn:uuid:c1111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "AssetMap" line=2 ids=0,3,13,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,13,-1,-1,-1,-1,13,13,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/429-9/2007/AM" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:c1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:c1111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "Creator" line=4 ids=2,6,6,3,7,01 closing=0 text="Creator" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "Creator" line=4 ids=5,-1,-1,-1,-1,11
+    element "VolumeCount" line=4 ids=2,8,8,5,9,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "1" line=4 ids=7,-1,-1,-1,-1,11
+    element "IssueDate" line=4 ids=2,10,10,7,11,01 closing=0 text="2020-01-01T00:00:00+00:00" int=0,2020 unsigned=0,2020 int64=0,2020 bool=0,1 double=0,2020 float=0,2020 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+      text "2020-01-01T00:00:00+00:00" line=4 ids=9,-1,-1,-1,-1,11
+    element "Issuer" line=4 ids=2,12,12,9,13,01 closing=0 text="Issuer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+      text "Issuer" line=4 ids=11,-1,-1,-1,-1,11
+    element "AssetList" line=5 ids=2,14,25,11,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=14,25,-1,11,-1,-1,14,25,-1,-1
+  missing=1300
+      element "Asset" line=6 ids=13,15,19,-1,25,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,19,25,-1,25,-1,19,19,-1,-1
+  missing=1300
+        element "Id" line=6 ids=14,16,16,-1,17,01 closing=0 text="urn:uuid:b1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:b1111111-2222-3333-4444-555555555555" line=6 ids=15,-1,-1,-1,-1,11
+        element "PackingList" line=6 ids=14,18,18,15,19,01 closing=0 text="true" int=18,-7 unsigned=18,7 int64=18,-7 bool=0,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+          text "true" line=6 ids=17,-1,-1,-1,-1,11
+        element "ChunkList" line=6 ids=14,20,20,17,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=20,20,-1,17,-1,-1,20,20,-1,-1
+  missing=1300
+          element "Chunk" line=6 ids=19,21,23,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=21,23,-1,-1,-1,-1,23,23,-1,-1
+  missing=1300
+            element "Path" line=6 ids=20,22,22,-1,23,01 closing=0 text="PKL.xml" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,23,-1,-1,-1,-1,-1
+  missing=1300
+              text "PKL.xml" line=6 ids=21,-1,-1,-1,-1,11
+            element "VolumeIndex" line=6 ids=20,24,24,21,-1,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,-1,21,-1,-1,-1,-1
+  missing=1300
+              text "1" line=6 ids=23,-1,-1,-1,-1,11
+      element "Asset" line=7 ids=13,26,28,14,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=26,28,-1,14,-1,14,28,28,-1,-1
+  missing=1300
+        element "Id" line=7 ids=25,27,27,-1,28,01 closing=0 text="urn:uuid:11111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,28,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:11111111-2222-3333-4444-555555555555" line=7 ids=26,-1,-1,-1,-1,11
+        element "ChunkList" line=7 ids=25,29,29,26,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=29,29,-1,26,-1,-1,29,29,-1,-1
+  missing=1300
+          element "Chunk" line=7 ids=28,30,30,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=30,30,-1,-1,-1,-1,30,30,-1,-1
+  missing=1300
+            element "Path" line=7 ids=29,31,31,-1,-1,01 closing=0 text="CPL_smpte.xml" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+              text "CPL_smpte.xml" line=7 ids=30,-1,-1,-1,-1,11
+root=2
+print 687 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<AssetMap xmlns=\"\">\x0A    <Id></Id>\x0A    <Creator></Creator>\x0A    <VolumeCount></VolumeCount>\x0A    <IssueDate></IssueDate>\x0A    <Issuer></Issuer>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id></Id>\x0A            <PackingList></PackingList>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path></Path>\x0A                    <VolumeIndex></VolumeIndex>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A        <Asset>\x0A            <Id></Id>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path></Path>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A    </AssetList>\x0A</AssetMap>\x0A"
+compact 391 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AssetMap xmlns=\"\"><Id></Id><Creator></Creator><VolumeCount></VolumeCount><IssueDate></IssueDate><Issuer></Issuer><AssetList><Asset><Id></Id><PackingList></PackingList><ChunkList><Chunk><Path></Path><VolumeIndex></VolumeIndex></Chunk></ChunkList></Asset><Asset><Id></Id><ChunkList><Chunk><Path></Path></Chunk></ChunkList></Asset></AssetList></AssetMap>"
+root 892 "<AssetMap xmlns=\"http://www.smpte-ra.org/schemas/429-9/2007/AM\">\x0A    <Id>urn:uuid:c1111111-2222-3333-4444-555555555555</Id>\x0A    <Creator>Creator</Creator>\x0A    <VolumeCount>1</VolumeCount>\x0A    <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A    <Issuer>Issuer</Issuer>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A            <PackingList>true</PackingList>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path>PKL.xml</Path>\x0A                    <VolumeIndex>1</VolumeIndex>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A        <Asset>\x0A            <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A            <ChunkList>\x0A                <Chunk>\x0A                    <Path>CPL_smpte.xml</Path>\x0A                </Chunk>\x0A            </ChunkList>\x0A        </Asset>\x0A    </AssetList>\x0A</AssetMap>\x0A"
+root_depth 1107 fnv1a:227dd517d66ba1d4
+child 55 "<Id>urn:uuid:c1111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

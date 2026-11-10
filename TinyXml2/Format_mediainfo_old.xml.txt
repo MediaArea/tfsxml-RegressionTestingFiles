@@ -1,0 +1,73 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "Mediainfo" line=2 ids=0,3,3,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,3,-1,-1,-1,-1,3,3,-1,-1
+  @"version"="0.7.99" line=2 values=0,0,0,0,0.69999999999999996,0.699999988 find=0 attr=110 query=0,0,01,0,0
+  missing=1300
+    element "File" line=3 ids=2,4,9,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,9,-1,-1,-1,-1,4,9,-1,-1
+  missing=1300
+      element "track" line=4 ids=3,5,7,-1,9,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=5,7,9,-1,9,-1,7,7,-1,-1
+  @"type"="General" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Complete_name" line=5 ids=4,6,6,-1,7,01 closing=0 text="file.mkv" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,-1,-1,-1,-1,-1
+  missing=1300
+          text "file.mkv" line=5 ids=5,-1,-1,-1,-1,11
+        element "Format" line=6 ids=4,8,8,5,-1,01 closing=0 text="Matroska" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,5,-1,-1,-1,-1
+  missing=1300
+          text "Matroska" line=6 ids=7,-1,-1,-1,-1,11
+      element "track" line=8 ids=3,10,12,4,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,12,-1,4,-1,4,12,12,-1,-1
+  @"type"="Video" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Format" line=9 ids=9,11,11,-1,12,01 closing=0 text="HEVC" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,12,-1,-1,-1,-1,-1
+  missing=1300
+          text "HEVC" line=9 ids=10,-1,-1,-1,-1,11
+        element "Width" line=10 ids=9,13,13,10,-1,01 closing=0 text="3 840 pixels" int=0,3 unsigned=0,3 int64=0,3 bool=0,1 double=0,3 float=0,3 nav=-1,-1,-1,10,-1,-1,-1,-1
+  missing=1300
+          text "3 840 pixels" line=10 ids=12,-1,-1,-1,-1,11
+root=2
+print 363 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<Mediainfo version=\"0.7.99\">\x0A    <File>\x0A        <track type=\"General\">\x0A            <Complete_name>file.mkv</Complete_name>\x0A            <Format>Matroska</Format>\x0A        </track>\x0A        <track type=\"Video\">\x0A            <Format>HEVC</Format>\x0A            <Width>3 840 pixels</Width>\x0A        </track>\x0A    </File>\x0A</Mediainfo>\x0A"
+compact 262 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Mediainfo version=\"0.7.99\"><File><track type=\"General\"><Complete_name>file.mkv</Complete_name><Format>Matroska</Format></track><track type=\"Video\"><Format>HEVC</Format><Width>3 840 pixels</Width></track></File></Mediainfo>"
+root 324 "<Mediainfo version=\"0.7.99\">\x0A    <File>\x0A        <track type=\"General\">\x0A            <Complete_name>file.mkv</Complete_name>\x0A            <Format>Matroska</Format>\x0A        </track>\x0A        <track type=\"Video\">\x0A            <Format>HEVC</Format>\x0A            <Width>3 840 pixels</Width>\x0A        </track>\x0A    </File>\x0A</Mediainfo>\x0A"
+root_depth 419 "        <Mediainfo version=\"0.7.99\">\x0A            <File>\x0A                <track type=\"General\">\x0A                    <Complete_name>file.mkv</Complete_name>\x0A                    <Format>Matroska</Format>\x0A                </track>\x0A                <track type=\"Video\">\x0A                    <Format>HEVC</Format>\x0A                    <Width>3 840 pixels</Width>\x0A                </track>\x0A            </File>\x0A        </Mediainfo>"
+child 184 "<File><track type=\"General\"><Complete_name>file.mkv</Complete_name><Format>Matroska</Format></track><track type=\"Video\"><Format>HEVC</Format><Width>3 840 pixels</Width></track></File>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "Mediainfo" line=2 ids=0,3,3,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,3,-1,-1,-1,-1,3,3,-1,-1
+  @"version"="0.7.99" line=2 values=0,0,0,0,0.69999999999999996,0.699999988 find=0 attr=110 query=0,0,01,0,0
+  missing=1300
+    element "File" line=3 ids=2,4,9,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,9,-1,-1,-1,-1,4,9,-1,-1
+  missing=1300
+      element "track" line=4 ids=3,5,7,-1,9,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=5,7,9,-1,9,-1,7,7,-1,-1
+  @"type"="General" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Complete_name" line=5 ids=4,6,6,-1,7,01 closing=0 text="file.mkv" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,-1,-1,-1,-1,-1
+  missing=1300
+          text "file.mkv" line=5 ids=5,-1,-1,-1,-1,11
+        element "Format" line=6 ids=4,8,8,5,-1,01 closing=0 text="Matroska" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,5,-1,-1,-1,-1
+  missing=1300
+          text "Matroska" line=6 ids=7,-1,-1,-1,-1,11
+      element "track" line=8 ids=3,10,12,4,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,12,-1,4,-1,4,12,12,-1,-1
+  @"type"="Video" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Format" line=9 ids=9,11,11,-1,12,01 closing=0 text="HEVC" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,12,-1,-1,-1,-1,-1
+  missing=1300
+          text "HEVC" line=9 ids=10,-1,-1,-1,-1,11
+        element "Width" line=10 ids=9,13,13,10,-1,01 closing=0 text="3 840 pixels" int=0,3 unsigned=0,3 int64=0,3 bool=0,1 double=0,3 float=0,3 nav=-1,-1,-1,10,-1,-1,-1,-1
+  missing=1300
+          text "3 840 pixels" line=10 ids=12,-1,-1,-1,-1,11
+root=2
+print 313 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<Mediainfo version=\"\">\x0A    <File>\x0A        <track type=\"\">\x0A            <Complete_name></Complete_name>\x0A            <Format></Format>\x0A        </track>\x0A        <track type=\"\">\x0A            <Format></Format>\x0A            <Width></Width>\x0A        </track>\x0A    </File>\x0A</Mediainfo>\x0A"
+compact 212 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Mediainfo version=\"\"><File><track type=\"\"><Complete_name></Complete_name><Format></Format></track><track type=\"\"><Format></Format><Width></Width></track></File></Mediainfo>"
+root 324 "<Mediainfo version=\"0.7.99\">\x0A    <File>\x0A        <track type=\"General\">\x0A            <Complete_name>file.mkv</Complete_name>\x0A            <Format>Matroska</Format>\x0A        </track>\x0A        <track type=\"Video\">\x0A            <Format>HEVC</Format>\x0A            <Width>3 840 pixels</Width>\x0A        </track>\x0A    </File>\x0A</Mediainfo>\x0A"
+root_depth 419 "        <Mediainfo version=\"0.7.99\">\x0A            <File>\x0A                <track type=\"General\">\x0A                    <Complete_name>file.mkv</Complete_name>\x0A                    <Format>Matroska</Format>\x0A                </track>\x0A                <track type=\"Video\">\x0A                    <Format>HEVC</Format>\x0A                    <Width>3 840 pixels</Width>\x0A                </track>\x0A            </File>\x0A        </Mediainfo>"
+child 184 "<File><track type=\"General\"><Complete_name>file.mkv</Complete_name><Format>Matroska</Format></track><track type=\"Video\"><Format>HEVC</Format><Width>3 840 pixels</Width></track></File>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

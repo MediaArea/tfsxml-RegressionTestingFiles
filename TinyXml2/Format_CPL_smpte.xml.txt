@@ -1,0 +1,179 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "CompositionPlaylist" line=2 ids=0,3,17,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,17,-1,-1,-1,-1,17,17,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/429-7/2006/CPL" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:11111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:11111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "AnnotationText" line=4 ids=2,6,6,3,7,01 closing=0 text="Test <CPL>" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "Test <CPL>" line=4 ids=5,-1,-1,-1,-1,11
+    element "IssueDate" line=5 ids=2,8,8,5,9,01 closing=0 text="2020-01-01T00:00:00+00:00" int=0,2020 unsigned=0,2020 int64=0,2020 bool=0,1 double=0,2020 float=0,2020 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "2020-01-01T00:00:00+00:00" line=5 ids=7,-1,-1,-1,-1,11
+    element "Issuer" line=6 ids=2,10,10,7,11,01 closing=0 text="Issuer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+      text "Issuer" line=6 ids=9,-1,-1,-1,-1,11
+    element "Creator" line=7 ids=2,12,12,9,13,01 closing=0 text="Creator" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+      text "Creator" line=7 ids=11,-1,-1,-1,-1,11
+    element "ContentTitleText" line=8 ids=2,14,14,11,15,01 closing=0 text="Title_FTR_F_EN-XX_US-R_51_2K_ST_20200101_SMPTE_OV" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,15,11,-1,-1,-1,-1
+  missing=1300
+      text "Title_FTR_F_EN-XX_US-R_51_2K_ST_20200101_SMPTE_OV" line=8 ids=13,-1,-1,-1,-1,11
+    element "ContentKind" line=9 ids=2,16,16,13,17,01 closing=0 text="feature" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,13,-1,-1,-1,-1
+  missing=1300
+      text "feature" line=9 ids=15,-1,-1,-1,-1,11
+    element "ReelList" line=10 ids=2,18,18,15,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=18,18,-1,15,-1,-1,18,18,-1,-1
+  missing=1300
+      element "Reel" line=11 ids=17,19,21,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=19,21,-1,-1,-1,-1,21,21,-1,-1
+  missing=1300
+        element "Id" line=12 ids=18,20,20,-1,21,01 closing=0 text="urn:uuid:21111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,21,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:21111111-2222-3333-4444-555555555555" line=12 ids=19,-1,-1,-1,-1,11
+        element "AssetList" line=13 ids=18,22,37,19,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=22,37,-1,19,-1,-1,37,37,-1,-1
+  missing=1300
+          element "MainPicture" line=14 ids=21,23,35,-1,37,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=23,35,37,-1,-1,-1,35,35,-1,-1
+  missing=1300
+            element "Id" line=15 ids=22,24,24,-1,25,01 closing=0 text="urn:uuid:31111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,25,-1,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:31111111-2222-3333-4444-555555555555" line=15 ids=23,-1,-1,-1,-1,11
+            element "EditRate" line=16 ids=22,26,26,23,27,01 closing=0 text="24 1" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,27,23,-1,-1,-1,-1
+  missing=1300
+              text "24 1" line=16 ids=25,-1,-1,-1,-1,11
+            element "IntrinsicDuration" line=16 ids=22,28,28,25,29,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,29,25,-1,-1,-1,-1
+  missing=1300
+              text "240" line=16 ids=27,-1,-1,-1,-1,11
+            element "EntryPoint" line=16 ids=22,30,30,27,31,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,31,27,-1,-1,-1,-1
+  missing=1300
+              text "0" line=16 ids=29,-1,-1,-1,-1,11
+            element "Duration" line=16 ids=22,32,32,29,33,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,33,29,-1,-1,-1,-1
+  missing=1300
+              text "240" line=16 ids=31,-1,-1,-1,-1,11
+            element "FrameRate" line=17 ids=22,34,34,31,35,01 closing=0 text="24 1" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,35,31,-1,-1,-1,-1
+  missing=1300
+              text "24 1" line=17 ids=33,-1,-1,-1,-1,11
+            element "ScreenAspectRatio" line=17 ids=22,36,36,33,-1,01 closing=0 text="1998 1080" int=0,1998 unsigned=0,1998 int64=0,1998 bool=0,1 double=0,1998 float=0,1998 nav=-1,-1,-1,33,-1,-1,-1,-1
+  missing=1300
+              text "1998 1080" line=17 ids=35,-1,-1,-1,-1,11
+          element "MainSound" line=19 ids=21,38,48,22,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=38,48,-1,22,-1,-1,48,48,-1,-1
+  missing=1300
+            element "Id" line=20 ids=37,39,39,-1,40,01 closing=0 text="urn:uuid:41111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,40,-1,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:41111111-2222-3333-4444-555555555555" line=20 ids=38,-1,-1,-1,-1,11
+            element "EditRate" line=21 ids=37,41,41,38,42,01 closing=0 text="24 1" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,42,38,-1,-1,-1,-1
+  missing=1300
+              text "24 1" line=21 ids=40,-1,-1,-1,-1,11
+            element "IntrinsicDuration" line=21 ids=37,43,43,40,44,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,44,40,-1,-1,-1,-1
+  missing=1300
+              text "240" line=21 ids=42,-1,-1,-1,-1,11
+            element "EntryPoint" line=21 ids=37,45,45,42,46,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,46,42,-1,-1,-1,-1
+  missing=1300
+              text "0" line=21 ids=44,-1,-1,-1,-1,11
+            element "Duration" line=21 ids=37,47,47,44,48,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,48,44,-1,-1,-1,-1
+  missing=1300
+              text "240" line=21 ids=46,-1,-1,-1,-1,11
+            element "Language" line=22 ids=37,49,49,46,-1,01 closing=0 text="en" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,46,-1,-1,-1,-1
+  missing=1300
+              text "en" line=22 ids=48,-1,-1,-1,-1,11
+root=2
+print 1504 fnv1a:0f2ef367f8d3f00b
+compact 1058 fnv1a:dc80c2ae6b74b96d
+root 1465 fnv1a:6ac6b80fba436250
+root_depth 1728 fnv1a:d2c26b542c0bf31a
+child 55 "<Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "CompositionPlaylist" line=2 ids=0,3,17,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,17,-1,-1,-1,-1,17,17,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/429-7/2006/CPL" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:11111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:11111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "AnnotationText" line=4 ids=2,6,6,3,7,01 closing=0 text="Test &lt;CPL&gt;" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "Test &lt;CPL&gt;" line=4 ids=5,-1,-1,-1,-1,11
+    element "IssueDate" line=5 ids=2,8,8,5,9,01 closing=0 text="2020-01-01T00:00:00+00:00" int=0,2020 unsigned=0,2020 int64=0,2020 bool=0,1 double=0,2020 float=0,2020 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "2020-01-01T00:00:00+00:00" line=5 ids=7,-1,-1,-1,-1,11
+    element "Issuer" line=6 ids=2,10,10,7,11,01 closing=0 text="Issuer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+      text "Issuer" line=6 ids=9,-1,-1,-1,-1,11
+    element "Creator" line=7 ids=2,12,12,9,13,01 closing=0 text="Creator" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+      text "Creator" line=7 ids=11,-1,-1,-1,-1,11
+    element "ContentTitleText" line=8 ids=2,14,14,11,15,01 closing=0 text="Title_FTR_F_EN-XX_US-R_51_2K_ST_20200101_SMPTE_OV" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,15,11,-1,-1,-1,-1
+  missing=1300
+      text "Title_FTR_F_EN-XX_US-R_51_2K_ST_20200101_SMPTE_OV" line=8 ids=13,-1,-1,-1,-1,11
+    element "ContentKind" line=9 ids=2,16,16,13,17,01 closing=0 text="feature" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,13,-1,-1,-1,-1
+  missing=1300
+      text "feature" line=9 ids=15,-1,-1,-1,-1,11
+    element "ReelList" line=10 ids=2,18,18,15,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=18,18,-1,15,-1,-1,18,18,-1,-1
+  missing=1300
+      element "Reel" line=11 ids=17,19,21,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=19,21,-1,-1,-1,-1,21,21,-1,-1
+  missing=1300
+        element "Id" line=12 ids=18,20,20,-1,21,01 closing=0 text="urn:uuid:21111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,21,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:21111111-2222-3333-4444-555555555555" line=12 ids=19,-1,-1,-1,-1,11
+        element "AssetList" line=13 ids=18,22,37,19,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=22,37,-1,19,-1,-1,37,37,-1,-1
+  missing=1300
+          element "MainPicture" line=14 ids=21,23,35,-1,37,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=23,35,37,-1,-1,-1,35,35,-1,-1
+  missing=1300
+            element "Id" line=15 ids=22,24,24,-1,25,01 closing=0 text="urn:uuid:31111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,25,-1,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:31111111-2222-3333-4444-555555555555" line=15 ids=23,-1,-1,-1,-1,11
+            element "EditRate" line=16 ids=22,26,26,23,27,01 closing=0 text="24 1" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,27,23,-1,-1,-1,-1
+  missing=1300
+              text "24 1" line=16 ids=25,-1,-1,-1,-1,11
+            element "IntrinsicDuration" line=16 ids=22,28,28,25,29,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,29,25,-1,-1,-1,-1
+  missing=1300
+              text "240" line=16 ids=27,-1,-1,-1,-1,11
+            element "EntryPoint" line=16 ids=22,30,30,27,31,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,31,27,-1,-1,-1,-1
+  missing=1300
+              text "0" line=16 ids=29,-1,-1,-1,-1,11
+            element "Duration" line=16 ids=22,32,32,29,33,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,33,29,-1,-1,-1,-1
+  missing=1300
+              text "240" line=16 ids=31,-1,-1,-1,-1,11
+            element "FrameRate" line=17 ids=22,34,34,31,35,01 closing=0 text="24 1" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,35,31,-1,-1,-1,-1
+  missing=1300
+              text "24 1" line=17 ids=33,-1,-1,-1,-1,11
+            element "ScreenAspectRatio" line=17 ids=22,36,36,33,-1,01 closing=0 text="1998 1080" int=0,1998 unsigned=0,1998 int64=0,1998 bool=0,1 double=0,1998 float=0,1998 nav=-1,-1,-1,33,-1,-1,-1,-1
+  missing=1300
+              text "1998 1080" line=17 ids=35,-1,-1,-1,-1,11
+          element "MainSound" line=19 ids=21,38,48,22,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=38,48,-1,22,-1,-1,48,48,-1,-1
+  missing=1300
+            element "Id" line=20 ids=37,39,39,-1,40,01 closing=0 text="urn:uuid:41111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,40,-1,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:41111111-2222-3333-4444-555555555555" line=20 ids=38,-1,-1,-1,-1,11
+            element "EditRate" line=21 ids=37,41,41,38,42,01 closing=0 text="24 1" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,42,38,-1,-1,-1,-1
+  missing=1300
+              text "24 1" line=21 ids=40,-1,-1,-1,-1,11
+            element "IntrinsicDuration" line=21 ids=37,43,43,40,44,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,44,40,-1,-1,-1,-1
+  missing=1300
+              text "240" line=21 ids=42,-1,-1,-1,-1,11
+            element "EntryPoint" line=21 ids=37,45,45,42,46,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,46,42,-1,-1,-1,-1
+  missing=1300
+              text "0" line=21 ids=44,-1,-1,-1,-1,11
+            element "Duration" line=21 ids=37,47,47,44,48,01 closing=0 text="240" int=0,240 unsigned=0,240 int64=0,240 bool=0,1 double=0,240 float=0,240 nav=-1,-1,48,44,-1,-1,-1,-1
+  missing=1300
+              text "240" line=21 ids=46,-1,-1,-1,-1,11
+            element "Language" line=22 ids=37,49,49,46,-1,01 closing=0 text="en" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,46,-1,-1,-1,-1
+  missing=1300
+              text "en" line=22 ids=48,-1,-1,-1,-1,11
+root=2
+print 1131 fnv1a:f1cf78c59f14724e
+compact 685 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><CompositionPlaylist xmlns=\"\"><Id></Id><AnnotationText></AnnotationText><IssueDate></IssueDate><Issuer></Issuer><Creator></Creator><ContentTitleText></ContentTitleText><ContentKind></ContentKind><ReelList><Reel><Id></Id><AssetList><MainPicture><Id></Id><EditRate></EditRate><IntrinsicDuration></IntrinsicDuration><EntryPoint></EntryPoint><Duration></Duration><FrameRate></FrameRate><ScreenAspectRatio></ScreenAspectRatio></MainPicture><MainSound><Id></Id><EditRate></EditRate><IntrinsicDuration></IntrinsicDuration><EntryPoint></EntryPoint><Duration></Duration><Language></Language></MainSound></AssetList></Reel></ReelList></CompositionPlaylist>"
+root 1473 fnv1a:43a82d6488a6a75e
+root_depth 1736 fnv1a:6ee053fc88a155c0
+child 55 "<Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

@@ -1,0 +1,29 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,1,-1,-1,01
+  element "r" line=1 ids=0,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"a"="<>&\"'" line=1 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+root=1
+print 36 "<r a=\"&lt;&gt;&amp;&quot;&apos;\"/>\x0A"
+compact 35 "<r a=\"&lt;&gt;&amp;&quot;&apos;\"/>"
+root 36 "<r a=\"&lt;&gt;&amp;&quot;&apos;\"/>\x0A"
+root_depth 43 "        <r a=\"&lt;&gt;&amp;&quot;&apos;\"/>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,1,-1,-1,01
+  element "r" line=1 ids=0,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"a"="<>&amp;&quot;'" line=1 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+root=1
+print 11 "<r a=\"\"/>\x0A"
+compact 10 "<r a=\"\"/>"
+root 44 "<r a=\"&lt;&gt;&amp;amp;&amp;quot;&apos;\"/>\x0A"
+root_depth 51 "        <r a=\"&lt;&gt;&amp;amp;&amp;quot;&apos;\"/>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

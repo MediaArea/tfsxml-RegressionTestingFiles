@@ -1,0 +1,135 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"" line=1 ids=0,-1,-1,-1,2,11
+  element "CompositionPlaylist" line=2 ids=0,3,9,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,9,-1,-1,-1,-1,9,9,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/2067-3/2016" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:cc"="http://www.smpte-ra.org/schemas/2067-2/2016" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:51111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:51111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "ContentTitle" line=4 ids=2,6,6,3,7,01 closing=0 text="IMF title" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "IMF title" line=4 ids=5,-1,-1,-1,-1,11
+    element "EditRate" line=5 ids=2,8,8,5,9,01 closing=0 text="24000 1001" int=0,24000 unsigned=0,24000 int64=0,24000 bool=0,1 double=0,24000 float=0,24000 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "24000 1001" line=5 ids=7,-1,-1,-1,-1,11
+    element "SegmentList" line=6 ids=2,10,10,7,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,10,-1,7,-1,-1,10,10,-1,-1
+  missing=1300
+      element "Segment" line=6 ids=9,11,13,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=11,13,-1,-1,-1,-1,13,13,-1,-1
+  missing=1300
+        element "Id" line=6 ids=10,12,12,-1,13,01 closing=0 text="urn:uuid:61111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:61111111-2222-3333-4444-555555555555" line=6 ids=11,-1,-1,-1,-1,11
+        element "SequenceList" line=6 ids=10,14,14,11,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=14,14,-1,11,-1,-1,14,14,-1,-1
+  missing=1300
+          element "cc:MainImageSequence" line=7 ids=13,15,19,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,19,-1,-1,-1,-1,19,19,-1,-1
+  missing=1300
+            element "Id" line=7 ids=14,16,16,-1,17,01 closing=0 text="urn:uuid:71111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,-1,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:71111111-2222-3333-4444-555555555555" line=7 ids=15,-1,-1,-1,-1,11
+            element "TrackId" line=7 ids=14,18,18,15,19,01 closing=0 text="urn:uuid:81111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:81111111-2222-3333-4444-555555555555" line=7 ids=17,-1,-1,-1,-1,11
+            element "ResourceList" line=8 ids=14,20,20,17,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=20,20,-1,17,-1,-1,20,20,-1,-1
+  missing=1300
+              element "Resource" line=8 ids=19,21,31,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=21,31,-1,-1,-1,-1,31,31,-1,-1
+  @"xmlns:xsi"="http://www.w3.org/2001/XMLSchema-instance" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xsi:type"="TrackFileResourceType" line=8 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+                element "Id" line=8 ids=20,22,22,-1,23,01 closing=0 text="urn:uuid:91111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,23,-1,-1,-1,-1,-1
+  missing=1300
+                  text "urn:uuid:91111111-2222-3333-4444-555555555555" line=8 ids=21,-1,-1,-1,-1,11
+                element "EditRate" line=8 ids=20,24,24,21,25,01 closing=0 text="24000 1001" int=0,24000 unsigned=0,24000 int64=0,24000 bool=0,1 double=0,24000 float=0,24000 nav=-1,-1,25,21,-1,-1,-1,-1
+  missing=1300
+                  text "24000 1001" line=8 ids=23,-1,-1,-1,-1,11
+                element "IntrinsicDuration" line=8 ids=20,26,26,23,27,01 closing=0 text="100" int=0,100 unsigned=0,100 int64=0,100 bool=0,1 double=0,100 float=0,100 nav=-1,-1,27,23,-1,-1,-1,-1
+  missing=1300
+                  text "100" line=8 ids=25,-1,-1,-1,-1,11
+                element "EntryPoint" line=8 ids=20,28,28,25,29,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,29,25,-1,-1,-1,-1
+  missing=1300
+                  text "0" line=8 ids=27,-1,-1,-1,-1,11
+                element "SourceDuration" line=8 ids=20,30,30,27,31,01 closing=0 text="100" int=0,100 unsigned=0,100 int64=0,100 bool=0,1 double=0,100 float=0,100 nav=-1,-1,31,27,-1,-1,-1,-1
+  missing=1300
+                  text "100" line=8 ids=29,-1,-1,-1,-1,11
+                element "TrackFileId" line=8 ids=20,32,32,29,-1,01 closing=0 text="urn:uuid:a1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,29,-1,-1,-1,-1
+  missing=1300
+                  text "urn:uuid:a1111111-2222-3333-4444-555555555555" line=8 ids=31,-1,-1,-1,-1,11
+root=2
+print 1445 fnv1a:a4f7bd1a127ca176
+compact 1018 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><CompositionPlaylist xmlns=\"http://www.smpte-ra.org/schemas/2067-3/2016\" xmlns:cc=\"http://www.smpte-ra.org/schemas/2067-2/2016\"><Id>urn:uuid:51111111-2222-3333-4444-555555555555</Id><ContentTitle>IMF title</ContentTitle><EditRate>24000 1001</EditRate><SegmentList><Segment><Id>urn:uuid:61111111-2222-3333-4444-555555555555</Id><SequenceList><cc:MainImageSequence><Id>urn:uuid:71111111-2222-3333-4444-555555555555</Id><TrackId>urn:uuid:81111111-2222-3333-4444-555555555555</TrackId><ResourceList><Resource xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"TrackFileResourceType\"><Id>urn:uuid:91111111-2222-3333-4444-555555555555</Id><EditRate>24000 1001</EditRate><IntrinsicDuration>100</IntrinsicDuration><EntryPoint>0</EntryPoint><SourceDuration>100</SourceDuration><TrackFileId>urn:uuid:a1111111-2222-3333-4444-555555555555</TrackFileId></Resource></ResourceList></cc:MainImageSequence></SequenceList></Segment></SegmentList></CompositionPlaylist>"
+root 1390 fnv1a:269f7646d64336f4
+root_depth 1597 fnv1a:49a7242d81d24dd6
+child 55 "<Id>urn:uuid:51111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"" line=1 ids=0,-1,-1,-1,2,11
+  element "CompositionPlaylist" line=2 ids=0,3,9,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,9,-1,-1,-1,-1,9,9,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/2067-3/2016" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:cc"="http://www.smpte-ra.org/schemas/2067-2/2016" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:51111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:51111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "ContentTitle" line=4 ids=2,6,6,3,7,01 closing=0 text="IMF title" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "IMF title" line=4 ids=5,-1,-1,-1,-1,11
+    element "EditRate" line=5 ids=2,8,8,5,9,01 closing=0 text="24000 1001" int=0,24000 unsigned=0,24000 int64=0,24000 bool=0,1 double=0,24000 float=0,24000 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "24000 1001" line=5 ids=7,-1,-1,-1,-1,11
+    element "SegmentList" line=6 ids=2,10,10,7,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,10,-1,7,-1,-1,10,10,-1,-1
+  missing=1300
+      element "Segment" line=6 ids=9,11,13,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=11,13,-1,-1,-1,-1,13,13,-1,-1
+  missing=1300
+        element "Id" line=6 ids=10,12,12,-1,13,01 closing=0 text="urn:uuid:61111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:61111111-2222-3333-4444-555555555555" line=6 ids=11,-1,-1,-1,-1,11
+        element "SequenceList" line=6 ids=10,14,14,11,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=14,14,-1,11,-1,-1,14,14,-1,-1
+  missing=1300
+          element "cc:MainImageSequence" line=7 ids=13,15,19,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,19,-1,-1,-1,-1,19,19,-1,-1
+  missing=1300
+            element "Id" line=7 ids=14,16,16,-1,17,01 closing=0 text="urn:uuid:71111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,-1,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:71111111-2222-3333-4444-555555555555" line=7 ids=15,-1,-1,-1,-1,11
+            element "TrackId" line=7 ids=14,18,18,15,19,01 closing=0 text="urn:uuid:81111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+              text "urn:uuid:81111111-2222-3333-4444-555555555555" line=7 ids=17,-1,-1,-1,-1,11
+            element "ResourceList" line=8 ids=14,20,20,17,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=20,20,-1,17,-1,-1,20,20,-1,-1
+  missing=1300
+              element "Resource" line=8 ids=19,21,31,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=21,31,-1,-1,-1,-1,31,31,-1,-1
+  @"xmlns:xsi"="http://www.w3.org/2001/XMLSchema-instance" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xsi:type"="TrackFileResourceType" line=8 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+                element "Id" line=8 ids=20,22,22,-1,23,01 closing=0 text="urn:uuid:91111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,23,-1,-1,-1,-1,-1
+  missing=1300
+                  text "urn:uuid:91111111-2222-3333-4444-555555555555" line=8 ids=21,-1,-1,-1,-1,11
+                element "EditRate" line=8 ids=20,24,24,21,25,01 closing=0 text="24000 1001" int=0,24000 unsigned=0,24000 int64=0,24000 bool=0,1 double=0,24000 float=0,24000 nav=-1,-1,25,21,-1,-1,-1,-1
+  missing=1300
+                  text "24000 1001" line=8 ids=23,-1,-1,-1,-1,11
+                element "IntrinsicDuration" line=8 ids=20,26,26,23,27,01 closing=0 text="100" int=0,100 unsigned=0,100 int64=0,100 bool=0,1 double=0,100 float=0,100 nav=-1,-1,27,23,-1,-1,-1,-1
+  missing=1300
+                  text "100" line=8 ids=25,-1,-1,-1,-1,11
+                element "EntryPoint" line=8 ids=20,28,28,25,29,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,29,25,-1,-1,-1,-1
+  missing=1300
+                  text "0" line=8 ids=27,-1,-1,-1,-1,11
+                element "SourceDuration" line=8 ids=20,30,30,27,31,01 closing=0 text="100" int=0,100 unsigned=0,100 int64=0,100 bool=0,1 double=0,100 float=0,100 nav=-1,-1,31,27,-1,-1,-1,-1
+  missing=1300
+                  text "100" line=8 ids=29,-1,-1,-1,-1,11
+                element "TrackFileId" line=8 ids=20,32,32,29,-1,01 closing=0 text="urn:uuid:a1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,29,-1,-1,-1,-1
+  missing=1300
+                  text "urn:uuid:a1111111-2222-3333-4444-555555555555" line=8 ids=31,-1,-1,-1,-1,11
+root=2
+print 991 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\x0A<CompositionPlaylist xmlns=\"\" xmlns:cc=\"\">\x0A    <Id></Id>\x0A    <ContentTitle></ContentTitle>\x0A    <EditRate></EditRate>\x0A    <SegmentList>\x0A        <Segment>\x0A            <Id></Id>\x0A            <SequenceList>\x0A                <cc:MainImageSequence>\x0A                    <Id></Id>\x0A                    <TrackId></TrackId>\x0A                    <ResourceList>\x0A                        <Resource xmlns:xsi=\"\" xsi:type=\"\">\x0A                            <Id></Id>\x0A                            <EditRate></EditRate>\x0A                            <IntrinsicDuration></IntrinsicDuration>\x0A                            <EntryPoint></EntryPoint>\x0A                            <SourceDuration></SourceDuration>\x0A                            <TrackFileId></TrackFileId>\x0A                        </Resource>\x0A                    </ResourceList>\x0A                </cc:MainImageSequence>\x0A            </SequenceList>\x0A        </Segment>\x0A    </SegmentList>\x0A</CompositionPlaylist>\x0A"
+compact 564 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><CompositionPlaylist xmlns=\"\" xmlns:cc=\"\"><Id></Id><ContentTitle></ContentTitle><EditRate></EditRate><SegmentList><Segment><Id></Id><SequenceList><cc:MainImageSequence><Id></Id><TrackId></TrackId><ResourceList><Resource xmlns:xsi=\"\" xsi:type=\"\"><Id></Id><EditRate></EditRate><IntrinsicDuration></IntrinsicDuration><EntryPoint></EntryPoint><SourceDuration></SourceDuration><TrackFileId></TrackFileId></Resource></ResourceList></cc:MainImageSequence></SequenceList></Segment></SegmentList></CompositionPlaylist>"
+root 1390 fnv1a:269f7646d64336f4
+root_depth 1597 fnv1a:49a7242d81d24dd6
+child 55 "<Id>urn:uuid:51111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

@@ -6,6 +6,10 @@ Streamable XML parser.
 - `Files`: XML files with their expected traces (`NAME.xml.txt`), for the
   `RegressionTest` tool of tfsxml and as seed corpus for fuzzing, see
   [Files/ReadMe.txt](Files/ReadMe.txt) for the content.
+- `TinyXml2`: XML files with the expected results of the tinyxml2
+  compatibility layer of tfsxml (`NAME.xml.txt`), for the
+  `RegressionTest_TinyXml2` tool and as seed corpus for its fuzzing, see
+  [TinyXml2/ReadMe.txt](TinyXml2/ReadMe.txt).
 
 All the files were written for the test suite, they contain no third-party
 content and are dedicated to the public domain (CC0 1.0).
@@ -27,7 +31,8 @@ autotools build).
 Files are compared byte per byte, line endings included (see `.gitattributes`).
 
 After adding a test file, generate its expected trace with
-`RegressionTest --update` and check it by reading it, see the
+`RegressionTest --update` (`RegressionTest_TinyXml2 --update` in `TinyXml2`)
+and check it by reading it, see the
 [regression test protocol](https://github.com/MediaArea/tfsxml/blob/main/Source/Doc/RegressionTest.md).
 
 A change of the behavior of tfsxml comes with updated expected traces here, in

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebuCoreMain xmlns="urn:ebu:metadata-schema:ebuCore_2016" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <coreMetadata><format><audioFormatExtended version="ITU-R_BS.2076-2">
+    <audioProgramme audioProgrammeID="APR_1001" audioProgrammeName="Main"><audioContentIDRef>ACO_1001</audioContentIDRef></audioProgramme>
+    <audioContent audioContentID="ACO_1001" audioContentName="Bed"><audioObjectIDRef>AO_1001</audioObjectIDRef></audioContent>
+    <audioObject audioObjectID="AO_1001" audioObjectName="Stereo"><audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef><audioTrackUIDRef>ATU_00000001</audioTrackUIDRef><audioTrackUIDRef>ATU_00000002</audioTrackUIDRef></audioObject>
+    <audioTrackUID UID="ATU_00000001" sampleRate="48000" bitDepth="24"/>
+    <audioTrackUID UID="ATU_00000002" sampleRate="48000" bitDepth="24"/>
+  </audioFormatExtended></format></coreMetadata>
+</ebuCoreMain>

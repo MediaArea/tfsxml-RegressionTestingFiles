@@ -1,0 +1,29 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,1,-1,-1,01
+  element "r" line=1 ids=0,2,2,-1,-1,01 closing=0 text="&#X41;\xF4\x90\x80\x80\xF7\xBF\xBF\xBF\xED\xA0\x80" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+    text "&#X41;\xF4\x90\x80\x80\xF7\xBF\xBF\xBF\xED\xA0\x80" line=1 ids=1,-1,-1,-1,-1,11
+root=1
+print 30 "<r>&amp;#X41;\xF4\x90\x80\x80\xF7\xBF\xBF\xBF\xED\xA0\x80</r>\x0A"
+compact 29 "<r>&amp;#X41;\xF4\x90\x80\x80\xF7\xBF\xBF\xBF\xED\xA0\x80</r>"
+root 30 "<r>&amp;#X41;\xF4\x90\x80\x80\xF7\xBF\xBF\xBF\xED\xA0\x80</r>\x0A"
+root_depth 37 "        <r>&amp;#X41;\xF4\x90\x80\x80\xF7\xBF\xBF\xBF\xED\xA0\x80</r>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,1,-1,-1,01
+  element "r" line=1 ids=0,2,2,-1,-1,01 closing=0 text="&#X41;&#x110000;&#x1FFFFF;&#x200000;&#xD800;" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+    text "&#X41;&#x110000;&#x1FFFFF;&#x200000;&#xD800;" line=1 ids=1,-1,-1,-1,-1,11
+root=1
+print 9 "<r></r>\x0A"
+compact 8 "<r></r>"
+root 73 "<r>&amp;#X41;&amp;#x110000;&amp;#x1FFFFF;&amp;#x200000;&amp;#xD800;</r>\x0A"
+root_depth 80 "        <r>&amp;#X41;&amp;#x110000;&amp;#x1FFFFF;&amp;#x200000;&amp;#xD800;</r>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

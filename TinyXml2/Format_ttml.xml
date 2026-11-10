@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="en" ttp:frameRate="25" ttp:timeBase="media">
+  <head>
+    <styling><style xml:id="s1" tts:color="white" tts:fontSize="80%"/></styling>
+    <layout><region xml:id="bottom" tts:origin="10% 80%" tts:extent="80% 20%"/></layout>
+  </head>
+  <body>
+    <div>
+      <p begin="00:00:01.000" end="00:00:02.500" region="bottom" style="s1">Hello <span tts:color="red">world</span><br/>second &amp; line &#233;</p>
+      <p begin="00:00:03.000" end="00:00:04.000"><![CDATA[CDATA <text>]]> after</p>
+      <p begin="00:00:05:10" end="00:00:06:00">  spaces   kept  </p>
+    </div>
+  </body>
+</tt>

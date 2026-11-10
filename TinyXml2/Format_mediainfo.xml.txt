@@ -1,0 +1,173 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "MediaInfo" line=2 ids=0,3,5,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,5,-1,-1,-1,-1,5,5,-1,-1
+  @"xmlns"="https://mediaarea.net/mediainfo" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:xsi"="http://www.w3.org/2001/XMLSchema-instance" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"version"="2.0" line=2 values=2,2,2,1,2,2 find=2 attr=110 query=0,2,01,2,1
+  missing=1300
+    element "creatingLibrary" line=3 ids=2,4,4,-1,5,01 closing=0 text="MediaInfoLib" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  @"version"="24.12" line=3 values=24,24,24,1,24.120000000000001,24.1200008 find=0 attr=110 query=0,24,01,24,1
+  @"url"="https://mediaarea.net/MediaInfo" line=3 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+      text "MediaInfoLib" line=3 ids=3,-1,-1,-1,-1,11
+    element "media" line=4 ids=2,6,34,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,34,-1,3,-1,-1,6,34,-1,-1
+  @"ref"="file.mp4" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+      element "track" line=5 ids=5,7,19,-1,21,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,19,21,-1,21,-1,19,19,-1,-1
+  @"type"="General" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "VideoCount" line=6 ids=6,8,8,-1,9,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,9,-1,-1,-1,-1,-1
+  missing=1300
+          text "1" line=6 ids=7,-1,-1,-1,-1,11
+        element "AudioCount" line=7 ids=6,10,10,7,11,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+          text "1" line=7 ids=9,-1,-1,-1,-1,11
+        element "FileExtension" line=8 ids=6,12,12,9,13,01 closing=0 text="mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+          text "mp4" line=8 ids=11,-1,-1,-1,-1,11
+        element "Format" line=9 ids=6,14,14,11,15,01 closing=0 text="MPEG-4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,15,11,-1,-1,-1,-1
+  missing=1300
+          text "MPEG-4" line=9 ids=13,-1,-1,-1,-1,11
+        element "FileSize" line=10 ids=6,16,16,13,17,01 closing=0 text="1000000" int=0,1000000 unsigned=0,1000000 int64=0,1000000 bool=0,1 double=0,1000000 float=0,1000000 nav=-1,-1,17,13,-1,-1,-1,-1
+  missing=1300
+          text "1000000" line=10 ids=15,-1,-1,-1,-1,11
+        element "Duration" line=11 ids=6,18,18,15,19,01 closing=0 text="10.000" int=0,10 unsigned=0,10 int64=0,10 bool=0,1 double=0,10 float=0,10 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+          text "10.000" line=11 ids=17,-1,-1,-1,-1,11
+        element "Title" line=12 ids=6,20,20,17,-1,01 closing=0 text="Title & more" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,17,-1,-1,-1,-1
+  missing=1300
+          text "Title & more" line=12 ids=19,-1,-1,-1,-1,11
+      element "track" line=14 ids=5,22,32,6,34,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=22,32,34,6,34,6,32,32,-1,-1
+  @"type"="Video" line=14 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "StreamOrder" line=15 ids=21,23,23,-1,24,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,24,-1,-1,-1,-1,-1
+  missing=1300
+          text "0" line=15 ids=22,-1,-1,-1,-1,11
+        element "ID" line=16 ids=21,25,25,22,26,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,26,22,-1,-1,-1,-1
+  missing=1300
+          text "1" line=16 ids=24,-1,-1,-1,-1,11
+        element "Format" line=17 ids=21,27,27,24,28,01 closing=0 text="AVC" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,28,24,-1,-1,-1,-1
+  missing=1300
+          text "AVC" line=17 ids=26,-1,-1,-1,-1,11
+        element "Width" line=18 ids=21,29,29,26,30,01 closing=0 text="1920" int=0,1920 unsigned=0,1920 int64=0,1920 bool=0,1 double=0,1920 float=0,1920 nav=-1,-1,30,26,-1,-1,-1,-1
+  missing=1300
+          text "1920" line=18 ids=28,-1,-1,-1,-1,11
+        element "Height" line=19 ids=21,31,31,28,32,01 closing=0 text="1080" int=0,1080 unsigned=0,1080 int64=0,1080 bool=0,1 double=0,1080 float=0,1080 nav=-1,-1,32,28,-1,-1,-1,-1
+  missing=1300
+          text "1080" line=19 ids=30,-1,-1,-1,-1,11
+        element "FrameRate" line=20 ids=21,33,33,30,-1,01 closing=0 text="25.000" int=0,25 unsigned=0,25 int64=0,25 bool=0,1 double=0,25 float=0,25 nav=-1,-1,-1,30,-1,-1,-1,-1
+  missing=1300
+          text "25.000" line=20 ids=32,-1,-1,-1,-1,11
+      element "track" line=22 ids=5,35,41,21,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=35,41,-1,21,-1,21,41,41,-1,-1
+  @"type"="Audio" line=22 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Format" line=23 ids=34,36,36,-1,37,01 closing=0 text="AAC" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,37,-1,-1,-1,-1,-1
+  missing=1300
+          text "AAC" line=23 ids=35,-1,-1,-1,-1,11
+        element "Channels" line=24 ids=34,38,38,35,39,01 closing=0 text="2" int=0,2 unsigned=0,2 int64=0,2 bool=0,1 double=0,2 float=0,2 nav=-1,-1,39,35,-1,-1,-1,-1
+  missing=1300
+          text "2" line=24 ids=37,-1,-1,-1,-1,11
+        element "SamplingRate" line=25 ids=34,40,40,37,41,01 closing=0 text="48000" int=0,48000 unsigned=0,48000 int64=0,48000 bool=0,1 double=0,48000 float=0,48000 nav=-1,-1,41,37,-1,-1,-1,-1
+  missing=1300
+          text "48000" line=25 ids=39,-1,-1,-1,-1,11
+        element "Language" line=26 ids=34,42,42,39,-1,01 closing=0 text="en" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,39,-1,-1,-1,-1
+  missing=1300
+          text "en" line=26 ids=41,-1,-1,-1,-1,11
+root=2
+print 1101 fnv1a:fe51309eccf0f3c4
+compact 808 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><MediaInfo xmlns=\"https://mediaarea.net/mediainfo\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" version=\"2.0\"><creatingLibrary version=\"24.12\" url=\"https://mediaarea.net/MediaInfo\">MediaInfoLib</creatingLibrary><media ref=\"file.mp4\"><track type=\"General\"><VideoCount>1</VideoCount><AudioCount>1</AudioCount><FileExtension>mp4</FileExtension><Format>MPEG-4</Format><FileSize>1000000</FileSize><Duration>10.000</Duration><Title>Title &amp; more</Title></track><track type=\"Video\"><StreamOrder>0</StreamOrder><ID>1</ID><Format>AVC</Format><Width>1920</Width><Height>1080</Height><FrameRate>25.000</FrameRate></track><track type=\"Audio\"><Format>AAC</Format><Channels>2</Channels><SamplingRate>48000</SamplingRate><Language>en</Language></track></media></MediaInfo>"
+root 1062 fnv1a:ffa5f2d7edfe2049
+root_depth 1285 fnv1a:dbe8810ddc4a06b9
+child 102 "<creatingLibrary version=\"24.12\" url=\"https://mediaarea.net/MediaInfo\">MediaInfoLib</creatingLibrary>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "MediaInfo" line=2 ids=0,3,5,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,5,-1,-1,-1,-1,5,5,-1,-1
+  @"xmlns"="https://mediaarea.net/mediainfo" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:xsi"="http://www.w3.org/2001/XMLSchema-instance" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"version"="2.0" line=2 values=2,2,2,1,2,2 find=2 attr=110 query=0,2,01,2,1
+  missing=1300
+    element "creatingLibrary" line=3 ids=2,4,4,-1,5,01 closing=0 text="MediaInfoLib" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  @"version"="24.12" line=3 values=24,24,24,1,24.120000000000001,24.1200008 find=0 attr=110 query=0,24,01,24,1
+  @"url"="https://mediaarea.net/MediaInfo" line=3 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+      text "MediaInfoLib" line=3 ids=3,-1,-1,-1,-1,11
+    element "media" line=4 ids=2,6,34,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,34,-1,3,-1,-1,6,34,-1,-1
+  @"ref"="file.mp4" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+      element "track" line=5 ids=5,7,19,-1,21,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,19,21,-1,21,-1,19,19,-1,-1
+  @"type"="General" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "VideoCount" line=6 ids=6,8,8,-1,9,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,9,-1,-1,-1,-1,-1
+  missing=1300
+          text "1" line=6 ids=7,-1,-1,-1,-1,11
+        element "AudioCount" line=7 ids=6,10,10,7,11,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+          text "1" line=7 ids=9,-1,-1,-1,-1,11
+        element "FileExtension" line=8 ids=6,12,12,9,13,01 closing=0 text="mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+          text "mp4" line=8 ids=11,-1,-1,-1,-1,11
+        element "Format" line=9 ids=6,14,14,11,15,01 closing=0 text="MPEG-4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,15,11,-1,-1,-1,-1
+  missing=1300
+          text "MPEG-4" line=9 ids=13,-1,-1,-1,-1,11
+        element "FileSize" line=10 ids=6,16,16,13,17,01 closing=0 text="1000000" int=0,1000000 unsigned=0,1000000 int64=0,1000000 bool=0,1 double=0,1000000 float=0,1000000 nav=-1,-1,17,13,-1,-1,-1,-1
+  missing=1300
+          text "1000000" line=10 ids=15,-1,-1,-1,-1,11
+        element "Duration" line=11 ids=6,18,18,15,19,01 closing=0 text="10.000" int=0,10 unsigned=0,10 int64=0,10 bool=0,1 double=0,10 float=0,10 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+          text "10.000" line=11 ids=17,-1,-1,-1,-1,11
+        element "Title" line=12 ids=6,20,20,17,-1,01 closing=0 text="Title &amp; more" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,17,-1,-1,-1,-1
+  missing=1300
+          text "Title &amp; more" line=12 ids=19,-1,-1,-1,-1,11
+      element "track" line=14 ids=5,22,32,6,34,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=22,32,34,6,34,6,32,32,-1,-1
+  @"type"="Video" line=14 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "StreamOrder" line=15 ids=21,23,23,-1,24,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,24,-1,-1,-1,-1,-1
+  missing=1300
+          text "0" line=15 ids=22,-1,-1,-1,-1,11
+        element "ID" line=16 ids=21,25,25,22,26,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,26,22,-1,-1,-1,-1
+  missing=1300
+          text "1" line=16 ids=24,-1,-1,-1,-1,11
+        element "Format" line=17 ids=21,27,27,24,28,01 closing=0 text="AVC" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,28,24,-1,-1,-1,-1
+  missing=1300
+          text "AVC" line=17 ids=26,-1,-1,-1,-1,11
+        element "Width" line=18 ids=21,29,29,26,30,01 closing=0 text="1920" int=0,1920 unsigned=0,1920 int64=0,1920 bool=0,1 double=0,1920 float=0,1920 nav=-1,-1,30,26,-1,-1,-1,-1
+  missing=1300
+          text "1920" line=18 ids=28,-1,-1,-1,-1,11
+        element "Height" line=19 ids=21,31,31,28,32,01 closing=0 text="1080" int=0,1080 unsigned=0,1080 int64=0,1080 bool=0,1 double=0,1080 float=0,1080 nav=-1,-1,32,28,-1,-1,-1,-1
+  missing=1300
+          text "1080" line=19 ids=30,-1,-1,-1,-1,11
+        element "FrameRate" line=20 ids=21,33,33,30,-1,01 closing=0 text="25.000" int=0,25 unsigned=0,25 int64=0,25 bool=0,1 double=0,25 float=0,25 nav=-1,-1,-1,30,-1,-1,-1,-1
+  missing=1300
+          text "25.000" line=20 ids=32,-1,-1,-1,-1,11
+      element "track" line=22 ids=5,35,41,21,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=35,41,-1,21,-1,21,41,41,-1,-1
+  @"type"="Audio" line=22 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Format" line=23 ids=34,36,36,-1,37,01 closing=0 text="AAC" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,37,-1,-1,-1,-1,-1
+  missing=1300
+          text "AAC" line=23 ids=35,-1,-1,-1,-1,11
+        element "Channels" line=24 ids=34,38,38,35,39,01 closing=0 text="2" int=0,2 unsigned=0,2 int64=0,2 bool=0,1 double=0,2 float=0,2 nav=-1,-1,39,35,-1,-1,-1,-1
+  missing=1300
+          text "2" line=24 ids=37,-1,-1,-1,-1,11
+        element "SamplingRate" line=25 ids=34,40,40,37,41,01 closing=0 text="48000" int=0,48000 unsigned=0,48000 int64=0,48000 bool=0,1 double=0,48000 float=0,48000 nav=-1,-1,41,37,-1,-1,-1,-1
+  missing=1300
+          text "48000" line=25 ids=39,-1,-1,-1,-1,11
+        element "Language" line=26 ids=34,42,42,39,-1,01 closing=0 text="en" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,39,-1,-1,-1,-1
+  missing=1300
+          text "en" line=26 ids=41,-1,-1,-1,-1,11
+root=2
+print 883 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<MediaInfo xmlns=\"\" xmlns:xsi=\"\" version=\"\">\x0A    <creatingLibrary version=\"\" url=\"\"></creatingLibrary>\x0A    <media ref=\"\">\x0A        <track type=\"\">\x0A            <VideoCount></VideoCount>\x0A            <AudioCount></AudioCount>\x0A            <FileExtension></FileExtension>\x0A            <Format></Format>\x0A            <FileSize></FileSize>\x0A            <Duration></Duration>\x0A            <Title></Title>\x0A        </track>\x0A        <track type=\"\">\x0A            <StreamOrder></StreamOrder>\x0A            <ID></ID>\x0A            <Format></Format>\x0A            <Width></Width>\x0A            <Height></Height>\x0A            <FrameRate></FrameRate>\x0A        </track>\x0A        <track type=\"\">\x0A            <Format></Format>\x0A            <Channels></Channels>\x0A            <SamplingRate></SamplingRate>\x0A            <Language></Language>\x0A        </track>\x0A    </media>\x0A</MediaInfo>\x0A"
+compact 590 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><MediaInfo xmlns=\"\" xmlns:xsi=\"\" version=\"\"><creatingLibrary version=\"\" url=\"\"></creatingLibrary><media ref=\"\"><track type=\"\"><VideoCount></VideoCount><AudioCount></AudioCount><FileExtension></FileExtension><Format></Format><FileSize></FileSize><Duration></Duration><Title></Title></track><track type=\"\"><StreamOrder></StreamOrder><ID></ID><Format></Format><Width></Width><Height></Height><FrameRate></FrameRate></track><track type=\"\"><Format></Format><Channels></Channels><SamplingRate></SamplingRate><Language></Language></track></media></MediaInfo>"
+root 1066 fnv1a:fb86334be7de0f80
+root_depth 1289 fnv1a:71ab88a0af37d2ca
+child 102 "<creatingLibrary version=\"24.12\" url=\"https://mediaarea.net/MediaInfo\">MediaInfoLib</creatingLibrary>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.smpte-ra.org/schemas/429-7/2006/CPL">
+  <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>
+  <AnnotationText>Test &lt;CPL&gt;</AnnotationText>
+  <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>
+  <Issuer>Issuer</Issuer>
+  <Creator>Creator</Creator>
+  <ContentTitleText>Title_FTR_F_EN-XX_US-R_51_2K_ST_20200101_SMPTE_OV</ContentTitleText>
+  <ContentKind>feature</ContentKind>
+  <ReelList>
+    <Reel>
+      <Id>urn:uuid:21111111-2222-3333-4444-555555555555</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:31111111-2222-3333-4444-555555555555</Id>
+          <EditRate>24 1</EditRate><IntrinsicDuration>240</IntrinsicDuration><EntryPoint>0</EntryPoint><Duration>240</Duration>
+          <FrameRate>24 1</FrameRate><ScreenAspectRatio>1998 1080</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:41111111-2222-3333-4444-555555555555</Id>
+          <EditRate>24 1</EditRate><IntrinsicDuration>240</IntrinsicDuration><EntryPoint>0</EntryPoint><Duration>240</Duration>
+          <Language>en</Language>
+        </MainSound>
+      </AssetList>
+    </Reel>
+  </ReelList>
+</CompositionPlaylist>

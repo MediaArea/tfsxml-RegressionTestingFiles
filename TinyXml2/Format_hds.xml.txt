@@ -1,0 +1,89 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"utf-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "manifest" line=2 ids=0,3,12,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,12,-1,-1,-1,-1,11,12,-1,-1
+  @"xmlns"="http://ns.adobe.com/f4m/1.0" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "id" line=3 ids=2,4,4,-1,5,01 closing=0 text="test" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "test" line=3 ids=3,-1,-1,-1,-1,11
+    element "streamType" line=4 ids=2,6,6,3,7,01 closing=0 text="recorded" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "recorded" line=4 ids=5,-1,-1,-1,-1,11
+    element "duration" line=5 ids=2,8,8,5,9,01 closing=0 text="10.5" int=0,10 unsigned=0,10 int64=0,10 bool=0,1 double=0,10.5 float=0,10.5 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "10.5" line=5 ids=7,-1,-1,-1,-1,11
+    element "bootstrapInfo" line=6 ids=2,10,10,7,11,01 closing=0 text="AAAA" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,11,7,-1,-1,-1,-1
+  @"profile"="named" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"id"="bootstrap1" line=6 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+      text "AAAA" line=6 ids=9,-1,-1,-1,-1,11
+    element "media" line=7 ids=2,-1,-1,9,12,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,12,9,12,-1,-1,-1
+  @"url"="video_1" line=7 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bitrate"="1000" line=7 values=1000,1000,1000,1,1000,1000 find=1 attr=110 query=0,1000,01,1000,1
+  @"width"="640" line=7 values=640,640,640,1,640,640 find=2 attr=110 query=0,640,01,640,1
+  @"height"="360" line=7 values=360,360,360,1,360,360 find=3 attr=110 query=0,360,01,360,1
+  @"bootstrapInfoId"="bootstrap1" line=7 values=0,0,0,0,0,0 find=4 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "media" line=8 ids=2,-1,-1,11,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,11,-1,11,-1,-1
+  @"url"="video_2" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bitrate"="2000" line=8 values=2000,2000,2000,1,2000,2000 find=1 attr=110 query=0,2000,01,2000,1
+  @"width"="1280" line=8 values=1280,1280,1280,1,1280,1280 find=2 attr=110 query=0,1280,01,1280,1
+  @"height"="720" line=8 values=720,720,720,1,720,720 find=3 attr=110 query=0,720,01,720,1
+  @"bootstrapInfoId"="bootstrap1" line=8 values=0,0,0,0,0,0 find=4 attr=110 query=2,3,01,5,1
+  missing=1300
+root=2
+print 450 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\x0A<manifest xmlns=\"http://ns.adobe.com/f4m/1.0\">\x0A    <id>test</id>\x0A    <streamType>recorded</streamType>\x0A    <duration>10.5</duration>\x0A    <bootstrapInfo profile=\"named\" id=\"bootstrap1\">AAAA</bootstrapInfo>\x0A    <media url=\"video_1\" bitrate=\"1000\" width=\"640\" height=\"360\" bootstrapInfoId=\"bootstrap1\"/>\x0A    <media url=\"video_2\" bitrate=\"2000\" width=\"1280\" height=\"720\" bootstrapInfoId=\"bootstrap1\"/>\x0A</manifest>\x0A"
+compact 417 "<?xml version=\"1.0\" encoding=\"utf-8\"?><manifest xmlns=\"http://ns.adobe.com/f4m/1.0\"><id>test</id><streamType>recorded</streamType><duration>10.5</duration><bootstrapInfo profile=\"named\" id=\"bootstrap1\">AAAA</bootstrapInfo><media url=\"video_1\" bitrate=\"1000\" width=\"640\" height=\"360\" bootstrapInfoId=\"bootstrap1\"/><media url=\"video_2\" bitrate=\"2000\" width=\"1280\" height=\"720\" bootstrapInfoId=\"bootstrap1\"/></manifest>"
+root 411 "<manifest xmlns=\"http://ns.adobe.com/f4m/1.0\">\x0A    <id>test</id>\x0A    <streamType>recorded</streamType>\x0A    <duration>10.5</duration>\x0A    <bootstrapInfo profile=\"named\" id=\"bootstrap1\">AAAA</bootstrapInfo>\x0A    <media url=\"video_1\" bitrate=\"1000\" width=\"640\" height=\"360\" bootstrapInfoId=\"bootstrap1\"/>\x0A    <media url=\"video_2\" bitrate=\"2000\" width=\"1280\" height=\"720\" bootstrapInfoId=\"bootstrap1\"/>\x0A</manifest>\x0A"
+root_depth 474 "        <manifest xmlns=\"http://ns.adobe.com/f4m/1.0\">\x0A            <id>test</id>\x0A            <streamType>recorded</streamType>\x0A            <duration>10.5</duration>\x0A            <bootstrapInfo profile=\"named\" id=\"bootstrap1\">AAAA</bootstrapInfo>\x0A            <media url=\"video_1\" bitrate=\"1000\" width=\"640\" height=\"360\" bootstrapInfoId=\"bootstrap1\"/>\x0A            <media url=\"video_2\" bitrate=\"2000\" width=\"1280\" height=\"720\" bootstrapInfoId=\"bootstrap1\"/>\x0A        </manifest>"
+child 14 "<id>test</id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"utf-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "manifest" line=2 ids=0,3,12,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,12,-1,-1,-1,-1,11,12,-1,-1
+  @"xmlns"="http://ns.adobe.com/f4m/1.0" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "id" line=3 ids=2,4,4,-1,5,01 closing=0 text="test" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "test" line=3 ids=3,-1,-1,-1,-1,11
+    element "streamType" line=4 ids=2,6,6,3,7,01 closing=0 text="recorded" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "recorded" line=4 ids=5,-1,-1,-1,-1,11
+    element "duration" line=5 ids=2,8,8,5,9,01 closing=0 text="10.5" int=0,10 unsigned=0,10 int64=0,10 bool=0,1 double=0,10.5 float=0,10.5 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "10.5" line=5 ids=7,-1,-1,-1,-1,11
+    element "bootstrapInfo" line=6 ids=2,10,10,7,11,01 closing=0 text="AAAA" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,11,7,-1,-1,-1,-1
+  @"profile"="named" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"id"="bootstrap1" line=6 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+      text "AAAA" line=6 ids=9,-1,-1,-1,-1,11
+    element "media" line=7 ids=2,-1,-1,9,12,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,12,9,12,-1,-1,-1
+  @"url"="video_1" line=7 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bitrate"="1000" line=7 values=1000,1000,1000,1,1000,1000 find=1 attr=110 query=0,1000,01,1000,1
+  @"width"="640" line=7 values=640,640,640,1,640,640 find=2 attr=110 query=0,640,01,640,1
+  @"height"="360" line=7 values=360,360,360,1,360,360 find=3 attr=110 query=0,360,01,360,1
+  @"bootstrapInfoId"="bootstrap1" line=7 values=0,0,0,0,0,0 find=4 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "media" line=8 ids=2,-1,-1,11,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,11,-1,11,-1,-1
+  @"url"="video_2" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bitrate"="2000" line=8 values=2000,2000,2000,1,2000,2000 find=1 attr=110 query=0,2000,01,2000,1
+  @"width"="1280" line=8 values=1280,1280,1280,1,1280,1280 find=2 attr=110 query=0,1280,01,1280,1
+  @"height"="720" line=8 values=720,720,720,1,720,720 find=3 attr=110 query=0,720,01,720,1
+  @"bootstrapInfoId"="bootstrap1" line=8 values=0,0,0,0,0,0 find=4 attr=110 query=2,3,01,5,1
+  missing=1300
+root=2
+print 333 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\x0A<manifest xmlns=\"\">\x0A    <id></id>\x0A    <streamType></streamType>\x0A    <duration></duration>\x0A    <bootstrapInfo profile=\"\" id=\"\"></bootstrapInfo>\x0A    <media url=\"\" bitrate=\"\" width=\"\" height=\"\" bootstrapInfoId=\"\"/>\x0A    <media url=\"\" bitrate=\"\" width=\"\" height=\"\" bootstrapInfoId=\"\"/>\x0A</manifest>\x0A"
+compact 300 "<?xml version=\"1.0\" encoding=\"utf-8\"?><manifest xmlns=\"\"><id></id><streamType></streamType><duration></duration><bootstrapInfo profile=\"\" id=\"\"></bootstrapInfo><media url=\"\" bitrate=\"\" width=\"\" height=\"\" bootstrapInfoId=\"\"/><media url=\"\" bitrate=\"\" width=\"\" height=\"\" bootstrapInfoId=\"\"/></manifest>"
+root 411 "<manifest xmlns=\"http://ns.adobe.com/f4m/1.0\">\x0A    <id>test</id>\x0A    <streamType>recorded</streamType>\x0A    <duration>10.5</duration>\x0A    <bootstrapInfo profile=\"named\" id=\"bootstrap1\">AAAA</bootstrapInfo>\x0A    <media url=\"video_1\" bitrate=\"1000\" width=\"640\" height=\"360\" bootstrapInfoId=\"bootstrap1\"/>\x0A    <media url=\"video_2\" bitrate=\"2000\" width=\"1280\" height=\"720\" bootstrapInfoId=\"bootstrap1\"/>\x0A</manifest>\x0A"
+root_depth 474 "        <manifest xmlns=\"http://ns.adobe.com/f4m/1.0\">\x0A            <id>test</id>\x0A            <streamType>recorded</streamType>\x0A            <duration>10.5</duration>\x0A            <bootstrapInfo profile=\"named\" id=\"bootstrap1\">AAAA</bootstrapInfo>\x0A            <media url=\"video_1\" bitrate=\"1000\" width=\"640\" height=\"360\" bootstrapInfoId=\"bootstrap1\"/>\x0A            <media url=\"video_2\" bitrate=\"2000\" width=\"1280\" height=\"720\" bootstrapInfoId=\"bootstrap1\"/>\x0A        </manifest>"
+child 14 "<id>test</id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

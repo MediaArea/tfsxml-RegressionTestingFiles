@@ -1,0 +1,99 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"utf-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "smil" line=2 ids=0,3,5,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,5,-1,-1,-1,-1,5,5,-1,-1
+  @"xmlns"="http://www.w3.org/2001/SMIL20/Language" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "head" line=3 ids=2,4,4,-1,5,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,4,5,-1,-1,-1,4,4,-1,-1
+  missing=1300
+      element "meta" line=3 ids=3,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"name"="clientManifestRelativePath" line=3 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"content"="x.ismc" line=3 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "body" line=4 ids=2,6,6,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,6,-1,3,-1,-1,6,6,-1,-1
+  missing=1300
+      element "switch" line=5 ids=5,7,11,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,11,-1,-1,-1,-1,11,11,-1,-1
+  missing=1300
+        element "video" line=6 ids=6,8,8,-1,9,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=8,8,9,-1,-1,-1,8,8,-1,-1
+  @"src"="x_1.ismv" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"systemBitrate"="1000000" line=6 values=1000000,1000000,1000000,1,1000000,1000000 find=1 attr=110 query=0,1000000,01,1000000,1
+  missing=1300
+          element "param" line=6 ids=7,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"name"="trackID" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="1" line=6 values=1,1,1,1,1,1 find=1 attr=111 query=0,1,01,1,1
+  @"valuetype"="data" line=6 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "audio" line=7 ids=6,10,10,7,11,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,10,11,7,-1,-1,10,10,-1,-1
+  @"src"="x_a.isma" line=7 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"systemBitrate"="128000" line=7 values=128000,128000,128000,1,128000,128000 find=1 attr=110 query=0,128000,01,128000,1
+  @"systemLanguage"="eng" line=7 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+          element "param" line=7 ids=9,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"name"="trackID" line=7 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="2" line=7 values=2,2,2,1,2,2 find=1 attr=110 query=0,2,01,2,1
+  @"valuetype"="data" line=7 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "textstream" line=8 ids=6,-1,-1,9,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,9,-1,-1,-1,-1
+  @"src"="x.ismt" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"systemBitrate"="1000" line=8 values=1000,1000,1000,1,1000,1000 find=1 attr=110 query=0,1000,01,1000,1
+  missing=1300
+root=2
+print 624 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\x0A<smil xmlns=\"http://www.w3.org/2001/SMIL20/Language\">\x0A    <head>\x0A        <meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/>\x0A    </head>\x0A    <body>\x0A        <switch>\x0A            <video src=\"x_1.ismv\" systemBitrate=\"1000000\">\x0A                <param name=\"trackID\" value=\"1\" valuetype=\"data\"/>\x0A            </video>\x0A            <audio src=\"x_a.isma\" systemBitrate=\"128000\" systemLanguage=\"eng\">\x0A                <param name=\"trackID\" value=\"2\" valuetype=\"data\"/>\x0A            </audio>\x0A            <textstream src=\"x.ismt\" systemBitrate=\"1000\"/>\x0A        </switch>\x0A    </body>\x0A</smil>\x0A"
+compact 475 "<?xml version=\"1.0\" encoding=\"utf-8\"?><smil xmlns=\"http://www.w3.org/2001/SMIL20/Language\"><head><meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/></head><body><switch><video src=\"x_1.ismv\" systemBitrate=\"1000000\"><param name=\"trackID\" value=\"1\" valuetype=\"data\"/></video><audio src=\"x_a.isma\" systemBitrate=\"128000\" systemLanguage=\"eng\"><param name=\"trackID\" value=\"2\" valuetype=\"data\"/></audio><textstream src=\"x.ismt\" systemBitrate=\"1000\"/></switch></body></smil>"
+root 585 "<smil xmlns=\"http://www.w3.org/2001/SMIL20/Language\">\x0A    <head>\x0A        <meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/>\x0A    </head>\x0A    <body>\x0A        <switch>\x0A            <video src=\"x_1.ismv\" systemBitrate=\"1000000\">\x0A                <param name=\"trackID\" value=\"1\" valuetype=\"data\"/>\x0A            </video>\x0A            <audio src=\"x_a.isma\" systemBitrate=\"128000\" systemLanguage=\"eng\">\x0A                <param name=\"trackID\" value=\"2\" valuetype=\"data\"/>\x0A            </audio>\x0A            <textstream src=\"x.ismt\" systemBitrate=\"1000\"/>\x0A        </switch>\x0A    </body>\x0A</smil>\x0A"
+root_depth 712 "        <smil xmlns=\"http://www.w3.org/2001/SMIL20/Language\">\x0A            <head>\x0A                <meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/>\x0A            </head>\x0A            <body>\x0A                <switch>\x0A                    <video src=\"x_1.ismv\" systemBitrate=\"1000000\">\x0A                        <param name=\"trackID\" value=\"1\" valuetype=\"data\"/>\x0A                    </video>\x0A                    <audio src=\"x_a.isma\" systemBitrate=\"128000\" systemLanguage=\"eng\">\x0A                        <param name=\"trackID\" value=\"2\" valuetype=\"data\"/>\x0A                    </audio>\x0A                    <textstream src=\"x.ismt\" systemBitrate=\"1000\"/>\x0A                </switch>\x0A            </body>\x0A        </smil>"
+child 72 "<head><meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/></head>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"utf-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "smil" line=2 ids=0,3,5,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,5,-1,-1,-1,-1,5,5,-1,-1
+  @"xmlns"="http://www.w3.org/2001/SMIL20/Language" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "head" line=3 ids=2,4,4,-1,5,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,4,5,-1,-1,-1,4,4,-1,-1
+  missing=1300
+      element "meta" line=3 ids=3,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"name"="clientManifestRelativePath" line=3 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"content"="x.ismc" line=3 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "body" line=4 ids=2,6,6,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,6,-1,3,-1,-1,6,6,-1,-1
+  missing=1300
+      element "switch" line=5 ids=5,7,11,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,11,-1,-1,-1,-1,11,11,-1,-1
+  missing=1300
+        element "video" line=6 ids=6,8,8,-1,9,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=8,8,9,-1,-1,-1,8,8,-1,-1
+  @"src"="x_1.ismv" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"systemBitrate"="1000000" line=6 values=1000000,1000000,1000000,1,1000000,1000000 find=1 attr=110 query=0,1000000,01,1000000,1
+  missing=1300
+          element "param" line=6 ids=7,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"name"="trackID" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="1" line=6 values=1,1,1,1,1,1 find=1 attr=111 query=0,1,01,1,1
+  @"valuetype"="data" line=6 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "audio" line=7 ids=6,10,10,7,11,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,10,11,7,-1,-1,10,10,-1,-1
+  @"src"="x_a.isma" line=7 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"systemBitrate"="128000" line=7 values=128000,128000,128000,1,128000,128000 find=1 attr=110 query=0,128000,01,128000,1
+  @"systemLanguage"="eng" line=7 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+          element "param" line=7 ids=9,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  @"name"="trackID" line=7 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="2" line=7 values=2,2,2,1,2,2 find=1 attr=110 query=0,2,01,2,1
+  @"valuetype"="data" line=7 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "textstream" line=8 ids=6,-1,-1,9,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,9,-1,-1,-1,-1
+  @"src"="x.ismt" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"systemBitrate"="1000" line=8 values=1000,1000,1000,1,1000,1000 find=1 attr=110 query=0,1000,01,1000,1
+  missing=1300
+root=2
+print 488 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\x0A<smil xmlns=\"\">\x0A    <head>\x0A        <meta name=\"\" content=\"\"/>\x0A    </head>\x0A    <body>\x0A        <switch>\x0A            <video src=\"\" systemBitrate=\"\">\x0A                <param name=\"\" value=\"\" valuetype=\"\"/>\x0A            </video>\x0A            <audio src=\"\" systemBitrate=\"\" systemLanguage=\"\">\x0A                <param name=\"\" value=\"\" valuetype=\"\"/>\x0A            </audio>\x0A            <textstream src=\"\" systemBitrate=\"\"/>\x0A        </switch>\x0A    </body>\x0A</smil>\x0A"
+compact 339 "<?xml version=\"1.0\" encoding=\"utf-8\"?><smil xmlns=\"\"><head><meta name=\"\" content=\"\"/></head><body><switch><video src=\"\" systemBitrate=\"\"><param name=\"\" value=\"\" valuetype=\"\"/></video><audio src=\"\" systemBitrate=\"\" systemLanguage=\"\"><param name=\"\" value=\"\" valuetype=\"\"/></audio><textstream src=\"\" systemBitrate=\"\"/></switch></body></smil>"
+root 585 "<smil xmlns=\"http://www.w3.org/2001/SMIL20/Language\">\x0A    <head>\x0A        <meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/>\x0A    </head>\x0A    <body>\x0A        <switch>\x0A            <video src=\"x_1.ismv\" systemBitrate=\"1000000\">\x0A                <param name=\"trackID\" value=\"1\" valuetype=\"data\"/>\x0A            </video>\x0A            <audio src=\"x_a.isma\" systemBitrate=\"128000\" systemLanguage=\"eng\">\x0A                <param name=\"trackID\" value=\"2\" valuetype=\"data\"/>\x0A            </audio>\x0A            <textstream src=\"x.ismt\" systemBitrate=\"1000\"/>\x0A        </switch>\x0A    </body>\x0A</smil>\x0A"
+root_depth 712 "        <smil xmlns=\"http://www.w3.org/2001/SMIL20/Language\">\x0A            <head>\x0A                <meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/>\x0A            </head>\x0A            <body>\x0A                <switch>\x0A                    <video src=\"x_1.ismv\" systemBitrate=\"1000000\">\x0A                        <param name=\"trackID\" value=\"1\" valuetype=\"data\"/>\x0A                    </video>\x0A                    <audio src=\"x_a.isma\" systemBitrate=\"128000\" systemLanguage=\"eng\">\x0A                        <param name=\"trackID\" value=\"2\" valuetype=\"data\"/>\x0A                    </audio>\x0A                    <textstream src=\"x.ismt\" systemBitrate=\"1000\"/>\x0A                </switch>\x0A            </body>\x0A        </smil>"
+child 72 "<head><meta name=\"clientManifestRelativePath\" content=\"x.ismc\"/></head>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0
