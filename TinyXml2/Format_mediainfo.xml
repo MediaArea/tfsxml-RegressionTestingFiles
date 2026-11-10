@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaInfo xmlns="https://mediaarea.net/mediainfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<creatingLibrary version="24.12" url="https://mediaarea.net/MediaInfo">MediaInfoLib</creatingLibrary>
+<media ref="file.mp4">
+<track type="General">
+<VideoCount>1</VideoCount>
+<AudioCount>1</AudioCount>
+<FileExtension>mp4</FileExtension>
+<Format>MPEG-4</Format>
+<FileSize>1000000</FileSize>
+<Duration>10.000</Duration>
+<Title>Title &amp; more</Title>
+</track>
+<track type="Video">
+<StreamOrder>0</StreamOrder>
+<ID>1</ID>
+<Format>AVC</Format>
+<Width>1920</Width>
+<Height>1080</Height>
+<FrameRate>25.000</FrameRate>
+</track>
+<track type="Audio">
+<Format>AAC</Format>
+<Channels>2</Channels>
+<SamplingRate>48000</SamplingRate>
+<Language>en</Language>
+</track>
+</media>
+</MediaInfo>

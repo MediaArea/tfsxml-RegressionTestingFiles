@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CompositionPlaylist xmlns="http://www.smpte-ra.org/schemas/2067-3/2016" xmlns:cc="http://www.smpte-ra.org/schemas/2067-2/2016">
+  <Id>urn:uuid:51111111-2222-3333-4444-555555555555</Id>
+  <ContentTitle>IMF title</ContentTitle>
+  <EditRate>24000 1001</EditRate>
+  <SegmentList><Segment><Id>urn:uuid:61111111-2222-3333-4444-555555555555</Id><SequenceList>
+    <cc:MainImageSequence><Id>urn:uuid:71111111-2222-3333-4444-555555555555</Id><TrackId>urn:uuid:81111111-2222-3333-4444-555555555555</TrackId>
+      <ResourceList><Resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TrackFileResourceType"><Id>urn:uuid:91111111-2222-3333-4444-555555555555</Id><EditRate>24000 1001</EditRate><IntrinsicDuration>100</IntrinsicDuration><EntryPoint>0</EntryPoint><SourceDuration>100</SourceDuration><TrackFileId>urn:uuid:a1111111-2222-3333-4444-555555555555</TrackFileId></Resource></ResourceList>
+    </cc:MainImageSequence>
+  </SequenceList></Segment></SegmentList>
+</CompositionPlaylist>

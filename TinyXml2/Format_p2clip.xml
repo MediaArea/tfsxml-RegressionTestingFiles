@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<P2Main xmlns="urn:schemas-Professional-Plug-in:P2:ClipMetadata:v3.1">
+  <ClipContent>
+    <ClipName>0001AB</ClipName>
+    <GlobalClipID>060A2B340101010501010D4313000000000000000000000000000000000000000</GlobalClipID>
+    <Duration>250</Duration>
+    <EditUnit>1/25</EditUnit>
+    <EssenceList>
+      <Video><VideoFormat>MXF</VideoFormat><Codec Class="100">AVC-I_1080/50i</Codec><FrameRate>50i</FrameRate><StartTimecode>00:00:00:00</StartTimecode><AspectRatio>16:9</AspectRatio></Video>
+      <Audio><AudioFormat>MXF</AudioFormat><SamplingRate>48000</SamplingRate><BitsPerSample>24</BitsPerSample></Audio>
+    </EssenceList>
+    <ClipMetadata>
+      <Access><Creator>Creator</Creator><CreationDate>2020-01-01T00:00:00+01:00</CreationDate><LastUpdateDate>2020-01-02T00:00:00+01:00</LastUpdateDate></Access>
+      <Device><Manufacturer>Panasonic</Manufacturer><SerialNo.>123</SerialNo.><ModelName>AJ-HPX</ModelName></Device>
+    </ClipMetadata>
+  </ClipContent>
+</P2Main>

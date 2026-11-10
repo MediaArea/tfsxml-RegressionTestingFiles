@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DolbyLabsMDF xmlns="http://www.dolby.com/schemas/dvmd/4_0_2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0.2">
+  <Version>4.0.2</Version>
+  <Outputs>
+    <Output>
+      <CompositionName>Composition</CompositionName>
+      <NumberVideoTracks>1</NumberVideoTracks>
+      <CanvasAspectRatio>1.778</CanvasAspectRatio>
+      <ImageAspectRatio>1.778</ImageAspectRatio>
+      <Video>
+        <Track name="track1">
+          <Rate><n>24</n><d>1</d></Rate>
+          <ColorEncoding>
+            <Primaries><Red>0.68 0.32</Red><Green>0.265 0.69</Green><Blue>0.15 0.06</Blue></Primaries>
+            <WhitePoint>0.3127 0.329</WhitePoint>
+            <PeakBrightness>1000</PeakBrightness><MinimumBrightness>0.005</MinimumBrightness>
+            <Encoding>pq</Encoding><BitDepth>16</BitDepth><ColorSpace>rgb</ColorSpace><ChromaFormat>444</ChromaFormat><SignalRange>computer</SignalRange>
+          </ColorEncoding>
+          <Level6 level="6"><MaxCLL>1000</MaxCLL><MaxFALL>400</MaxFALL></Level6>
+          <PluginNode><DVGlobalData><MasteringDisplay><Primaries><Red>0.68 0.32</Red></Primaries><PeakBrightness>1000</PeakBrightness></MasteringDisplay></DVGlobalData></PluginNode>
+          <Shot>
+            <UniqueID>shot1</UniqueID>
+            <Record><In>0</In><Duration>24</Duration></Record>
+            <PluginNode><DVDynamicData><Level1 level="1"><ImageCharacter>0 0.1 0.5</ImageCharacter></Level1><Level2 level="2"><TID>1</TID><Trim>0 0 0 0 0 0 0 0 0</Trim></Level2></DVDynamicData></PluginNode>
+          </Shot>
+        </Track>
+      </Video>
+    </Output>
+  </Outputs>
+</DolbyLabsMDF>

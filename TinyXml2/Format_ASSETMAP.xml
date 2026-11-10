@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetMap xmlns="http://www.smpte-ra.org/schemas/429-9/2007/AM">
+  <Id>urn:uuid:c1111111-2222-3333-4444-555555555555</Id>
+  <Creator>Creator</Creator><VolumeCount>1</VolumeCount><IssueDate>2020-01-01T00:00:00+00:00</IssueDate><Issuer>Issuer</Issuer>
+  <AssetList>
+    <Asset><Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id><PackingList>true</PackingList><ChunkList><Chunk><Path>PKL.xml</Path><VolumeIndex>1</VolumeIndex></Chunk></ChunkList></Asset>
+    <Asset><Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id><ChunkList><Chunk><Path>CPL_smpte.xml</Path></Chunk></ChunkList></Asset>
+  </AssetList>
+</AssetMap>

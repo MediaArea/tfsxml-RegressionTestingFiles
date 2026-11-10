@@ -1,0 +1,145 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\"" line=1 ids=0,-1,-1,-1,2,11
+  element "MPD" line=2 ids=0,3,3,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,3,-1,-1,-1,-1,3,3,-1,-1
+  @"xmlns"="urn:mpeg:dash:schema:mpd:2011" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"type"="static" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"mediaPresentationDuration"="PT10S" line=2 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"minBufferTime"="PT1S" line=2 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  @"profiles"="urn:mpeg:dash:profile:isoff-on-demand:2011" line=2 values=0,0,0,0,0,0 find=4 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Period" line=3 ids=2,4,12,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,12,-1,-1,-1,-1,4,12,-1,-1
+  @"id"="1" line=3 values=1,1,1,1,1,1 find=0 attr=111 query=0,1,01,1,1
+  @"duration"="PT10S" line=3 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+      element "AdaptationSet" line=4 ids=3,5,9,-1,12,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=5,9,12,-1,12,-1,5,9,-1,-1
+  @"mimeType"="video/mp4" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"codecs"="avc1.640028" line=4 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"width"="1920" line=4 values=1920,1920,1920,1,1920,1920 find=2 attr=110 query=0,1920,01,1920,1
+  @"height"="1080" line=4 values=1080,1080,1080,1,1080,1080 find=3 attr=110 query=0,1080,01,1080,1
+  @"frameRate"="25" line=4 values=25,25,25,1,25,25 find=4 attr=110 query=0,25,01,25,1
+  @"segmentAlignment"="true" line=4 values=0,0,0,1,0,0 find=5 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Representation" line=5 ids=4,6,8,-1,9,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,8,9,-1,9,-1,8,8,-1,-1
+  @"id"="v1" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bandwidth"="5000000" line=5 values=5000000,5000000,5000000,1,5000000,5000000 find=1 attr=110 query=0,5000000,01,5000000,1
+  missing=1300
+          element "BaseURL" line=5 ids=5,7,7,-1,8,01 closing=0 text="video.mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,8,-1,-1,-1,-1,-1
+  missing=1300
+            text "video.mp4" line=5 ids=6,-1,-1,-1,-1,11
+          element "SegmentBase" line=5 ids=5,-1,-1,6,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,6,-1,-1,-1,-1
+  @"indexRange"="0-100" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  missing=1300
+        element "Representation" line=6 ids=4,10,10,5,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,10,-1,5,-1,5,10,10,-1,-1
+  @"id"="v2" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bandwidth"="2000000" line=6 values=2000000,2000000,2000000,1,2000000,2000000 find=1 attr=110 query=0,2000000,01,2000000,1
+  @"width"="1280" line=6 values=1280,1280,1280,1,1280,1280 find=2 attr=110 query=0,1280,01,1280,1
+  @"height"="720" line=6 values=720,720,720,1,720,720 find=3 attr=110 query=0,720,01,720,1
+  missing=1300
+          element "BaseURL" line=6 ids=9,11,11,-1,-1,01 closing=0 text="video_720.mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+            text "video_720.mp4" line=6 ids=10,-1,-1,-1,-1,11
+      element "AdaptationSet" line=8 ids=3,13,14,4,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=13,14,-1,4,-1,4,14,14,-1,-1
+  @"mimeType"="audio/mp4" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"codecs"="mp4a.40.2" line=8 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"lang"="en" line=8 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Role" line=9 ids=12,-1,-1,-1,14,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,14,-1,-1,-1,-1,-1
+  @"schemeIdUri"="urn:mpeg:dash:role:2011" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="main" line=9 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Representation" line=10 ids=12,15,16,13,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,16,-1,13,-1,-1,16,16,-1,-1
+  @"id"="a1" line=10 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bandwidth"="128000" line=10 values=128000,128000,128000,1,128000,128000 find=1 attr=110 query=0,128000,01,128000,1
+  @"audioSamplingRate"="48000" line=10 values=48000,48000,48000,1,48000,48000 find=2 attr=110 query=0,48000,01,48000,1
+  missing=1300
+          element "AudioChannelConfiguration" line=10 ids=14,-1,-1,-1,16,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,16,-1,-1,-1,-1,-1
+  @"schemeIdUri"="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" line=10 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="2" line=10 values=2,2,2,1,2,2 find=1 attr=110 query=0,2,01,2,1
+  missing=1300
+          element "BaseURL" line=10 ids=14,17,17,15,-1,01 closing=0 text="audio.mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,15,-1,-1,-1,-1
+  missing=1300
+            text "audio.mp4" line=10 ids=16,-1,-1,-1,-1,11
+root=2
+print 1200 fnv1a:e7b61e5ac68b39f4
+compact 975 "<?xml version=\"1.0\"?><MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" type=\"static\" mediaPresentationDuration=\"PT10S\" minBufferTime=\"PT1S\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\"><Period id=\"1\" duration=\"PT10S\"><AdaptationSet mimeType=\"video/mp4\" codecs=\"avc1.640028\" width=\"1920\" height=\"1080\" frameRate=\"25\" segmentAlignment=\"true\"><Representation id=\"v1\" bandwidth=\"5000000\"><BaseURL>video.mp4</BaseURL><SegmentBase indexRange=\"0-100\"/></Representation><Representation id=\"v2\" bandwidth=\"2000000\" width=\"1280\" height=\"720\"><BaseURL>video_720.mp4</BaseURL></Representation></AdaptationSet><AdaptationSet mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" lang=\"en\"><Role schemeIdUri=\"urn:mpeg:dash:role:2011\" value=\"main\"/><Representation id=\"a1\" bandwidth=\"128000\" audioSamplingRate=\"48000\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>audio.mp4</BaseURL></Representation></AdaptationSet></Period></MPD>"
+root 1178 fnv1a:ba280f8da4052a1b
+root_depth 1337 fnv1a:450327e3ce52d313
+child 782 "<Period id=\"1\" duration=\"PT10S\"><AdaptationSet mimeType=\"video/mp4\" codecs=\"avc1.640028\" width=\"1920\" height=\"1080\" frameRate=\"25\" segmentAlignment=\"true\"><Representation id=\"v1\" bandwidth=\"5000000\"><BaseURL>video.mp4</BaseURL><SegmentBase indexRange=\"0-100\"/></Representation><Representation id=\"v2\" bandwidth=\"2000000\" width=\"1280\" height=\"720\"><BaseURL>video_720.mp4</BaseURL></Representation></AdaptationSet><AdaptationSet mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" lang=\"en\"><Role schemeIdUri=\"urn:mpeg:dash:role:2011\" value=\"main\"/><Representation id=\"a1\" bandwidth=\"128000\" audioSamplingRate=\"48000\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>audio.mp4</BaseURL></Representation></AdaptationSet></Period>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\"" line=1 ids=0,-1,-1,-1,2,11
+  element "MPD" line=2 ids=0,3,3,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,3,-1,-1,-1,-1,3,3,-1,-1
+  @"xmlns"="urn:mpeg:dash:schema:mpd:2011" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"type"="static" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"mediaPresentationDuration"="PT10S" line=2 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  @"minBufferTime"="PT1S" line=2 values=0,0,0,0,0,0 find=3 attr=110 query=2,3,01,5,1
+  @"profiles"="urn:mpeg:dash:profile:isoff-on-demand:2011" line=2 values=0,0,0,0,0,0 find=4 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Period" line=3 ids=2,4,12,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=4,12,-1,-1,-1,-1,4,12,-1,-1
+  @"id"="1" line=3 values=1,1,1,1,1,1 find=0 attr=111 query=0,1,01,1,1
+  @"duration"="PT10S" line=3 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+      element "AdaptationSet" line=4 ids=3,5,9,-1,12,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=5,9,12,-1,12,-1,5,9,-1,-1
+  @"mimeType"="video/mp4" line=4 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"codecs"="avc1.640028" line=4 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"width"="1920" line=4 values=1920,1920,1920,1,1920,1920 find=2 attr=110 query=0,1920,01,1920,1
+  @"height"="1080" line=4 values=1080,1080,1080,1,1080,1080 find=3 attr=110 query=0,1080,01,1080,1
+  @"frameRate"="25" line=4 values=25,25,25,1,25,25 find=4 attr=110 query=0,25,01,25,1
+  @"segmentAlignment"="true" line=4 values=0,0,0,1,0,0 find=5 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Representation" line=5 ids=4,6,8,-1,9,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,8,9,-1,9,-1,8,8,-1,-1
+  @"id"="v1" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bandwidth"="5000000" line=5 values=5000000,5000000,5000000,1,5000000,5000000 find=1 attr=110 query=0,5000000,01,5000000,1
+  missing=1300
+          element "BaseURL" line=5 ids=5,7,7,-1,8,01 closing=0 text="video.mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,8,-1,-1,-1,-1,-1
+  missing=1300
+            text "video.mp4" line=5 ids=6,-1,-1,-1,-1,11
+          element "SegmentBase" line=5 ids=5,-1,-1,6,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,6,-1,-1,-1,-1
+  @"indexRange"="0-100" line=5 values=0,0,0,0,0,0 find=0 attr=110 query=0,0,01,0,0
+  missing=1300
+        element "Representation" line=6 ids=4,10,10,5,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=10,10,-1,5,-1,5,10,10,-1,-1
+  @"id"="v2" line=6 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bandwidth"="2000000" line=6 values=2000000,2000000,2000000,1,2000000,2000000 find=1 attr=110 query=0,2000000,01,2000000,1
+  @"width"="1280" line=6 values=1280,1280,1280,1,1280,1280 find=2 attr=110 query=0,1280,01,1280,1
+  @"height"="720" line=6 values=720,720,720,1,720,720 find=3 attr=110 query=0,720,01,720,1
+  missing=1300
+          element "BaseURL" line=6 ids=9,11,11,-1,-1,01 closing=0 text="video_720.mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+            text "video_720.mp4" line=6 ids=10,-1,-1,-1,-1,11
+      element "AdaptationSet" line=8 ids=3,13,14,4,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=13,14,-1,4,-1,4,14,14,-1,-1
+  @"mimeType"="audio/mp4" line=8 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"codecs"="mp4a.40.2" line=8 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"lang"="en" line=8 values=0,0,0,0,0,0 find=2 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Role" line=9 ids=12,-1,-1,-1,14,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,14,-1,-1,-1,-1,-1
+  @"schemeIdUri"="urn:mpeg:dash:role:2011" line=9 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="main" line=9 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  missing=1300
+        element "Representation" line=10 ids=12,15,16,13,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,16,-1,13,-1,-1,16,16,-1,-1
+  @"id"="a1" line=10 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"bandwidth"="128000" line=10 values=128000,128000,128000,1,128000,128000 find=1 attr=110 query=0,128000,01,128000,1
+  @"audioSamplingRate"="48000" line=10 values=48000,48000,48000,1,48000,48000 find=2 attr=110 query=0,48000,01,48000,1
+  missing=1300
+          element "AudioChannelConfiguration" line=10 ids=14,-1,-1,-1,16,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,16,-1,-1,-1,-1,-1
+  @"schemeIdUri"="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" line=10 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"value"="2" line=10 values=2,2,2,1,2,2 find=1 attr=110 query=0,2,01,2,1
+  missing=1300
+          element "BaseURL" line=10 ids=14,17,17,15,-1,01 closing=0 text="audio.mp4" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,15,-1,-1,-1,-1
+  missing=1300
+            text "audio.mp4" line=10 ids=16,-1,-1,-1,-1,11
+root=2
+print 898 "<?xml version=\"1.0\"?>\x0A<MPD xmlns=\"\" type=\"\" mediaPresentationDuration=\"\" minBufferTime=\"\" profiles=\"\">\x0A    <Period id=\"\" duration=\"\">\x0A        <AdaptationSet mimeType=\"\" codecs=\"\" width=\"\" height=\"\" frameRate=\"\" segmentAlignment=\"\">\x0A            <Representation id=\"\" bandwidth=\"\">\x0A                <BaseURL></BaseURL>\x0A                <SegmentBase indexRange=\"\"/>\x0A            </Representation>\x0A            <Representation id=\"\" bandwidth=\"\" width=\"\" height=\"\">\x0A                <BaseURL></BaseURL>\x0A            </Representation>\x0A        </AdaptationSet>\x0A        <AdaptationSet mimeType=\"\" codecs=\"\" lang=\"\">\x0A            <Role schemeIdUri=\"\" value=\"\"/>\x0A            <Representation id=\"\" bandwidth=\"\" audioSamplingRate=\"\">\x0A                <AudioChannelConfiguration schemeIdUri=\"\" value=\"\"/>\x0A                <BaseURL></BaseURL>\x0A            </Representation>\x0A        </AdaptationSet>\x0A    </Period>\x0A</MPD>\x0A"
+compact 673 "<?xml version=\"1.0\"?><MPD xmlns=\"\" type=\"\" mediaPresentationDuration=\"\" minBufferTime=\"\" profiles=\"\"><Period id=\"\" duration=\"\"><AdaptationSet mimeType=\"\" codecs=\"\" width=\"\" height=\"\" frameRate=\"\" segmentAlignment=\"\"><Representation id=\"\" bandwidth=\"\"><BaseURL></BaseURL><SegmentBase indexRange=\"\"/></Representation><Representation id=\"\" bandwidth=\"\" width=\"\" height=\"\"><BaseURL></BaseURL></Representation></AdaptationSet><AdaptationSet mimeType=\"\" codecs=\"\" lang=\"\"><Role schemeIdUri=\"\" value=\"\"/><Representation id=\"\" bandwidth=\"\" audioSamplingRate=\"\"><AudioChannelConfiguration schemeIdUri=\"\" value=\"\"/><BaseURL></BaseURL></Representation></AdaptationSet></Period></MPD>"
+root 1178 fnv1a:ba280f8da4052a1b
+root_depth 1337 fnv1a:450327e3ce52d313
+child 782 "<Period id=\"1\" duration=\"PT10S\"><AdaptationSet mimeType=\"video/mp4\" codecs=\"avc1.640028\" width=\"1920\" height=\"1080\" frameRate=\"25\" segmentAlignment=\"true\"><Representation id=\"v1\" bandwidth=\"5000000\"><BaseURL>video.mp4</BaseURL><SegmentBase indexRange=\"0-100\"/></Representation><Representation id=\"v2\" bandwidth=\"2000000\" width=\"1280\" height=\"720\"><BaseURL>video_720.mp4</BaseURL></Representation></AdaptationSet><AdaptationSet mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" lang=\"en\"><Role schemeIdUri=\"urn:mpeg:dash:role:2011\" value=\"main\"/><Representation id=\"a1\" bandwidth=\"128000\" audioSamplingRate=\"48000\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>audio.mp4</BaseURL></Representation></AdaptationSet></Period>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

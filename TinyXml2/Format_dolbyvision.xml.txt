@@ -1,0 +1,285 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "DolbyLabsMDF" line=2 ids=0,3,5,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,5,-1,-1,-1,-1,5,5,-1,-1
+  @"xmlns"="http://www.dolby.com/schemas/dvmd/4_0_2" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:xsi"="http://www.w3.org/2001/XMLSchema-instance" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"version"="4.0.2" line=2 values=4,4,4,1,4,4 find=2 attr=110 query=0,4,01,4,1
+  missing=1300
+    element "Version" line=3 ids=2,4,4,-1,5,01 closing=0 text="4.0.2" int=0,4 unsigned=0,4 int64=0,4 bool=0,1 double=0,4 float=0,4 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "4.0.2" line=3 ids=3,-1,-1,-1,-1,11
+    element "Outputs" line=4 ids=2,6,6,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,6,-1,3,-1,-1,6,6,-1,-1
+  missing=1300
+      element "Output" line=5 ids=5,7,15,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,15,-1,-1,-1,-1,15,15,-1,-1
+  missing=1300
+        element "CompositionName" line=6 ids=6,8,8,-1,9,01 closing=0 text="Composition" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,9,-1,-1,-1,-1,-1
+  missing=1300
+          text "Composition" line=6 ids=7,-1,-1,-1,-1,11
+        element "NumberVideoTracks" line=7 ids=6,10,10,7,11,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+          text "1" line=7 ids=9,-1,-1,-1,-1,11
+        element "CanvasAspectRatio" line=8 ids=6,12,12,9,13,01 closing=0 text="1.778" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1.778 float=0,1.778 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+          text "1.778" line=8 ids=11,-1,-1,-1,-1,11
+        element "ImageAspectRatio" line=9 ids=6,14,14,11,15,01 closing=0 text="1.778" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1.778 float=0,1.778 nav=-1,-1,15,11,-1,-1,-1,-1
+  missing=1300
+          text "1.778" line=9 ids=13,-1,-1,-1,-1,11
+        element "Video" line=10 ids=6,16,16,13,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=16,16,-1,13,-1,-1,16,16,-1,-1
+  missing=1300
+          element "Track" line=11 ids=15,17,59,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=17,59,-1,-1,-1,-1,59,59,-1,-1
+  @"name"="track1" line=11 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+            element "Rate" line=12 ids=16,18,20,-1,22,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=18,20,22,-1,-1,-1,20,20,-1,-1
+  missing=1300
+              element "n" line=12 ids=17,19,19,-1,20,01 closing=0 text="24" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,20,-1,-1,-1,-1,-1
+  missing=1300
+                text "24" line=12 ids=18,-1,-1,-1,-1,11
+              element "d" line=12 ids=17,21,21,18,-1,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,-1,18,-1,-1,-1,-1
+  missing=1300
+                text "1" line=12 ids=20,-1,-1,-1,-1,11
+            element "ColorEncoding" line=13 ids=16,23,44,17,46,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=23,44,46,17,-1,-1,44,44,-1,-1
+  missing=1300
+              element "Primaries" line=14 ids=22,24,28,-1,30,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=24,28,30,-1,-1,-1,28,28,-1,-1
+  missing=1300
+                element "Red" line=14 ids=23,25,25,-1,26,01 closing=0 text="0.68 0.32" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.68000000000000005 float=0,0.680000007 nav=-1,-1,26,-1,-1,-1,-1,-1
+  missing=1300
+                  text "0.68 0.32" line=14 ids=24,-1,-1,-1,-1,11
+                element "Green" line=14 ids=23,27,27,24,28,01 closing=0 text="0.265 0.69" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.26500000000000001 float=0,0.264999986 nav=-1,-1,28,24,-1,-1,-1,-1
+  missing=1300
+                  text "0.265 0.69" line=14 ids=26,-1,-1,-1,-1,11
+                element "Blue" line=14 ids=23,29,29,26,-1,01 closing=0 text="0.15 0.06" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.14999999999999999 float=0,0.150000006 nav=-1,-1,-1,26,-1,-1,-1,-1
+  missing=1300
+                  text "0.15 0.06" line=14 ids=28,-1,-1,-1,-1,11
+              element "WhitePoint" line=15 ids=22,31,31,23,32,01 closing=0 text="0.3127 0.329" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.31269999999999998 float=0,0.312700003 nav=-1,-1,32,23,-1,-1,-1,-1
+  missing=1300
+                text "0.3127 0.329" line=15 ids=30,-1,-1,-1,-1,11
+              element "PeakBrightness" line=16 ids=22,33,33,30,34,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,34,30,-1,-1,-1,-1
+  missing=1300
+                text "1000" line=16 ids=32,-1,-1,-1,-1,11
+              element "MinimumBrightness" line=16 ids=22,35,35,32,36,01 closing=0 text="0.005" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.0050000000000000001 float=0,0.00499999989 nav=-1,-1,36,32,-1,-1,-1,-1
+  missing=1300
+                text "0.005" line=16 ids=34,-1,-1,-1,-1,11
+              element "Encoding" line=17 ids=22,37,37,34,38,01 closing=0 text="pq" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,38,34,-1,-1,-1,-1
+  missing=1300
+                text "pq" line=17 ids=36,-1,-1,-1,-1,11
+              element "BitDepth" line=17 ids=22,39,39,36,40,01 closing=0 text="16" int=0,16 unsigned=0,16 int64=0,16 bool=0,1 double=0,16 float=0,16 nav=-1,-1,40,36,-1,-1,-1,-1
+  missing=1300
+                text "16" line=17 ids=38,-1,-1,-1,-1,11
+              element "ColorSpace" line=17 ids=22,41,41,38,42,01 closing=0 text="rgb" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,42,38,-1,-1,-1,-1
+  missing=1300
+                text "rgb" line=17 ids=40,-1,-1,-1,-1,11
+              element "ChromaFormat" line=17 ids=22,43,43,40,44,01 closing=0 text="444" int=0,444 unsigned=0,444 int64=0,444 bool=0,1 double=0,444 float=0,444 nav=-1,-1,44,40,-1,-1,-1,-1
+  missing=1300
+                text "444" line=17 ids=42,-1,-1,-1,-1,11
+              element "SignalRange" line=17 ids=22,45,45,42,-1,01 closing=0 text="computer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,42,-1,-1,-1,-1
+  missing=1300
+                text "computer" line=17 ids=44,-1,-1,-1,-1,11
+            element "Level6" line=19 ids=16,47,49,22,51,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=47,49,51,22,-1,-1,49,49,-1,-1
+  @"level"="6" line=19 values=6,6,6,1,6,6 find=0 attr=110 query=0,6,01,6,1
+  missing=1300
+              element "MaxCLL" line=19 ids=46,48,48,-1,49,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,49,-1,-1,-1,-1,-1
+  missing=1300
+                text "1000" line=19 ids=47,-1,-1,-1,-1,11
+              element "MaxFALL" line=19 ids=46,50,50,47,-1,01 closing=0 text="400" int=0,400 unsigned=0,400 int64=0,400 bool=0,1 double=0,400 float=0,400 nav=-1,-1,-1,47,-1,-1,-1,-1
+  missing=1300
+                text "400" line=19 ids=49,-1,-1,-1,-1,11
+            element "PluginNode" line=20 ids=16,52,52,46,59,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=52,52,59,46,-1,-1,52,52,-1,-1
+  missing=1300
+              element "DVGlobalData" line=20 ids=51,53,53,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=53,53,-1,-1,-1,-1,53,53,-1,-1
+  missing=1300
+                element "MasteringDisplay" line=20 ids=52,54,57,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=54,57,-1,-1,-1,-1,57,57,-1,-1
+  missing=1300
+                  element "Primaries" line=20 ids=53,55,55,-1,57,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=55,55,57,-1,-1,-1,55,55,-1,-1
+  missing=1300
+                    element "Red" line=20 ids=54,56,56,-1,-1,01 closing=0 text="0.68 0.32" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.68000000000000005 float=0,0.680000007 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+                      text "0.68 0.32" line=20 ids=55,-1,-1,-1,-1,11
+                  element "PeakBrightness" line=20 ids=53,58,58,54,-1,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,-1,54,-1,-1,-1,-1
+  missing=1300
+                    text "1000" line=20 ids=57,-1,-1,-1,-1,11
+            element "Shot" line=21 ids=16,60,67,51,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=60,67,-1,51,-1,-1,67,67,-1,-1
+  missing=1300
+              element "UniqueID" line=22 ids=59,61,61,-1,62,01 closing=0 text="shot1" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,62,-1,-1,-1,-1,-1
+  missing=1300
+                text "shot1" line=22 ids=60,-1,-1,-1,-1,11
+              element "Record" line=23 ids=59,63,65,60,67,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=63,65,67,60,-1,-1,65,65,-1,-1
+  missing=1300
+                element "In" line=23 ids=62,64,64,-1,65,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,65,-1,-1,-1,-1,-1
+  missing=1300
+                  text "0" line=23 ids=63,-1,-1,-1,-1,11
+                element "Duration" line=23 ids=62,66,66,63,-1,01 closing=0 text="24" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,-1,63,-1,-1,-1,-1
+  missing=1300
+                  text "24" line=23 ids=65,-1,-1,-1,-1,11
+              element "PluginNode" line=24 ids=59,68,68,62,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=68,68,-1,62,-1,-1,68,68,-1,-1
+  missing=1300
+                element "DVDynamicData" line=24 ids=67,69,72,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=69,72,-1,-1,-1,-1,72,72,-1,-1
+  missing=1300
+                  element "Level1" line=24 ids=68,70,70,-1,72,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=70,70,72,-1,-1,-1,70,70,-1,-1
+  @"level"="1" line=24 values=1,1,1,1,1,1 find=0 attr=111 query=0,1,01,1,1
+  missing=1300
+                    element "ImageCharacter" line=24 ids=69,71,71,-1,-1,01 closing=0 text="0 0.1 0.5" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+                      text "0 0.1 0.5" line=24 ids=70,-1,-1,-1,-1,11
+                  element "Level2" line=24 ids=68,73,75,69,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=73,75,-1,69,-1,-1,75,75,-1,-1
+  @"level"="2" line=24 values=2,2,2,1,2,2 find=0 attr=110 query=0,2,01,2,1
+  missing=1300
+                    element "TID" line=24 ids=72,74,74,-1,75,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,75,-1,-1,-1,-1,-1
+  missing=1300
+                      text "1" line=24 ids=73,-1,-1,-1,-1,11
+                    element "Trim" line=24 ids=72,76,76,73,-1,01 closing=0 text="0 0 0 0 0 0 0 0 0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,-1,73,-1,-1,-1,-1
+  missing=1300
+                      text "0 0 0 0 0 0 0 0 0" line=24 ids=75,-1,-1,-1,-1,11
+root=2
+print 2919 fnv1a:2c71a5abb0f2ab91
+compact 1396 fnv1a:537e5a2c4f3dbc11
+root 2880 fnv1a:d65fcab1315c1c7c
+root_depth 3407 fnv1a:b441435f672f259e
+child 25 "<Version>4.0.2</Version>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "DolbyLabsMDF" line=2 ids=0,3,5,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,5,-1,-1,-1,-1,5,5,-1,-1
+  @"xmlns"="http://www.dolby.com/schemas/dvmd/4_0_2" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  @"xmlns:xsi"="http://www.w3.org/2001/XMLSchema-instance" line=2 values=0,0,0,0,0,0 find=1 attr=110 query=2,3,01,5,1
+  @"version"="4.0.2" line=2 values=4,4,4,1,4,4 find=2 attr=110 query=0,4,01,4,1
+  missing=1300
+    element "Version" line=3 ids=2,4,4,-1,5,01 closing=0 text="4.0.2" int=0,4 unsigned=0,4 int64=0,4 bool=0,1 double=0,4 float=0,4 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "4.0.2" line=3 ids=3,-1,-1,-1,-1,11
+    element "Outputs" line=4 ids=2,6,6,3,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=6,6,-1,3,-1,-1,6,6,-1,-1
+  missing=1300
+      element "Output" line=5 ids=5,7,15,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=7,15,-1,-1,-1,-1,15,15,-1,-1
+  missing=1300
+        element "CompositionName" line=6 ids=6,8,8,-1,9,01 closing=0 text="Composition" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,9,-1,-1,-1,-1,-1
+  missing=1300
+          text "Composition" line=6 ids=7,-1,-1,-1,-1,11
+        element "NumberVideoTracks" line=7 ids=6,10,10,7,11,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+          text "1" line=7 ids=9,-1,-1,-1,-1,11
+        element "CanvasAspectRatio" line=8 ids=6,12,12,9,13,01 closing=0 text="1.778" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1.778 float=0,1.778 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+          text "1.778" line=8 ids=11,-1,-1,-1,-1,11
+        element "ImageAspectRatio" line=9 ids=6,14,14,11,15,01 closing=0 text="1.778" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1.778 float=0,1.778 nav=-1,-1,15,11,-1,-1,-1,-1
+  missing=1300
+          text "1.778" line=9 ids=13,-1,-1,-1,-1,11
+        element "Video" line=10 ids=6,16,16,13,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=16,16,-1,13,-1,-1,16,16,-1,-1
+  missing=1300
+          element "Track" line=11 ids=15,17,59,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=17,59,-1,-1,-1,-1,59,59,-1,-1
+  @"name"="track1" line=11 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+            element "Rate" line=12 ids=16,18,20,-1,22,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=18,20,22,-1,-1,-1,20,20,-1,-1
+  missing=1300
+              element "n" line=12 ids=17,19,19,-1,20,01 closing=0 text="24" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,20,-1,-1,-1,-1,-1
+  missing=1300
+                text "24" line=12 ids=18,-1,-1,-1,-1,11
+              element "d" line=12 ids=17,21,21,18,-1,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,-1,18,-1,-1,-1,-1
+  missing=1300
+                text "1" line=12 ids=20,-1,-1,-1,-1,11
+            element "ColorEncoding" line=13 ids=16,23,44,17,46,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=23,44,46,17,-1,-1,44,44,-1,-1
+  missing=1300
+              element "Primaries" line=14 ids=22,24,28,-1,30,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=24,28,30,-1,-1,-1,28,28,-1,-1
+  missing=1300
+                element "Red" line=14 ids=23,25,25,-1,26,01 closing=0 text="0.68 0.32" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.68000000000000005 float=0,0.680000007 nav=-1,-1,26,-1,-1,-1,-1,-1
+  missing=1300
+                  text "0.68 0.32" line=14 ids=24,-1,-1,-1,-1,11
+                element "Green" line=14 ids=23,27,27,24,28,01 closing=0 text="0.265 0.69" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.26500000000000001 float=0,0.264999986 nav=-1,-1,28,24,-1,-1,-1,-1
+  missing=1300
+                  text "0.265 0.69" line=14 ids=26,-1,-1,-1,-1,11
+                element "Blue" line=14 ids=23,29,29,26,-1,01 closing=0 text="0.15 0.06" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.14999999999999999 float=0,0.150000006 nav=-1,-1,-1,26,-1,-1,-1,-1
+  missing=1300
+                  text "0.15 0.06" line=14 ids=28,-1,-1,-1,-1,11
+              element "WhitePoint" line=15 ids=22,31,31,23,32,01 closing=0 text="0.3127 0.329" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.31269999999999998 float=0,0.312700003 nav=-1,-1,32,23,-1,-1,-1,-1
+  missing=1300
+                text "0.3127 0.329" line=15 ids=30,-1,-1,-1,-1,11
+              element "PeakBrightness" line=16 ids=22,33,33,30,34,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,34,30,-1,-1,-1,-1
+  missing=1300
+                text "1000" line=16 ids=32,-1,-1,-1,-1,11
+              element "MinimumBrightness" line=16 ids=22,35,35,32,36,01 closing=0 text="0.005" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.0050000000000000001 float=0,0.00499999989 nav=-1,-1,36,32,-1,-1,-1,-1
+  missing=1300
+                text "0.005" line=16 ids=34,-1,-1,-1,-1,11
+              element "Encoding" line=17 ids=22,37,37,34,38,01 closing=0 text="pq" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,38,34,-1,-1,-1,-1
+  missing=1300
+                text "pq" line=17 ids=36,-1,-1,-1,-1,11
+              element "BitDepth" line=17 ids=22,39,39,36,40,01 closing=0 text="16" int=0,16 unsigned=0,16 int64=0,16 bool=0,1 double=0,16 float=0,16 nav=-1,-1,40,36,-1,-1,-1,-1
+  missing=1300
+                text "16" line=17 ids=38,-1,-1,-1,-1,11
+              element "ColorSpace" line=17 ids=22,41,41,38,42,01 closing=0 text="rgb" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,42,38,-1,-1,-1,-1
+  missing=1300
+                text "rgb" line=17 ids=40,-1,-1,-1,-1,11
+              element "ChromaFormat" line=17 ids=22,43,43,40,44,01 closing=0 text="444" int=0,444 unsigned=0,444 int64=0,444 bool=0,1 double=0,444 float=0,444 nav=-1,-1,44,40,-1,-1,-1,-1
+  missing=1300
+                text "444" line=17 ids=42,-1,-1,-1,-1,11
+              element "SignalRange" line=17 ids=22,45,45,42,-1,01 closing=0 text="computer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,42,-1,-1,-1,-1
+  missing=1300
+                text "computer" line=17 ids=44,-1,-1,-1,-1,11
+            element "Level6" line=19 ids=16,47,49,22,51,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=47,49,51,22,-1,-1,49,49,-1,-1
+  @"level"="6" line=19 values=6,6,6,1,6,6 find=0 attr=110 query=0,6,01,6,1
+  missing=1300
+              element "MaxCLL" line=19 ids=46,48,48,-1,49,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,49,-1,-1,-1,-1,-1
+  missing=1300
+                text "1000" line=19 ids=47,-1,-1,-1,-1,11
+              element "MaxFALL" line=19 ids=46,50,50,47,-1,01 closing=0 text="400" int=0,400 unsigned=0,400 int64=0,400 bool=0,1 double=0,400 float=0,400 nav=-1,-1,-1,47,-1,-1,-1,-1
+  missing=1300
+                text "400" line=19 ids=49,-1,-1,-1,-1,11
+            element "PluginNode" line=20 ids=16,52,52,46,59,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=52,52,59,46,-1,-1,52,52,-1,-1
+  missing=1300
+              element "DVGlobalData" line=20 ids=51,53,53,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=53,53,-1,-1,-1,-1,53,53,-1,-1
+  missing=1300
+                element "MasteringDisplay" line=20 ids=52,54,57,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=54,57,-1,-1,-1,-1,57,57,-1,-1
+  missing=1300
+                  element "Primaries" line=20 ids=53,55,55,-1,57,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=55,55,57,-1,-1,-1,55,55,-1,-1
+  missing=1300
+                    element "Red" line=20 ids=54,56,56,-1,-1,01 closing=0 text="0.68 0.32" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0.68000000000000005 float=0,0.680000007 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+                      text "0.68 0.32" line=20 ids=55,-1,-1,-1,-1,11
+                  element "PeakBrightness" line=20 ids=53,58,58,54,-1,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,-1,54,-1,-1,-1,-1
+  missing=1300
+                    text "1000" line=20 ids=57,-1,-1,-1,-1,11
+            element "Shot" line=21 ids=16,60,67,51,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=60,67,-1,51,-1,-1,67,67,-1,-1
+  missing=1300
+              element "UniqueID" line=22 ids=59,61,61,-1,62,01 closing=0 text="shot1" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,62,-1,-1,-1,-1,-1
+  missing=1300
+                text "shot1" line=22 ids=60,-1,-1,-1,-1,11
+              element "Record" line=23 ids=59,63,65,60,67,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=63,65,67,60,-1,-1,65,65,-1,-1
+  missing=1300
+                element "In" line=23 ids=62,64,64,-1,65,01 closing=0 text="0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,65,-1,-1,-1,-1,-1
+  missing=1300
+                  text "0" line=23 ids=63,-1,-1,-1,-1,11
+                element "Duration" line=23 ids=62,66,66,63,-1,01 closing=0 text="24" int=0,24 unsigned=0,24 int64=0,24 bool=0,1 double=0,24 float=0,24 nav=-1,-1,-1,63,-1,-1,-1,-1
+  missing=1300
+                  text "24" line=23 ids=65,-1,-1,-1,-1,11
+              element "PluginNode" line=24 ids=59,68,68,62,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=68,68,-1,62,-1,-1,68,68,-1,-1
+  missing=1300
+                element "DVDynamicData" line=24 ids=67,69,72,-1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=69,72,-1,-1,-1,-1,72,72,-1,-1
+  missing=1300
+                  element "Level1" line=24 ids=68,70,70,-1,72,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=70,70,72,-1,-1,-1,70,70,-1,-1
+  @"level"="1" line=24 values=1,1,1,1,1,1 find=0 attr=111 query=0,1,01,1,1
+  missing=1300
+                    element "ImageCharacter" line=24 ids=69,71,71,-1,-1,01 closing=0 text="0 0.1 0.5" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+                      text "0 0.1 0.5" line=24 ids=70,-1,-1,-1,-1,11
+                  element "Level2" line=24 ids=68,73,75,69,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=73,75,-1,69,-1,-1,75,75,-1,-1
+  @"level"="2" line=24 values=2,2,2,1,2,2 find=0 attr=110 query=0,2,01,2,1
+  missing=1300
+                    element "TID" line=24 ids=72,74,74,-1,75,01 closing=0 text="1" int=0,1 unsigned=0,1 int64=0,1 bool=0,1 double=0,1 float=0,1 nav=-1,-1,75,-1,-1,-1,-1,-1
+  missing=1300
+                      text "1" line=24 ids=73,-1,-1,-1,-1,11
+                    element "Trim" line=24 ids=72,76,76,73,-1,01 closing=0 text="0 0 0 0 0 0 0 0 0" int=0,0 unsigned=0,0 int64=0,0 bool=0,0 double=0,0 float=0,0 nav=-1,-1,-1,73,-1,-1,-1,-1
+  missing=1300
+                      text "0 0 0 0 0 0 0 0 0" line=24 ids=75,-1,-1,-1,-1,11
+root=2
+print 2673 fnv1a:fb621dcb595987f7
+compact 1150 fnv1a:978d73bffdd647a7
+root 2880 fnv1a:d65fcab1315c1c7c
+root_depth 3407 fnv1a:b441435f672f259e
+child 25 "<Version>4.0.2</Version>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

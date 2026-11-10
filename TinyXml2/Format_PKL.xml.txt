@@ -1,0 +1,129 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "PackingList" line=2 ids=0,3,13,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,13,-1,-1,-1,-1,13,13,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/429-8/2007/PKL" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:b1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:b1111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "AnnotationText" line=4 ids=2,6,6,3,7,01 closing=0 text="PKL" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "PKL" line=4 ids=5,-1,-1,-1,-1,11
+    element "IssueDate" line=5 ids=2,8,8,5,9,01 closing=0 text="2020-01-01T00:00:00+00:00" int=0,2020 unsigned=0,2020 int64=0,2020 bool=0,1 double=0,2020 float=0,2020 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "2020-01-01T00:00:00+00:00" line=5 ids=7,-1,-1,-1,-1,11
+    element "Issuer" line=6 ids=2,10,10,7,11,01 closing=0 text="Issuer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+      text "Issuer" line=6 ids=9,-1,-1,-1,-1,11
+    element "Creator" line=6 ids=2,12,12,9,13,01 closing=0 text="Creator" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+      text "Creator" line=6 ids=11,-1,-1,-1,-1,11
+    element "AssetList" line=7 ids=2,14,23,11,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=14,23,-1,11,-1,-1,14,23,-1,-1
+  missing=1300
+      element "Asset" line=8 ids=13,15,21,-1,23,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,21,23,-1,23,-1,21,21,-1,-1
+  missing=1300
+        element "Id" line=8 ids=14,16,16,-1,17,01 closing=0 text="urn:uuid:11111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:11111111-2222-3333-4444-555555555555" line=8 ids=15,-1,-1,-1,-1,11
+        element "Hash" line=8 ids=14,18,18,15,19,01 closing=0 text="AAAA" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+          text "AAAA" line=8 ids=17,-1,-1,-1,-1,11
+        element "Size" line=8 ids=14,20,20,17,21,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,21,17,-1,-1,-1,-1
+  missing=1300
+          text "1000" line=8 ids=19,-1,-1,-1,-1,11
+        element "Type" line=8 ids=14,22,22,19,-1,01 closing=0 text="text/xml" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,19,-1,-1,-1,-1
+  missing=1300
+          text "text/xml" line=8 ids=21,-1,-1,-1,-1,11
+      element "Asset" line=9 ids=13,24,32,14,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=24,32,-1,14,-1,14,32,32,-1,-1
+  missing=1300
+        element "Id" line=9 ids=23,25,25,-1,26,01 closing=0 text="urn:uuid:a1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,26,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:a1111111-2222-3333-4444-555555555555" line=9 ids=24,-1,-1,-1,-1,11
+        element "Hash" line=9 ids=23,27,27,24,28,01 closing=0 text="BBBB" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,28,24,-1,-1,-1,-1
+  missing=1300
+          text "BBBB" line=9 ids=26,-1,-1,-1,-1,11
+        element "Size" line=9 ids=23,29,29,26,30,01 closing=0 text="2000" int=0,2000 unsigned=0,2000 int64=0,2000 bool=0,1 double=0,2000 float=0,2000 nav=-1,-1,30,26,-1,-1,-1,-1
+  missing=1300
+          text "2000" line=9 ids=28,-1,-1,-1,-1,11
+        element "Type" line=9 ids=23,31,31,28,32,01 closing=0 text="application/mxf" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,32,28,-1,-1,-1,-1
+  missing=1300
+          text "application/mxf" line=9 ids=30,-1,-1,-1,-1,11
+        element "OriginalFileName" line=9 ids=23,33,33,30,-1,01 closing=0 text="video.mxf" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,30,-1,-1,-1,-1
+  missing=1300
+          text "video.mxf" line=9 ids=32,-1,-1,-1,-1,11
+root=2
+print 823 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<PackingList xmlns=\"http://www.smpte-ra.org/schemas/429-8/2007/PKL\">\x0A    <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A    <AnnotationText>PKL</AnnotationText>\x0A    <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A    <Issuer>Issuer</Issuer>\x0A    <Creator>Creator</Creator>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A            <Hash>AAAA</Hash>\x0A            <Size>1000</Size>\x0A            <Type>text/xml</Type>\x0A        </Asset>\x0A        <Asset>\x0A            <Id>urn:uuid:a1111111-2222-3333-4444-555555555555</Id>\x0A            <Hash>BBBB</Hash>\x0A            <Size>2000</Size>\x0A            <Type>application/mxf</Type>\x0A            <OriginalFileName>video.mxf</OriginalFileName>\x0A        </Asset>\x0A    </AssetList>\x0A</PackingList>\x0A"
+compact 632 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><PackingList xmlns=\"http://www.smpte-ra.org/schemas/429-8/2007/PKL\"><Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id><AnnotationText>PKL</AnnotationText><IssueDate>2020-01-01T00:00:00+00:00</IssueDate><Issuer>Issuer</Issuer><Creator>Creator</Creator><AssetList><Asset><Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id><Hash>AAAA</Hash><Size>1000</Size><Type>text/xml</Type></Asset><Asset><Id>urn:uuid:a1111111-2222-3333-4444-555555555555</Id><Hash>BBBB</Hash><Size>2000</Size><Type>application/mxf</Type><OriginalFileName>video.mxf</OriginalFileName></Asset></AssetList></PackingList>"
+root 784 "<PackingList xmlns=\"http://www.smpte-ra.org/schemas/429-8/2007/PKL\">\x0A    <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A    <AnnotationText>PKL</AnnotationText>\x0A    <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A    <Issuer>Issuer</Issuer>\x0A    <Creator>Creator</Creator>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A            <Hash>AAAA</Hash>\x0A            <Size>1000</Size>\x0A            <Type>text/xml</Type>\x0A        </Asset>\x0A        <Asset>\x0A            <Id>urn:uuid:a1111111-2222-3333-4444-555555555555</Id>\x0A            <Hash>BBBB</Hash>\x0A            <Size>2000</Size>\x0A            <Type>application/mxf</Type>\x0A            <OriginalFileName>video.mxf</OriginalFileName>\x0A        </Asset>\x0A    </AssetList>\x0A</PackingList>\x0A"
+root_depth 959 "        <PackingList xmlns=\"http://www.smpte-ra.org/schemas/429-8/2007/PKL\">\x0A            <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A            <AnnotationText>PKL</AnnotationText>\x0A            <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A            <Issuer>Issuer</Issuer>\x0A            <Creator>Creator</Creator>\x0A            <AssetList>\x0A                <Asset>\x0A                    <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A                    <Hash>AAAA</Hash>\x0A                    <Size>1000</Size>\x0A                    <Type>text/xml</Type>\x0A                </Asset>\x0A                <Asset>\x0A                    <Id>urn:uuid:a1111111-2222-3333-4444-555555555555</Id>\x0A                    <Hash>BBBB</Hash>\x0A                    <Size>2000</Size>\x0A                    <Type>application/mxf</Type>\x0A                    <OriginalFileName>video.mxf</OriginalFileName>\x0A                </Asset>\x0A            </AssetList>\x0A        </PackingList>"
+child 55 "<Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,2,-1,-1,01
+  declaration "xml version=\"1.0\" encoding=\"UTF-8\"" line=1 ids=0,-1,-1,-1,2,11
+  element "PackingList" line=2 ids=0,3,13,1,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=3,13,-1,-1,-1,-1,13,13,-1,-1
+  @"xmlns"="http://www.smpte-ra.org/schemas/429-8/2007/PKL" line=2 values=0,0,0,0,0,0 find=0 attr=110 query=2,3,01,5,1
+  missing=1300
+    element "Id" line=3 ids=2,4,4,-1,5,01 closing=0 text="urn:uuid:b1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,5,-1,-1,-1,-1,-1
+  missing=1300
+      text "urn:uuid:b1111111-2222-3333-4444-555555555555" line=3 ids=3,-1,-1,-1,-1,11
+    element "AnnotationText" line=4 ids=2,6,6,3,7,01 closing=0 text="PKL" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,7,3,-1,-1,-1,-1
+  missing=1300
+      text "PKL" line=4 ids=5,-1,-1,-1,-1,11
+    element "IssueDate" line=5 ids=2,8,8,5,9,01 closing=0 text="2020-01-01T00:00:00+00:00" int=0,2020 unsigned=0,2020 int64=0,2020 bool=0,1 double=0,2020 float=0,2020 nav=-1,-1,9,5,-1,-1,-1,-1
+  missing=1300
+      text "2020-01-01T00:00:00+00:00" line=5 ids=7,-1,-1,-1,-1,11
+    element "Issuer" line=6 ids=2,10,10,7,11,01 closing=0 text="Issuer" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,11,7,-1,-1,-1,-1
+  missing=1300
+      text "Issuer" line=6 ids=9,-1,-1,-1,-1,11
+    element "Creator" line=6 ids=2,12,12,9,13,01 closing=0 text="Creator" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,13,9,-1,-1,-1,-1
+  missing=1300
+      text "Creator" line=6 ids=11,-1,-1,-1,-1,11
+    element "AssetList" line=7 ids=2,14,23,11,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=14,23,-1,11,-1,-1,14,23,-1,-1
+  missing=1300
+      element "Asset" line=8 ids=13,15,21,-1,23,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=15,21,23,-1,23,-1,21,21,-1,-1
+  missing=1300
+        element "Id" line=8 ids=14,16,16,-1,17,01 closing=0 text="urn:uuid:11111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,17,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:11111111-2222-3333-4444-555555555555" line=8 ids=15,-1,-1,-1,-1,11
+        element "Hash" line=8 ids=14,18,18,15,19,01 closing=0 text="AAAA" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,19,15,-1,-1,-1,-1
+  missing=1300
+          text "AAAA" line=8 ids=17,-1,-1,-1,-1,11
+        element "Size" line=8 ids=14,20,20,17,21,01 closing=0 text="1000" int=0,1000 unsigned=0,1000 int64=0,1000 bool=0,1 double=0,1000 float=0,1000 nav=-1,-1,21,17,-1,-1,-1,-1
+  missing=1300
+          text "1000" line=8 ids=19,-1,-1,-1,-1,11
+        element "Type" line=8 ids=14,22,22,19,-1,01 closing=0 text="text/xml" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,19,-1,-1,-1,-1
+  missing=1300
+          text "text/xml" line=8 ids=21,-1,-1,-1,-1,11
+      element "Asset" line=9 ids=13,24,32,14,-1,01 closing=0 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=24,32,-1,14,-1,14,32,32,-1,-1
+  missing=1300
+        element "Id" line=9 ids=23,25,25,-1,26,01 closing=0 text="urn:uuid:a1111111-2222-3333-4444-555555555555" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,26,-1,-1,-1,-1,-1
+  missing=1300
+          text "urn:uuid:a1111111-2222-3333-4444-555555555555" line=9 ids=24,-1,-1,-1,-1,11
+        element "Hash" line=9 ids=23,27,27,24,28,01 closing=0 text="BBBB" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,28,24,-1,-1,-1,-1
+  missing=1300
+          text "BBBB" line=9 ids=26,-1,-1,-1,-1,11
+        element "Size" line=9 ids=23,29,29,26,30,01 closing=0 text="2000" int=0,2000 unsigned=0,2000 int64=0,2000 bool=0,1 double=0,2000 float=0,2000 nav=-1,-1,30,26,-1,-1,-1,-1
+  missing=1300
+          text "2000" line=9 ids=28,-1,-1,-1,-1,11
+        element "Type" line=9 ids=23,31,31,28,32,01 closing=0 text="application/mxf" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,32,28,-1,-1,-1,-1
+  missing=1300
+          text "application/mxf" line=9 ids=30,-1,-1,-1,-1,11
+        element "OriginalFileName" line=9 ids=23,33,33,30,-1,01 closing=0 text="video.mxf" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,30,-1,-1,-1,-1
+  missing=1300
+          text "video.mxf" line=9 ids=32,-1,-1,-1,-1,11
+root=2
+print 553 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\x0A<PackingList xmlns=\"\">\x0A    <Id></Id>\x0A    <AnnotationText></AnnotationText>\x0A    <IssueDate></IssueDate>\x0A    <Issuer></Issuer>\x0A    <Creator></Creator>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id></Id>\x0A            <Hash></Hash>\x0A            <Size></Size>\x0A            <Type></Type>\x0A        </Asset>\x0A        <Asset>\x0A            <Id></Id>\x0A            <Hash></Hash>\x0A            <Size></Size>\x0A            <Type></Type>\x0A            <OriginalFileName></OriginalFileName>\x0A        </Asset>\x0A    </AssetList>\x0A</PackingList>\x0A"
+compact 362 "<?xml version=\"1.0\" encoding=\"UTF-8\"?><PackingList xmlns=\"\"><Id></Id><AnnotationText></AnnotationText><IssueDate></IssueDate><Issuer></Issuer><Creator></Creator><AssetList><Asset><Id></Id><Hash></Hash><Size></Size><Type></Type></Asset><Asset><Id></Id><Hash></Hash><Size></Size><Type></Type><OriginalFileName></OriginalFileName></Asset></AssetList></PackingList>"
+root 784 "<PackingList xmlns=\"http://www.smpte-ra.org/schemas/429-8/2007/PKL\">\x0A    <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A    <AnnotationText>PKL</AnnotationText>\x0A    <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A    <Issuer>Issuer</Issuer>\x0A    <Creator>Creator</Creator>\x0A    <AssetList>\x0A        <Asset>\x0A            <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A            <Hash>AAAA</Hash>\x0A            <Size>1000</Size>\x0A            <Type>text/xml</Type>\x0A        </Asset>\x0A        <Asset>\x0A            <Id>urn:uuid:a1111111-2222-3333-4444-555555555555</Id>\x0A            <Hash>BBBB</Hash>\x0A            <Size>2000</Size>\x0A            <Type>application/mxf</Type>\x0A            <OriginalFileName>video.mxf</OriginalFileName>\x0A        </Asset>\x0A    </AssetList>\x0A</PackingList>\x0A"
+root_depth 959 "        <PackingList xmlns=\"http://www.smpte-ra.org/schemas/429-8/2007/PKL\">\x0A            <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>\x0A            <AnnotationText>PKL</AnnotationText>\x0A            <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>\x0A            <Issuer>Issuer</Issuer>\x0A            <Creator>Creator</Creator>\x0A            <AssetList>\x0A                <Asset>\x0A                    <Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id>\x0A                    <Hash>AAAA</Hash>\x0A                    <Size>1000</Size>\x0A                    <Type>text/xml</Type>\x0A                </Asset>\x0A                <Asset>\x0A                    <Id>urn:uuid:a1111111-2222-3333-4444-555555555555</Id>\x0A                    <Hash>BBBB</Hash>\x0A                    <Size>2000</Size>\x0A                    <Type>application/mxf</Type>\x0A                    <OriginalFileName>video.mxf</OriginalFileName>\x0A                </Asset>\x0A            </AssetList>\x0A        </PackingList>"
+child 55 "<Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

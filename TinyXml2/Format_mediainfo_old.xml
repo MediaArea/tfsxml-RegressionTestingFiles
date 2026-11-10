@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mediainfo version="0.7.99">
+<File>
+<track type="General">
+<Complete_name>file.mkv</Complete_name>
+<Format>Matroska</Format>
+</track>
+<track type="Video">
+<Format>HEVC</Format>
+<Width>3 840 pixels</Width>
+</track>
+</File>
+</Mediainfo>

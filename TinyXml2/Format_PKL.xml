@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackingList xmlns="http://www.smpte-ra.org/schemas/429-8/2007/PKL">
+  <Id>urn:uuid:b1111111-2222-3333-4444-555555555555</Id>
+  <AnnotationText>PKL</AnnotationText>
+  <IssueDate>2020-01-01T00:00:00+00:00</IssueDate>
+  <Issuer>Issuer</Issuer><Creator>Creator</Creator>
+  <AssetList>
+    <Asset><Id>urn:uuid:11111111-2222-3333-4444-555555555555</Id><Hash>AAAA</Hash><Size>1000</Size><Type>text/xml</Type></Asset>
+    <Asset><Id>urn:uuid:a1111111-2222-3333-4444-555555555555</Id><Hash>BBBB</Hash><Size>2000</Size><Type>application/mxf</Type><OriginalFileName>video.mxf</OriginalFileName></Asset>
+  </AssetList>
+</PackingList>

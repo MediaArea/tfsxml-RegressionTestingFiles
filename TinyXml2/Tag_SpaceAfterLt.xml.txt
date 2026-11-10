@@ -1,0 +1,29 @@
+#### mode 0
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,1,-1,-1,01
+  element "a" line=1 ids=0,2,2,-1,-1,01 closing=0 text="x" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+    text "x" line=1 ids=1,-1,-1,-1,-1,11
+root=1
+print 10 "<a>x</a>\x0A"
+compact 9 "<a>x</a>"
+root 10 "<a>x</a>\x0A"
+root_depth 17 "        <a>x</a>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2: same as mode 0
+#### mode 3
+result=0 error=0,0,"XML_SUCCESS",0 bom=0
+str="Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0"
+document (null) line=1 ids=-1,1,1,-1,-1,01
+  element "a" line=1 ids=0,2,2,-1,-1,01 closing=0 text="x" int=18,-7 unsigned=18,7 int64=18,-7 bool=18,1 double=18,-7.5 float=18,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+    text "x" line=1 ids=1,-1,-1,-1,-1,11
+root=1
+print 9 "<a></a>\x0A"
+compact 8 "<a></a>"
+root 10 "<a>x</a>\x0A"
+root_depth 17 "        <a>x</a>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 4: same as mode 0

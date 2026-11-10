@@ -1,0 +1,23 @@
+#### mode 0
+result=8 error=8,1,"XML_ERROR_PARSING_ATTRIBUTE",1 bom=0
+str="Error=XML_ERROR_PARSING_ATTRIBUTE ErrorID=8 (0x8) Line number=1: XMLElement name=x"
+document (null) line=1 ids=-1,-1,-1,-1,-1,11
+root=-1
+print 1 ""
+compact 1 ""
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 1: same as mode 0
+#### mode 2
+result=8 error=8,1,"XML_ERROR_PARSING_ATTRIBUTE",1 bom=0
+str="Error=XML_ERROR_PARSING_ATTRIBUTE ErrorID=8 (0x8) Line number=1: XMLElement name=x"
+document (null) line=1 ids=-1,1,1,-1,-1,01
+  element "r" line=1 ids=0,-1,-1,-1,-1,11 closing=1 text=(null) int=19,-7 unsigned=19,7 int64=19,-7 bool=19,1 double=19,-7.5 float=19,7.5 nav=-1,-1,-1,-1,-1,-1,-1,-1
+  missing=1300
+root=1
+print 6 "<r/>\x0A"
+compact 5 "<r/>"
+root 6 "<r/>\x0A"
+root_depth 13 "        <r/>"
+clear=0,"Error=XML_SUCCESS ErrorID=0 (0x0) Line number=0",1
+#### mode 3: same as mode 0
+#### mode 4: same as mode 0

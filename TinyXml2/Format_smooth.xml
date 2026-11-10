@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+  <head><meta name="clientManifestRelativePath" content="x.ismc"/></head>
+  <body>
+    <switch>
+      <video src="x_1.ismv" systemBitrate="1000000"><param name="trackID" value="1" valuetype="data"/></video>
+      <audio src="x_a.isma" systemBitrate="128000" systemLanguage="eng"><param name="trackID" value="2" valuetype="data"/></audio>
+      <textstream src="x.ismt" systemBitrate="1000"/>
+    </switch>
+  </body>
+</smil>
